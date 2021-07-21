@@ -89,6 +89,7 @@ public class FluidInit {
     public static final FluidObject MOLTEN_CRYSTALTINE = register("molten_crystaltine", new Color(41, 227, 227), MOLTEN_RL);
     public static final FluidObject MOLTEN_OSMIRIDIUM = register("molten_osmiridium", new Color(137, 213, 213), MOLTEN_RL);
     public static final FluidObject MOLTEN_BORON = register("molten_boron", new Color(46, 46, 46), MOLTEN_RL);
+    public static final FluidObject MOLTEN_NEODYMIUM = register("molten_neodymium", new Color(78, 76, 76), MOLTEN_RL);
     public static final FluidObject MOLTEN_LITHIUM = register("molten_lithium", new Color(194, 192, 192), MOLTEN_RL);
     public static final FluidObject BLAZE_ESSENCE = register("blaze_essence", new Color(255, 60, 0), MOLTEN_RL);
     public static final FluidObject HO_GASOLINE = register("ho_gasoline", new Color(117, 62, 46), FLUID_RL);

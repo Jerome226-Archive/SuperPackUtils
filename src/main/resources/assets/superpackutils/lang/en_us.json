@@ -37,6 +37,7 @@
   "block.superpackutils.alloyer_casing": "Pressurized Alloyer Casing",
   "block.superpackutils.antimony_block": "Antimony Block",
   "block.superpackutils.osmiridium_block": "Osmiridium Block",
+  "block.superpackutils.neodymium_block": "Neodymium Block",
 
   "slurry.superpackutils.dirty_nickel": "Dirty Nickel Slurry",
   "slurry.superpackutils.clean_nickel": "Clean Nickel Slurry",
@@ -125,6 +126,7 @@
   "block.superpackutils.polystyrene": "Liquid Polystyrene",
   "block.superpackutils.vinyl_chloride": "Liquid Vinyl Chloride",
   "block.superpackutils.polyvinyl_chloride": "Liquid Polyvinyl Chloride",
+  "block.superpackutils.molten_neodymium": "Molten Neodymium",
 
   "fluid.superpackutils.ethyl_chloride": "Liquid Ethyl Chloride",
   "fluid.superpackutils.acetylene": "Liquid Acetylene",
@@ -210,6 +212,7 @@
   "fluid.superpackutils.polystyrene": "Liquid Polystyrene",
   "fluid.superpackutils.vinyl_chloride": "Liquid Vinyl Chloride",
   "fluid.superpackutils.polyvinyl_chloride": "Liquid Polyvinyl Chloride",
+  "fluid.superpackutils.molten_neodymium": "Molten Neodymium",
 
   "item.superpackutils.ethyl_chloride_bucket": "Liquid Ethyl Chloride Bucket",
   "item.superpackutils.acetylene_bucket": "Liquid Acetylene Bucket",
@@ -295,6 +298,7 @@
   "item.superpackutils.polystyrene_bucket": "Liquid Polystyrene Bucket",
   "item.superpackutils.vinyl_chloride_bucket": "Liquid Vinyl Chloride Bucket",
   "item.superpackutils.polyvinyl_chloride_bucket": "Liquid Polyvinyl Chloride Bucket",
+  "item.superpackutils.molten_neodymium_bucket": "Molten Neodymium Bucket",
 
   "gas.superpackutils.ethyl_chloride": "Ethyl Chloride",
   "gas.superpackutils.borax_solution": "Borax Solution",
@@ -623,6 +627,11 @@
   "item.superpackutils.osmiridium_ingot": "Osmiridium Ingot",
   "item.superpackutils.osmiridium_dust": "Osmiridium Dust",
   "item.superpackutils.osmiridium_nugget": "Osmiridium Nugget",
+  "item.superpackutils.neodymium_ingot": "Neodymium Ingot",
+  "item.superpackutils.neodymium_dust": "Neodymium Dust",
+  "item.superpackutils.neodymium_nugget": "Neodymium Nugget",
+  "item.superpackutils.neodymium_rod": "Neodymium Rod",
+  "item.superpackutils.magnetized_neodymium_rod": "Magnetized Neodymium Rod",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 
