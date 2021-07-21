@@ -36,6 +36,7 @@
   "block.superpackutils.compacter_casing": "Pressurized Compacter Casing",
   "block.superpackutils.alloyer_casing": "Pressurized Alloyer Casing",
   "block.superpackutils.antimony_block": "Antimony Block",
+  "block.superpackutils.osmiridium_block": "Osmiridium Block",
 
   "slurry.superpackutils.dirty_nickel": "Dirty Nickel Slurry",
   "slurry.superpackutils.clean_nickel": "Clean Nickel Slurry",
@@ -619,6 +620,9 @@
   "item.superpackutils.charged_soulstone": "Charged Soulstone",
   "item.superpackutils.polycarbonate_plastic": "Polycarbonate Plastic Sheet",
   "item.superpackutils.cryogenized_salt": "Cryogenized Salt",
+  "item.superpackutils.osmiridium_ingot": "Osmiridium Ingot",
+  "item.superpackutils.osmiridium_dust": "Osmiridium Dust",
+  "item.superpackutils.osmiridium_nugget": "Osmiridium Nugget",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 
