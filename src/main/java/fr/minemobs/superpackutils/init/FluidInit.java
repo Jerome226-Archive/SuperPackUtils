@@ -69,6 +69,7 @@ public class FluidInit {
     public static final FluidObject SODIUM_HYPOCHLORITE = register("sodium_hypochlorite", new Color(168, 202, 243), FLUID_RL);
     public static final FluidObject PHENOL = register("phenol", new Color(118, 41, 72), FLUID_RL);
     public static final FluidObject BISPHENOL_A = register("bisphenol_a", new Color(110, 41, 118), FLUID_RL);
+    public static final FluidObject POLYSTYRENE = register("polystyrene", new Color(199, 170, 114), FLUID_RL, 100);
 
     public static final FluidObject PYROTHEUM = register("pyrotheum", new Color(255, 187, 0), MOLTEN_RL, 2300);
     public static final FluidObject CRYOTHEUM = register("cryotheum", new Color(0, 191, 255), MOLTEN_RL, -2300);
