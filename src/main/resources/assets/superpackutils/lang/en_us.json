@@ -120,6 +120,7 @@
   "block.superpackutils.fumed_silica": "Fumed Silica",
   "block.superpackutils.phenol": "Liquid Phenol",
   "block.superpackutils.bisphenol_a": "Liquid Bisphenol A",
+  "block.superpackutils.molten_osmiridium": "Molten Osmiridium",
 
   "fluid.superpackutils.ethyl_chloride": "Liquid Ethyl Chloride",
   "fluid.superpackutils.acetylene": "Liquid Acetylene",
@@ -201,6 +202,7 @@
   "fluid.superpackutils.fumed_silica": "Fumed Silica",
   "fluid.superpackutils.phenol": "Liquid Phenol",
   "fluid.superpackutils.bisphenol_a": "Liquid Bisphenol A",
+  "fluid.superpackutils.molten_osmiridium": "Molten Osmiridium",
 
   "item.superpackutils.ethyl_chloride_bucket": "Liquid Ethyl Chloride Bucket",
   "item.superpackutils.acetylene_bucket": "Liquid Acetylene Bucket",
@@ -282,6 +284,7 @@
   "item.superpackutils.fumed_silica_bucket": "Fumed Silica Bucket",
   "item.superpackutils.phenol_bucket": "Liquid Phenol Bucket",
   "item.superpackutils.bisphenol_a_bucket": "Liquid Bisphenol A Bucket",
+  "item.superpackutils.molten_osmiridium_bucket": "Molten Osmiridium Bucket",
 
   "gas.superpackutils.ethyl_chloride": "Ethyl Chloride",
   "gas.superpackutils.borax_solution": "Borax Solution",
