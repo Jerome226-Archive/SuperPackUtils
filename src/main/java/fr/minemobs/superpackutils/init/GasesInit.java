@@ -50,6 +50,7 @@ public class GasesInit {
     public static final RegistryObject<Gas> ACETONE = GASES.register("acetone", () -> new Gas(GasBuilder.builder().color(new Color(188, 227, 162).getRGB())));
     public static final RegistryObject<Gas> SODIUM_CHLORIDE = GASES.register("sodium_chloride", () -> new Gas(GasBuilder.builder().color(new Color(117, 155, 252).getRGB())));
     public static final RegistryObject<Gas> SODIUM_HYPOCHLORITE = GASES.register("sodium_hypochlorite", () -> new Gas(GasBuilder.builder().color(new Color(168, 202, 243).getRGB())));
+    public static final RegistryObject<Gas> PHENOL = GASES.register("phenol", () -> new Gas(GasBuilder.builder().color(new Color(118, 41, 72).getRGB())));
 
     public static final RegistryObject<Gas> BORAX_SOLUTION = GASES.register("borax_solution", () -> new Gas(GasBuilder.builder().color(new Color(88, 113, 133).getRGB())));
     public static final RegistryObject<Gas> BN_SOLUTION = GASES.register("bn_solution", () -> new Gas(GasBuilder.builder().color(new Color(87, 109, 125).getRGB())));
