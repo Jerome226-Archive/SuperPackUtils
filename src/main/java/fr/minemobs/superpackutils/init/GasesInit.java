@@ -53,6 +53,8 @@ public class GasesInit {
     public static final RegistryObject<Gas> PHENOL = GASES.register("phenol", () -> new Gas(GasBuilder.builder().color(new Color(118, 41, 72).getRGB())));
     public static final RegistryObject<Gas> BISPHENOL_A = GASES.register("bisphenol_a", () -> new Gas(GasBuilder.builder().color(new Color(110, 41, 118).getRGB())));
     public static final RegistryObject<Gas> POLYSTYRENE = GASES.register("polystyrene", () -> new Gas(GasBuilder.builder().color(new Color(199, 170, 114).getRGB())));
+    public static final RegistryObject<Gas> VINYL_CHLORIDE = GASES.register("vinyl_chloride", () -> new Gas(GasBuilder.builder().color(new Color(70, 236, 153).getRGB())));
+    public static final RegistryObject<Gas> POLYVINYL_CHLORIDE = GASES.register("polyvinyl_chloride", () -> new Gas(GasBuilder.builder().color(new Color(0, 128, 75).getRGB())));
 
     public static final RegistryObject<Gas> BORAX_SOLUTION = GASES.register("borax_solution", () -> new Gas(GasBuilder.builder().color(new Color(88, 113, 133).getRGB())));
     public static final RegistryObject<Gas> BN_SOLUTION = GASES.register("bn_solution", () -> new Gas(GasBuilder.builder().color(new Color(87, 109, 125).getRGB())));
