@@ -268,6 +268,10 @@ public class ItemInit {
     public static final RegistryObject<Item> COMBINED_CARBON_FIBERS = ITEMS.register("coombined_carbon_fibers", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> CARBON_PLATE = ITEMS.register("carbon_plate", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
+    //Plastic
+    public static final RegistryObject<Item> BIO_PLASTIC = ITEMS.register("bio_plastic", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> POLYCARBONATE_PLASTIC = ITEMS.register("polycarbonate_plastic", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     //Other
     public static final RegistryObject<Item> CRYSTAL_SHARD = ITEMS.register("crystal_shard", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> TINY_MOON = ITEMS.register("tiny_moon", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
@@ -313,7 +317,6 @@ public class ItemInit {
     public static final RegistryObject<Item> STARLIGHT_INFUSED_MANA_PEARL = ITEMS.register("starlight_infused_mana_pearl", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> STARLIGHT_INFUSED_MANA_DIAMOND = ITEMS.register("starlight_infused_mana_diamond", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> INTEGRATED_CIRCUIT = ITEMS.register("integrated_circuit", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> BIO_PLASTIC = ITEMS.register("bio_plastic", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> PLOUGH = ITEMS.register("plough", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> HARVESTING_WHEEL = ITEMS.register("harvesting_wheel", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> DESTROYER_OF_THE_NATURE = ITEMS.register("destroyer_of_the_nature", DestroyerOfTheNature::new);
