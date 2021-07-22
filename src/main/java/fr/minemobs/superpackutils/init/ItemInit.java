@@ -283,7 +283,7 @@ public class ItemInit {
 
     //Coal
     public static final RegistryObject<Item> CARBON_FIBERS = ITEMS.register("carbon_fibers", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> COMBINED_CARBON_FIBERS = ITEMS.register("coombined_carbon_fibers", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> COMBINED_CARBON_FIBERS = ITEMS.register("combined_carbon_fibers", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> CARBON_PLATE = ITEMS.register("carbon_plate", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
     //Plastic

@@ -641,6 +641,10 @@
   "item.superpackutils.amethyst_dust": "Amethyst Dust",
   "item.superpackutils.pvc_sheet": "PVC Sheet",
   "item.superpackutils.pvc_pellet": "PVC Pellet",
+  "item.superpackutils.tiny_neodymium_dust": "Tiny Neodymium Dust",
+  "item.superpackutils.carbon_plate": "Carbon Plate",
+  "item.superpackutils.carbon_fibers": "Carbon Fibers",
+  "item.superpackutils.combined_carbon_fibers": "Combined Carbon Fibers",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 
