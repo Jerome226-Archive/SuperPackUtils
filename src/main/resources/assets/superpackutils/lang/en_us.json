@@ -38,6 +38,7 @@
   "block.superpackutils.antimony_block": "Antimony Block",
   "block.superpackutils.osmiridium_block": "Osmiridium Block",
   "block.superpackutils.neodymium_block": "Neodymium Block",
+  "block.superpackutils.amethyst_block": "Amethyst Block",
 
   "slurry.superpackutils.dirty_nickel": "Dirty Nickel Slurry",
   "slurry.superpackutils.clean_nickel": "Clean Nickel Slurry",
@@ -636,6 +637,8 @@
   "item.superpackutils.magnetized_aluminum_rod": "Magnetized Aluminum Rod",
   "item.superpackutils.magnetized_steel_rod": "Magnetized Steel Rod",
   "item.superpackutils.electric_motor": "Electric Motor",
+  "item.superpackutils.amethyst_shard": "Amethyst Shard",
+  "item.superpackutils.amethyst_dust": "Amethyst Dust",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 
