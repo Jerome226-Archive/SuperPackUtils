@@ -645,6 +645,12 @@
   "item.superpackutils.carbon_plate": "Carbon Plate",
   "item.superpackutils.carbon_fibers": "Carbon Fibers",
   "item.superpackutils.combined_carbon_fibers": "Combined Carbon Fibers",
+  "item.superpackutils.incomplete_redstone_mechanism": "Incomplete Redstone Mechanism",
+  "item.superpackutils.redstone_mechanism": "Redstone Mechanism",
+  "item.superpackutils.incomplete_light_mechanism": "Incomplete Light Mechanism",
+  "item.superpackutils.light_mechanism": "Light Mechanism",
+  "item.superpackutils.incomplete_heavy_mechanism": "Incomplete Heavy Mechanism",
+  "item.superpackutils.heavy_mechanism": "Heavy Mechanism",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 
