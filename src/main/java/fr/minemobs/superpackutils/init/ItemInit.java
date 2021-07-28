@@ -281,9 +281,13 @@ public class ItemInit {
 
     //Logic Circuit
     public static final RegistryObject<Item> BASIC_LOGIC_CIRCUIT = ITEMS.register("basic_logic_circuit", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> INCOMPLETE_BASIC_LOGIC_CIRCUIT = ITEMS.register("incomplete_basic_logic_circuit", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> IMPROVED_LOGIC_CIRCUIT = ITEMS.register("improved_logic_circuit", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> INCOMPLETE_IMPROVED_LOGIC_CIRCUIT = ITEMS.register("incomplete_improved_logic_circuit", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> ADVANCED_LOGIC_CIRCUIT = ITEMS.register("advanced_logic_circuit", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> INCOMPLETE_ADVANCED_LOGIC_CIRCUIT = ITEMS.register("incomplete_advanced_logic_circuit", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> WITHERING_LOGIC_CIRCUIT = ITEMS.register("withering_logic_circuit", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> INCOMPLETE_WITHERING_LOGIC_CIRCUIT = ITEMS.register("incomplete_withering_logic_circuit", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
     //Soulstone
     public static final RegistryObject<Item> SMALL_SOULSTONE = ITEMS.register("small_soulstone", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
