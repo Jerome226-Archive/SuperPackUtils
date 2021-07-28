@@ -39,6 +39,7 @@
   "block.superpackutils.osmiridium_block": "Osmiridium Block",
   "block.superpackutils.neodymium_block": "Neodymium Block",
   "block.superpackutils.amethyst_block": "Amethyst Block",
+  "block.superpackutils.plutonium_block": "Plutonium Block",
 
   "slurry.superpackutils.dirty_nickel": "Dirty Nickel Slurry",
   "slurry.superpackutils.clean_nickel": "Clean Nickel Slurry",
@@ -657,6 +658,10 @@
   "item.superpackutils.heavy_mechanism": "Heavy Mechanism",
   "item.superpackutils.bioslag_ingot": "Bioslag Alloy Ingot",
   "item.superpackutils.tater_alloy_ingot": "Tater Alloy Ingot",
+  "item.superpackutils.plutonium_ingot": "Plutonium Ingot",
+  "item.superpackutils.plutonium_dust": "Plutonium Dust",
+  "item.superpackutils.plutonium_nugget": "Plutonium Nugget",
+  "item.superpackutils.tiny_plutonium_dust": "Tiny Plutonium Dust",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 
