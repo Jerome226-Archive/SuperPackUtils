@@ -40,6 +40,7 @@
   "block.superpackutils.neodymium_block": "Neodymium Block",
   "block.superpackutils.amethyst_block": "Amethyst Block",
   "block.superpackutils.plutonium_block": "Plutonium Block",
+  "block.superpackutils.beryllium_block": "Beryllium Block",
 
   "slurry.superpackutils.dirty_nickel": "Dirty Nickel Slurry",
   "slurry.superpackutils.clean_nickel": "Clean Nickel Slurry",
@@ -662,6 +663,10 @@
   "item.superpackutils.plutonium_dust": "Plutonium Dust",
   "item.superpackutils.plutonium_nugget": "Plutonium Nugget",
   "item.superpackutils.tiny_plutonium_dust": "Tiny Plutonium Dust",
+  "item.superpackutils.beryllium_ingot": "Beryllium Ingot",
+  "item.superpackutils.beryllium_dust": "Beryllium Dust",
+  "item.superpackutils.beryllium_nugget": "Beryllium Nugget",
+  "item.superpackutils.tiny_beryllium_dust": "Tiny Beryllium Dust",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 
