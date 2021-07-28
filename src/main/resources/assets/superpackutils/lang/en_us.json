@@ -651,6 +651,8 @@
   "item.superpackutils.light_mechanism": "Light Mechanism",
   "item.superpackutils.incomplete_heavy_mechanism": "Incomplete Heavy Mechanism",
   "item.superpackutils.heavy_mechanism": "Heavy Mechanism",
+  "item.superpackutils.bioslag_ingot": "Bioslag Alloy Ingot",
+  "item.superpackutils.tater_alloy_ingot": "Tater Alloy Ingot",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 
