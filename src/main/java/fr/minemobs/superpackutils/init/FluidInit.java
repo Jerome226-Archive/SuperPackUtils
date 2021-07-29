@@ -115,6 +115,7 @@ public class FluidInit {
     public static final FluidObject COOLANT = register("coolant", new Color(129, 245, 227), FLUID_RL);
     public static final FluidObject GRASSOLINE = register("grassoline", new Color(133, 226, 107), FLUID_RL);
     public static final FluidObject FUMED_SILICA = register("fumed_silica", new Color(82, 80, 77), FLUID_RL, 100);
+    public static final FluidObject TITANIUMTETRACHLORIDE = register("titaniumtetrachloride", new Color(217, 152, 255), FLUID_RL);
 
     private static FluidObject register(@Nonnull String name, @Nonnull Color color, @Nonnull ResourceLocation[] resourcesLocations) {
         final ForgeFlowingFluid.Properties[] properties = {null};

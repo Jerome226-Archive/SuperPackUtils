@@ -135,6 +135,7 @@
   "block.superpackutils.vinyl_chloride": "Liquid Vinyl Chloride",
   "block.superpackutils.polyvinyl_chloride": "Liquid Polyvinyl Chloride",
   "block.superpackutils.molten_neodymium": "Molten Neodymium",
+  "block.superpackutils.titaniumtetrachloride": "Titaniumtetrachloride",
 
   "fluid.superpackutils.ethyl_chloride": "Liquid Ethyl Chloride",
   "fluid.superpackutils.acetylene": "Liquid Acetylene",
@@ -221,6 +222,7 @@
   "fluid.superpackutils.vinyl_chloride": "Liquid Vinyl Chloride",
   "fluid.superpackutils.polyvinyl_chloride": "Liquid Polyvinyl Chloride",
   "fluid.superpackutils.molten_neodymium": "Molten Neodymium",
+  "fluid.superpackutils.titaniumtetrachloride": "Titaniumtetrachloride",
 
   "item.superpackutils.ethyl_chloride_bucket": "Liquid Ethyl Chloride Bucket",
   "item.superpackutils.acetylene_bucket": "Liquid Acetylene Bucket",
@@ -307,6 +309,7 @@
   "item.superpackutils.vinyl_chloride_bucket": "Liquid Vinyl Chloride Bucket",
   "item.superpackutils.polyvinyl_chloride_bucket": "Liquid Polyvinyl Chloride Bucket",
   "item.superpackutils.molten_neodymium_bucket": "Molten Neodymium Bucket",
+  "item.superpackutils.titaniumtetrachloride_bucket": "Titaniumtetrachloride Bucket",
 
   "gas.superpackutils.ethyl_chloride": "Ethyl Chloride",
   "gas.superpackutils.borax_solution": "Borax Solution",
