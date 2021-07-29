@@ -685,6 +685,11 @@
   "item.superpackutils.certus_quartz_seed_2": "Certus Quartz Seed",
   "item.superpackutils.certus_quartz_seed_3": "Certus Quartz Seed",
   "item.superpackutils.polished_certus_quartz": "Polished Certus Quartz",
+  "item.superpackutils.enriched_slime": "Enriched Slime",
+  "item.superpackutils.enriched_skyslime": "Enriched Skyslime",
+  "item.superpackutils.enriched_enderslime": "Enriched Enderslime",
+  "item.superpackutils.enriched_blood": "Enriched Blood",
+  "item.superpackutils.enriched_ichor": "Enriched Ichor",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 

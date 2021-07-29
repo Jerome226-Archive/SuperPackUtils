@@ -111,8 +111,15 @@ public class ItemInit {
     public static final RegistryObject<Item> POLISHED_CERTUS_QUARTZ = ITEMS.register("polished_certus_quartz", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> POLISHED_MANA_QUARTZ = ITEMS.register("polished_mana_quartz", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> ADVANCED_CASING = ITEMS.register("advanced_casing", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
+    //Enriched
     public static final RegistryObject<Item> ENRICHED_PETCOKE = ITEMS.register("enriched_petcoke", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
- 
+    public static final RegistryObject<Item> ENRICHED_SLIME = ITEMS.register("enriched_slime", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> ENRICHED_SKYSLIME = ITEMS.register("enriched_skyslime", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> ENRICHED_BLOOD = ITEMS.register("enriched_blood", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> ENRICHED_ICHOR = ITEMS.register("enriched_ichor", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> ENRICHED_ENDERSLIME = ITEMS.register("enriched_enderslime", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     //Nugget
     public static final RegistryObject<Item> MYTHRIL_NUGGET = ITEMS.register("mythril_nugget", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> PLATINUM_NUGGET = ITEMS.register("platinum_nugget", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
