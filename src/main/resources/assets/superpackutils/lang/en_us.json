@@ -41,6 +41,11 @@
   "block.superpackutils.amethyst_block": "Amethyst Block",
   "block.superpackutils.plutonium_block": "Plutonium Block",
   "block.superpackutils.beryllium_block": "Beryllium Block",
+  "block.superpackutils.smooth_certus_quartz": "Smooth Certus Quartz",
+  "block.superpackutils.chiseled_certus_quartz_block": "Chiseled Certus Quartz",
+  "block.superpackutils.certus_quartz_pillar": "Certus Quartz Pillar",
+  "block.superpackutils.certus_quartz_bricks": "Certus Quartz Bricks",
+  "block.superpackutils.certus_quartz_block": "Certus Quartz Block",
 
   "slurry.superpackutils.dirty_nickel": "Dirty Nickel Slurry",
   "slurry.superpackutils.clean_nickel": "Clean Nickel Slurry",
@@ -668,6 +673,14 @@
   "item.superpackutils.beryllium_nugget": "Beryllium Nugget",
   "item.superpackutils.tiny_beryllium_dust": "Tiny Beryllium Dust",
   "item.superpackutils.purified_quartz": "Pure Nether Quartz",
+  "item.superpackutils.purified_certus_quartz": "Pure Certus Quartz",
+  "item.superpackutils.certus_quartz": "Certus Quartz",
+  "item.superpackutils.quartz_seed_1": "Nether Quartz Seed",
+  "item.superpackutils.quartz_seed_2": "Nether Quartz Seed",
+  "item.superpackutils.quartz_seed_3": "Nether Quartz Seed",
+  "item.superpackutils.certus_quartz_seed_1": "Certus Quartz Seed",
+  "item.superpackutils.certus_quartz_seed_2": "Certus Quartz Seed",
+  "item.superpackutils.certus_quartz_seed_3": "Certus Quartz Seed",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 
