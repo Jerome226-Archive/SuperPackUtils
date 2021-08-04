@@ -116,6 +116,8 @@ public class FluidInit {
     public static final FluidObject GRASSOLINE = register("grassoline", new Color(133, 226, 107), FLUID_RL);
     public static final FluidObject FUMED_SILICA = register("fumed_silica", new Color(82, 80, 77), FLUID_RL, 100);
     public static final FluidObject TITANIUMTETRACHLORIDE = register("titaniumtetrachloride", new Color(217, 152, 255), FLUID_RL);
+    public static final FluidObject INSULATING_GLASS = register("insulating_glass", new Color(37, 92, 25), MOLTEN_RL);
+    public static final FluidObject ELECTRICAL_GLASS = register("electrical_glass", new Color(92, 25, 25), MOLTEN_RL);
 
     private static FluidObject register(@Nonnull String name, @Nonnull Color color, @Nonnull ResourceLocation[] resourcesLocations) {
         final ForgeFlowingFluid.Properties[] properties = {null};

@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
   "textures": {
-    "end": "minecraft:block/certus_quartz_block_top",
-    "side": "minecraft:block/certus_quartz_block_side"
+    "end": "superpackutils:block/certus_quartz_block_top",
+    "side": "superpackutils:block/certus_quartz_block_side"
   }
 }

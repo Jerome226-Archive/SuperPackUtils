@@ -136,6 +136,8 @@
   "block.superpackutils.polyvinyl_chloride": "Liquid Polyvinyl Chloride",
   "block.superpackutils.molten_neodymium": "Molten Neodymium",
   "block.superpackutils.titaniumtetrachloride": "Titaniumtetrachloride",
+  "block.superpackutils.insulating_glass": "Molten Insulating Glass",
+  "block.superpackutils.electrical_glass": "Molten Electrical Glass",
 
   "fluid.superpackutils.ethyl_chloride": "Liquid Ethyl Chloride",
   "fluid.superpackutils.acetylene": "Liquid Acetylene",
@@ -223,6 +225,8 @@
   "fluid.superpackutils.polyvinyl_chloride": "Liquid Polyvinyl Chloride",
   "fluid.superpackutils.molten_neodymium": "Molten Neodymium",
   "fluid.superpackutils.titaniumtetrachloride": "Titaniumtetrachloride",
+  "fluid.superpackutils.insulating_glass": "Molten Insulating Glass",
+  "fluid.superpackutils.electrical_glass": "Molten Electrical Glass",
 
   "item.superpackutils.ethyl_chloride_bucket": "Liquid Ethyl Chloride Bucket",
   "item.superpackutils.acetylene_bucket": "Liquid Acetylene Bucket",
@@ -310,6 +314,8 @@
   "item.superpackutils.polyvinyl_chloride_bucket": "Liquid Polyvinyl Chloride Bucket",
   "item.superpackutils.molten_neodymium_bucket": "Molten Neodymium Bucket",
   "item.superpackutils.titaniumtetrachloride_bucket": "Titaniumtetrachloride Bucket",
+  "item.superpackutils.insulating_glass_bucket": "Molten Insulating Glass Bucket",
+  "item.superpackutils.electrical_glass_bucket": "Molten Electrical Glass Bucket",
 
   "gas.superpackutils.ethyl_chloride": "Ethyl Chloride",
   "gas.superpackutils.borax_solution": "Borax Solution",
