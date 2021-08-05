@@ -139,6 +139,7 @@
   "block.superpackutils.titaniumtetrachloride": "Titaniumtetrachloride",
   "block.superpackutils.insulating_glass": "Molten Insulating Glass",
   "block.superpackutils.electrical_glass": "Molten Energized Glass",
+  "block.superpackutils.biocrude": "Biocrude",
 
   "fluid.superpackutils.ethyl_chloride": "Liquid Ethyl Chloride",
   "fluid.superpackutils.acetylene": "Liquid Acetylene",
@@ -228,6 +229,7 @@
   "fluid.superpackutils.titaniumtetrachloride": "Titaniumtetrachloride",
   "fluid.superpackutils.insulating_glass": "Molten Insulating Glass",
   "fluid.superpackutils.electrical_glass": "Molten Energized Glass",
+  "fluid.superpackutils.biocrude": "Biocrude",
 
   "item.superpackutils.ethyl_chloride_bucket": "Liquid Ethyl Chloride Bucket",
   "item.superpackutils.acetylene_bucket": "Liquid Acetylene Bucket",
@@ -317,6 +319,7 @@
   "item.superpackutils.titaniumtetrachloride_bucket": "Titaniumtetrachloride Bucket",
   "item.superpackutils.insulating_glass_bucket": "Molten Insulating Glass Bucket",
   "item.superpackutils.electrical_glass_bucket": "Molten Energized Glass Bucket",
+  "item.superpackutils.biocrude_bucket": "Biocrude Bucket",
 
   "gas.superpackutils.ethyl_chloride": "Ethyl Chloride",
   "gas.superpackutils.borax_solution": "Borax Solution",
@@ -713,6 +716,15 @@
   "item.superpackutils.charged_certus_quartz_dust": "Charged Certus Quartz Dust",
   "item.superpackutils.charged_certus_quartz": "Charged Certus Quartz",
   "item.superpackutils.triple_iron_rod": "Triple Iron Rod",
+  "item.superpackutils.magnesium_ingot": "Magnesium Ingot",
+  "item.superpackutils.magnesium_dust": "Magnesium Dust",
+  "item.superpackutils.magnesium_plate": "Magnesium Plate",
+  "item.superpackutils.magnesium_nugget": "Magnesium Nugget",
+  "item.superpackutils.tiny_magnesium_dust": "Tiny Magnesium Dust",
+  "item.superpackutils.biomass": "Biomass",
+  "item.superpackutils.pulped_bioblend": "Pulped Bioblend",
+  "item.superpackutils.rich_bioblend": "Rich Bioblend",
+  "item.superpackutils.compressed_sawdust": "Compressed Sawdust",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 
