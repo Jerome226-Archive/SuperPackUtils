@@ -709,6 +709,9 @@
   "item.superpackutils.phyto_filter": "Phyto-Filter",
   "item.superpackutils.treetap": "Treetap",
   "item.superpackutils.neutron_collector": "Neutron Collector",
+  "item.superpackutils.certus_quartz_dust": "Certus Quartz Dust",
+  "item.superpackutils.charged_certus_quartz_dust": "Charged Certus Quartz Dust",
+  "item.superpackutils.charged_certus_quartz": "Charged Certus Quartz",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 
