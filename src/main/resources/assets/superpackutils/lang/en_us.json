@@ -46,6 +46,7 @@
   "block.superpackutils.certus_quartz_pillar": "Certus Quartz Pillar",
   "block.superpackutils.certus_quartz_bricks": "Certus Quartz Bricks",
   "block.superpackutils.certus_quartz_block": "Certus Quartz Block",
+  "block.superpackutils.electrical_glass": "Energized Glass",
 
   "slurry.superpackutils.dirty_nickel": "Dirty Nickel Slurry",
   "slurry.superpackutils.clean_nickel": "Clean Nickel Slurry",
@@ -137,7 +138,7 @@
   "block.superpackutils.molten_neodymium": "Molten Neodymium",
   "block.superpackutils.titaniumtetrachloride": "Titaniumtetrachloride",
   "block.superpackutils.insulating_glass": "Molten Insulating Glass",
-  "block.superpackutils.electrical_glass": "Molten Electrical Glass",
+  "block.superpackutils.electrical_glass": "Molten Energized Glass",
 
   "fluid.superpackutils.ethyl_chloride": "Liquid Ethyl Chloride",
   "fluid.superpackutils.acetylene": "Liquid Acetylene",
@@ -226,7 +227,7 @@
   "fluid.superpackutils.molten_neodymium": "Molten Neodymium",
   "fluid.superpackutils.titaniumtetrachloride": "Titaniumtetrachloride",
   "fluid.superpackutils.insulating_glass": "Molten Insulating Glass",
-  "fluid.superpackutils.electrical_glass": "Molten Electrical Glass",
+  "fluid.superpackutils.electrical_glass": "Molten Energized Glass",
 
   "item.superpackutils.ethyl_chloride_bucket": "Liquid Ethyl Chloride Bucket",
   "item.superpackutils.acetylene_bucket": "Liquid Acetylene Bucket",
@@ -315,7 +316,7 @@
   "item.superpackutils.molten_neodymium_bucket": "Molten Neodymium Bucket",
   "item.superpackutils.titaniumtetrachloride_bucket": "Titaniumtetrachloride Bucket",
   "item.superpackutils.insulating_glass_bucket": "Molten Insulating Glass Bucket",
-  "item.superpackutils.electrical_glass_bucket": "Molten Electrical Glass Bucket",
+  "item.superpackutils.electrical_glass_bucket": "Molten Energized Glass Bucket",
 
   "gas.superpackutils.ethyl_chloride": "Ethyl Chloride",
   "gas.superpackutils.borax_solution": "Borax Solution",
@@ -699,6 +700,15 @@
   "item.superpackutils.crystal_chip": "Crystal Chip",
   "item.superpackutils.engraved_crystal_chip": "Engraved Crystal Chip",
   "item.superpackutils.rare_earth": "Rare Earth",
+  "item.superpackutils.calcium_pulp": "Calcium Pulp",
+  "item.superpackutils.energium_pulp": "Energium Dust",
+  "item.superpackutils.vibrium_pulp": "Vibrium Dust",
+  "item.superpackutils.electrical_pulp": "Electrical Dust",
+  "item.superpackutils.energized_pulp": "Energized Dust",
+  "item.superpackutils.polytetrafluoroethylene_pulp": "Polytetrafluroethylene Pulp",
+  "item.superpackutils.phyto_filter": "Phyto-Filter",
+  "item.superpackutils.treetap": "Treetap",
+  "item.superpackutils.neutron_collector": "Neutron Collector",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 

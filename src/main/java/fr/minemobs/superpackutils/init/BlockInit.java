@@ -5,10 +5,7 @@ import fr.minemobs.superpackutils.objects.blocks.BrokenSpawner;
 import fr.minemobs.superpackutils.objects.blocks.RedstoneClock;
 import fr.minemobs.superpackutils.objects.blocks.TinyTorch;
 import fr.minemobs.superpackutils.objects.blocks.WallTinyTorch;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.SoundType;
+import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.particles.ParticleTypes;
 import net.minecraft.util.ResourceLocation;
@@ -41,6 +38,7 @@ public class BlockInit {
     public static final RegistryObject<Block> DIMENSIONAL_STONE = registerBlock("dimensional_stone", AbstractBlock.Properties.copy(Blocks.IRON_ORE));
     public static final RegistryObject<Block> DYINGROCK = registerBlock("dyingrock");
     public static final RegistryObject<Block> INDUSTRIAL_SAND = registerBlock("industrial_sand", AbstractBlock.Properties.copy(Blocks.SAND));
+    public static final RegistryObject<Block> ELECTRICAL_GLASS = registerBlock("electrical_glass", new GlassBlock(AbstractBlock.Properties.copy(Blocks.GLASS))));
 
     //Casing
     public static final RegistryObject<Block> BIG_STEEL_CASING = registerBlock("big_steel_casing", AbstractBlock.Properties.copy(Blocks.DIAMOND_BLOCK));

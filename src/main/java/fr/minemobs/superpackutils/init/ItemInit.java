@@ -358,6 +358,8 @@ public class ItemInit {
     public static final RegistryObject<Item> BLANK_TIER_INSTALLER = ITEMS.register("blank_tier_installer", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> NAND_CHIP = ITEMS.register("nand_chip", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> POLYDIMETHYLSILOXANE_PULP = ITEMS.register("polydimethylsiloxane_pulp", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> POLYTETRAFLUROETHYLENE_PULP = ITEMS.register("polytetrafluoroethylene_pulp", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> CALCIUM_SULFATE_PULP = ITEMS.register("calcium_sulfate_pulp", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> TALC_PULP = ITEMS.register("talc_pulp", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> ALCHEMICAL_POWDER = ITEMS.register("alchemical_powder", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
@@ -387,6 +389,14 @@ public class ItemInit {
     public static final RegistryObject<Item> ELECTRIC_MOTOR = ITEMS.register("electric_motor", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> CRYSTAL_CHIP = ITEMS.register("crystal_chip", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> ENGRAVED_CRYSTAL_CHIP = ITEMS.register("engraved_crystal_chip", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> CALCIUM_PULP = ITEMS.register("calcium_pulp", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> ENERGIUM_PULP = ITEMS.register("energium_pulp", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> VIBRIUM_PULP = ITEMS.register("vibrium_pulp", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> ELECTRICAL_PULP = ITEMS.register("electrical_pulp", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> ENERGIZED_PULP = ITEMS.register("energized_pulp", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PHYTO_FILTER = ITEMS.register("phyto_filter", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> TREETAP = ITEMS.register("treetap", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> NEUTRON_COLLECTOR = ITEMS.register("neutron_collector", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
     public static final RegistryObject<Item> TINY_TORCH = ITEMS.register("item_tiny_torch", () -> new TinyTorchItem(BlockInit.TINY_TORCH.get(),
             BlockInit.WALL_TINY_TORCH.get(), new Item.Properties().tab(Main.ModItemGroup.instance)));
