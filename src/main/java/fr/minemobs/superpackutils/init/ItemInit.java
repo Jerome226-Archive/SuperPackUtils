@@ -207,7 +207,7 @@ public class ItemInit {
     public static final RegistryObject<Item> ZINC_WAX = ITEMS.register("zinc_wax", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> COBALT_WAX = ITEMS.register("cobalt_wax", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
-    //Dirty Crushed Ore
+    //Purified Crushed Ore
     public static final RegistryObject<Item> PURIFIED_CRUSHED_ALUMINUM_ORE = ITEMS.register("purified_crushed_aluminum_ore", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> PURIFIED_CRUSHED_COPPER_ORE = ITEMS.register("purified_crushed_copper_ore", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> PURIFIED_CRUSHED_GOLD_ORE = ITEMS.register("purified_crushed_gold_ore", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
@@ -221,6 +221,21 @@ public class ItemInit {
     public static final RegistryObject<Item> PURIFIED_CRUSHED_URANIUM_ORE = ITEMS.register("purified_crushed_uranium_ore", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> PURIFIED_CRUSHED_ZINC_ORE = ITEMS.register("purified_crushed_zinc_ore", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> PURIFIED_CRUSHED_COBALT_ORE = ITEMS.register("purified_crushed_cobalt_ore", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
+    //Centrifuged Crushed Ore
+    public static final RegistryObject<Item> CENTRIFUGED_CRUSHED_ALUMINUM_ORE = ITEMS.register("centrifuged_crushed_aluminum_ore", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> CENTRIFUGED_CRUSHED_COPPER_ORE = ITEMS.register("centrifuged_crushed_copper_ore", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> CENTRIFUGED_CRUSHED_GOLD_ORE = ITEMS.register("centrifuged_crushed_gold_ore", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> CENTRIFUGED_CRUSHED_IRON_ORE = ITEMS.register("centrifuged_crushed_iron_ore", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> CENTRIFUGED_CRUSHED_LEAD_ORE = ITEMS.register("centrifuged_crushed_lead_ore", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> CENTRIFUGED_CRUSHED_NICKEL_ORE = ITEMS.register("centrifuged_crushed_nickel_ore", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> CENTRIFUGED_CRUSHED_OSMIUM_ORE = ITEMS.register("centrifuged_crushed_osmium_ore", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> CENTRIFUGED_CRUSHED_PLATINUM_ORE = ITEMS.register("centrifuged_crushed_platinum_ore", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> CENTRIFUGED_CRUSHED_SILVER_ORE = ITEMS.register("centrifuged_crushed_silver_ore", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> CENTRIFUGED_CRUSHED_TIN_ORE = ITEMS.register("centrifuged_crushed_tin_ore", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> CENTRIFUGED_CRUSHED_URANIUM_ORE = ITEMS.register("centrifuged_crushed_uranium_ore", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> CENTRIFUGED_CRUSHED_ZINC_ORE = ITEMS.register("centrifuged_crushed_zinc_ore", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> CENTRIFUGED_CRUSHED_COBALT_ORE = ITEMS.register("centrifuged_crushed_cobalt_ore", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
     //Plastic
     public static final RegistryObject<Item> ABS_SHEET = ITEMS.register("abs_sheet", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
