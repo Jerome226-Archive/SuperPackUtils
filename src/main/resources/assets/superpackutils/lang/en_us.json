@@ -738,6 +738,11 @@
   "item.superpackutils.pulped_bioblend": "Pulped Bioblend",
   "item.superpackutils.rich_bioblend": "Rich Bioblend",
   "item.superpackutils.compressed_sawdust": "Compressed Sawdust",
+  "item.superpackutils.geode": "Geode",
+  "item.superpackutils.dimensional_geode": "Dimensional Geode",
+  "item.superpackutils.resonant_clathrate": "Resonant Clathrate",
+  "item.superpackutils.energized_clathrate": "Energized Clathrate",
+  "item.superpackutils.destabilized_clathrate": "Destabilized Clathrate",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 

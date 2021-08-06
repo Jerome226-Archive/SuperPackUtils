@@ -359,6 +359,13 @@ public class ItemInit {
     public static final RegistryObject<Item> PULPED_BIOBLEND = ITEMS.register("pulped_bioblend", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> RICH_BIOBLEND = ITEMS.register("rich_bioblend", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
+    //Geode
+    public static final RegistryObject<Item> GEODE = ITEMS.register("geode", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> DIMENSIONAL_GEODE = ITEMS.register("dimensional_geode", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> RESONANT_CLATHRATE = ITEMS.register("resonant_clathrate", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> ENERGIZED_CLATHRATE = ITEMS.register("energized_clathrate", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> DESTABILIZED_CLATHRATE = ITEMS.register("destabilized_clathrate", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     //Other
     public static final RegistryObject<Item> CRYSTAL_SHARD = ITEMS.register("crystal_shard", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> TINY_MOON = ITEMS.register("tiny_moon", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
