@@ -46,7 +46,7 @@
   "block.superpackutils.certus_quartz_pillar": "Certus Quartz Pillar",
   "block.superpackutils.certus_quartz_bricks": "Certus Quartz Bricks",
   "block.superpackutils.certus_quartz_block": "Certus Quartz Block",
-  "block.superpackutils.electrical_glass": "Energized Glass",
+  "block.superpackutils.electrical_glass_block": "Heat-Strengthened Glass",
 
   "slurry.superpackutils.dirty_nickel": "Dirty Nickel Slurry",
   "slurry.superpackutils.clean_nickel": "Clean Nickel Slurry",
@@ -138,7 +138,7 @@
   "block.superpackutils.molten_neodymium": "Molten Neodymium",
   "block.superpackutils.titaniumtetrachloride": "Titaniumtetrachloride",
   "block.superpackutils.insulating_glass": "Molten Insulating Glass",
-  "block.superpackutils.electrical_glass": "Molten Energized Glass",
+  "block.superpackutils.electrical_glass": "Molten Heat-Strengthened Glass",
   "block.superpackutils.biocrude": "Biocrude",
 
   "fluid.superpackutils.ethyl_chloride": "Liquid Ethyl Chloride",
@@ -228,7 +228,7 @@
   "fluid.superpackutils.molten_neodymium": "Molten Neodymium",
   "fluid.superpackutils.titaniumtetrachloride": "Titaniumtetrachloride",
   "fluid.superpackutils.insulating_glass": "Molten Insulating Glass",
-  "fluid.superpackutils.electrical_glass": "Molten Energized Glass",
+  "fluid.superpackutils.electrical_glass": "Heat-Strengthened Glass",
   "fluid.superpackutils.biocrude": "Biocrude",
 
   "item.superpackutils.ethyl_chloride_bucket": "Liquid Ethyl Chloride Bucket",
@@ -318,7 +318,7 @@
   "item.superpackutils.molten_neodymium_bucket": "Molten Neodymium Bucket",
   "item.superpackutils.titaniumtetrachloride_bucket": "Titaniumtetrachloride Bucket",
   "item.superpackutils.insulating_glass_bucket": "Molten Insulating Glass Bucket",
-  "item.superpackutils.electrical_glass_bucket": "Molten Energized Glass Bucket",
+  "item.superpackutils.electrical_glass_bucket": "Molten Heat-Strengthened Glass Bucket",
   "item.superpackutils.biocrude_bucket": "Biocrude Bucket",
 
   "gas.superpackutils.ethyl_chloride": "Ethyl Chloride",
