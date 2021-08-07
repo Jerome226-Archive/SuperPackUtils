@@ -47,6 +47,8 @@
   "block.superpackutils.certus_quartz_bricks": "Certus Quartz Bricks",
   "block.superpackutils.certus_quartz_block": "Certus Quartz Block",
   "block.superpackutils.electrical_glass_block": "Heat-Strengthened Glass",
+  "block.superpackutils.nethercotta_bricks": "Nethercotta Bricks",
+  "block.superpackutils.electric_blast_furnace_casing": "Electric Blast Furnace Casing",
 
   "slurry.superpackutils.dirty_nickel": "Dirty Nickel Slurry",
   "slurry.superpackutils.clean_nickel": "Clean Nickel Slurry",
@@ -743,6 +745,7 @@
   "item.superpackutils.resonant_clathrate": "Resonant Clathrate",
   "item.superpackutils.energized_clathrate": "Energized Clathrate",
   "item.superpackutils.destabilized_clathrate": "Destabilized Clathrate",
+  "item.superpackutils.nethercotta_brick": "Nethercotta Brick",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 
