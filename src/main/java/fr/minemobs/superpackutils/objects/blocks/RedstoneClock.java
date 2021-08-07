@@ -23,8 +23,6 @@ import net.minecraft.world.World;
 import javax.annotation.Nullable;
 import java.util.List;
 
-import net.minecraft.block.AbstractBlock.Properties;
-
 public class RedstoneClock extends Block {
     public static final BooleanProperty EMITTING = BooleanProperty.create("emitting");
 
