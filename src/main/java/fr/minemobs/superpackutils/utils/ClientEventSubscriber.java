@@ -22,6 +22,6 @@ public class ClientEventSubscriber {
 
         RenderTypeLookup.setRenderLayer(BlockInit.TINY_TORCH.get(), cutout);
         RenderTypeLookup.setRenderLayer(BlockInit.WALL_TINY_TORCH.get(), cutout);
-        RenderTypeLookup.setRenderLayer(BlockInit.ELECTRICAL_GLASS_BLOCK.get(), cutoutmipped);
+        RenderTypeLookup.setRenderLayer(BlockInit.ELECTRICAL_GLASS_BLOCK.get(), translucent);
     }
 }
