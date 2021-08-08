@@ -746,6 +746,12 @@
   "item.superpackutils.energized_clathrate": "Energized Clathrate",
   "item.superpackutils.destabilized_clathrate": "Destabilized Clathrate",
   "item.superpackutils.nethercotta_brick": "Nethercotta Brick",
+  "item.superpackutils.resistor": "Resistor",
+  "item.superpackutils.thermionic_valve": "Thermionic Valve",
+  "item.superpackutils.glowstone_cube": "Glowstone Cube",
+  "item.superpackutils.redstone_cube": "Redstone Cube",
+  "item.superpackutils.gunpowder_cube": "Gunpowder Cube",
+  "item.superpackutils.slime_cube": "Slime Cube",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 

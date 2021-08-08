@@ -434,6 +434,12 @@ public class ItemInit {
     public static final RegistryObject<Item> TRIPLE_IRON_ROD = ITEMS.register("triple_iron_rod", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> COMPRESSED_SAWDUST = ITEMS.register("compressed_sawdust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> NETHERCOTTA_BRICK = ITEMS.register("nethercotta_brick", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> RESISTOR = ITEMS.register("resistor", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> THERMIONIC_VALVE = ITEMS.register("thermionic_valve", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> SLIME_CUBE = ITEMS.register("slime_cube", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> GUNPOWDER_CUBE = ITEMS.register("gunpowder_cube", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> REDSTONE_CUBE = ITEMS.register("redstone_cube", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> GLOWSTONE_CUBE = ITEMS.register("glowstone_cube", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
     public static final RegistryObject<Item> TINY_TORCH = ITEMS.register("item_tiny_torch", () -> new TinyTorchItem(BlockInit.TINY_TORCH.get(),
             BlockInit.WALL_TINY_TORCH.get(), new Item.Properties().tab(Main.ModItemGroup.instance)));
