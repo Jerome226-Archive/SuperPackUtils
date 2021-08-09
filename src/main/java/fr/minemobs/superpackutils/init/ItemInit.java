@@ -464,6 +464,7 @@ public class ItemInit {
     public static final RegistryObject<Item> GUNPOWDER_CUBE = ITEMS.register("gunpowder_cube", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> REDSTONE_CUBE = ITEMS.register("redstone_cube", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> GLOWSTONE_CUBE = ITEMS.register("glowstone_cube", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> CURSED_AQUACHOW = ITEMS.register("cursed_aquachow", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
     public static final RegistryObject<Item> TINY_TORCH = ITEMS.register("item_tiny_torch", () -> new TinyTorchItem(BlockInit.TINY_TORCH.get(),
             BlockInit.WALL_TINY_TORCH.get(), new Item.Properties().tab(Main.ModItemGroup.instance)));
