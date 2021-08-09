@@ -752,6 +752,15 @@
   "item.superpackutils.redstone_cube": "Redstone Cube",
   "item.superpackutils.gunpowder_cube": "Gunpowder Cube",
   "item.superpackutils.slime_cube": "Slime Cube",
+  "item.superpackutils.andesite_dust": "Andesite Dust",
+  "item.superpackutils.dark_scoria_dust": "Dark Scoria Dust",
+  "item.superpackutils.diorite_dust": "Diorite Dust",
+  "item.superpackutils.dolomite_dust": "Dolomite Dust",
+  "item.superpackutils.gabbro_dust": "Gabbro Dust",
+  "item.superpackutils.granite_dust": "Granite Dust",
+  "item.superpackutils.scoria_dust": "Scoria Dust",
+  "item.superpackutils.weathered_limestone_dust": "Weathered Limestone Dust",
+  "item.superpackutils.marble_dust": "Marble Dust",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 
