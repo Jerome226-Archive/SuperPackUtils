@@ -18,6 +18,7 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
+
 import javax.annotation.Nullable;
 import java.util.List;
 import java.util.function.Supplier;
@@ -379,6 +380,9 @@ public class ItemInit {
     public static final RegistryObject<Item> IRON_MECHANISMS_BASE = ITEMS.register("iron_mechanisms_base", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> STEEL_MECHANISMS_BASE = ITEMS.register("steel_mechanisms_base", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> BRASS_MECHANISMS_BASE = ITEMS.register("brass_mechanisms_base", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
+    //Food
+    public static final RegistryObject<Item> TATER_TOT = ITEMS.register("tater_tot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance).food(FoodInit.TATER_TOT)));
 
     //Other
     public static final RegistryObject<Item> CRYSTAL_SHARD = ITEMS.register("crystal_shard", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
