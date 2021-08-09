@@ -28,7 +28,6 @@ jobs:
       continue-on-error: true
       run: ./datagen
     - name: Build with Gradle
-      continue-on-error: true
       run: ./gradlew build
     - uses: actions/upload-artifact@v2
       with:
