@@ -761,6 +761,9 @@
   "item.superpackutils.scoria_dust": "Scoria Dust",
   "item.superpackutils.weathered_limestone_dust": "Weathered Limestone Dust",
   "item.superpackutils.marble_dust": "Marble Dust",
+  "item.superpackutils.iron_mechanisms_base": "Iron Mechanisms Base",
+  "item.superpackutils.steel_mechanisms_base": "Steel Mechanisms Base",
+  "item.superpackutils.brass_mechanisms_base": "Brass Mechanisms Base",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 
