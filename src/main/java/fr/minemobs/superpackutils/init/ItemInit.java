@@ -9,8 +9,11 @@ import fr.minemobs.superpackutils.objects.items.foods.Bread;
 import fr.minemobs.superpackutils.utils.helper.KeyboardHelper;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.item.BucketItem;
+import net.minecraft.item.Food;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.potion.EffectInstance;
+import net.minecraft.potion.Effects;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraft.world.World;
@@ -382,7 +385,10 @@ public class ItemInit {
     public static final RegistryObject<Item> BRASS_MECHANISMS_BASE = ITEMS.register("brass_mechanisms_base", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
     //Food
-    public static final RegistryObject<Item> TATER_TOT = ITEMS.register("tater_tot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance).food(FoodInit.TATER_TOT)));
+    public static final RegistryObject<Item> TATER_TOT = ITEMS.register("tater_tot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)
+            .food(new Food.Builder()
+                    .effect(() -> new EffectInstance(Effects.MOVEMENT_SPEED, 200, 2), 1.0f).fast().nutrition(2).saturationMod(0.2f)
+                    .alwaysEat().build())));
 
     //Other
     public static final RegistryObject<Item> CRYSTAL_SHARD = ITEMS.register("crystal_shard", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
