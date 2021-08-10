@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
-      "model": "superpackutils:block/certus_quartz_pillar"
+    "axis=x": {
+      "model": "superpackutils:block/certus_quartz_pillar",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "superpackutils:block/certus_quartz_pillar_top"
+    },
+    "axis=z": {
+      "model": "superpackutils:block/certus_quartz_pillar",
+      "x": 90
     }
   }
 }
