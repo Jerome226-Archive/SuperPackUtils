@@ -149,6 +149,7 @@
   "block.superpackutils.bio_ethanol": "Bio Ethanol",
   "block.superpackutils.fish_oil": "Fish Oil",
   "block.superpackutils.glue": "Glue",
+  "block.superpackutils.anode_sludge": "Anode Sludge",
 
   "fluid.superpackutils.ethyl_chloride": "Liquid Ethyl Chloride",
   "fluid.superpackutils.acetylene": "Liquid Acetylene",
@@ -246,6 +247,7 @@
   "fluid.superpackutils.bio_ethanol": "Bio Ethanol",
   "fluid.superpackutils.fish_oil": "Fish Oil",
   "fluid.superpackutils.glue": "Glue",
+  "fluid.superpackutils.anode_sludge": "Anode Sludge",
 
   "item.superpackutils.ethyl_chloride_bucket": "Liquid Ethyl Chloride Bucket",
   "item.superpackutils.acetylene_bucket": "Liquid Acetylene Bucket",
@@ -343,6 +345,7 @@
   "item.superpackutils.bio_ethanol": "Bio Ethanol Bucket",
   "item.superpackutils.fish_oil_bucket": "Fish Oil Bucket",
   "item.superpackutils.glue_bucket": "Glue Bucket",
+  "item.superpackutils.anode_sludge_bucket": "Anode Sludge Bucket",
 
   "gas.superpackutils.ethyl_chloride": "Ethyl Chloride",
   "gas.superpackutils.borax_solution": "Borax Solution",
@@ -406,6 +409,8 @@
   "gas.superpackutils.vinyl_chloride": "Vinyl Chloride",
   "gas.superpackutils.acetic_acid": "Gaseous Acetic Acid",
   "gas.superpackutils.methanol": "Gaseous Methanol",
+  "gas.superpackutils.selenium": "Selenium",
+  "gas.superpackutils.tellurium": "Tellurium",
 
   "infuse_type.superpackutils.petroleum_coke": "Petroleum Coke",
   "infuse_type.superpackutils.slime_crystal": "Crystallized Slime",
@@ -795,6 +800,16 @@
   "item.superpackutils.graphene_ingot": "Graphene Ingot",
   "item.superpackutils.graphene_dust": "Graphene Dust",
   "item.superpackutils.tiny_graphene_dust": "Tiny Graphene Dust",
+  "item.superpackutils.opal": "Opal",
+  "item.superpackutils.opal_dust": "Opal Dust",
+  "item.superpackutils.topaz": "Topaz",
+  "item.superpackutils.topaz_dust": "Topaz Dust",
+  "item.superpackutils.olivine": "Olivine",
+  "item.superpackutils.olivine_dust": "Olivine Dust",
+  "item.superpackutils.tanzanite": "Tanzanite",
+  "item.superpackutils.tanzanite_dust": "Tanzanite Dust",
+  "item.superpackutils.sunstone": "Sunstone",
+  "item.superpackutils.sunstone_dust": "Sunstone Dust",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 

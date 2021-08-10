@@ -65,6 +65,8 @@ public class GasesInit {
     public static final RegistryObject<Gas> PF_SOLUTION = GASES.register("pf_solution", () -> new Gas(GasBuilder.builder().color(new Color(95, 120, 140).getRGB())));
     public static final RegistryObject<Gas> PH_SOLUTION = GASES.register("ph_solution", () -> new Gas(GasBuilder.builder().color(new Color(80, 105, 123).getRGB())));
     public static final RegistryObject<Gas> CS_SOLUTION = GASES.register("cs_solution", () -> new Gas(GasBuilder.builder().color(new Color(95, 120, 146).getRGB())));
+    public static final RegistryObject<Gas> TELLURIUM = GASES.register("tellurium", () -> new Gas(GasBuilder.builder().color(new Color(0, 255, 177).getRGB())));
+    public static final RegistryObject<Gas> SELENIUM = GASES.register("selenium", () -> new Gas(GasBuilder.builder().color(new Color(235, 204, 52).getRGB())));
 
     //Corundum
 

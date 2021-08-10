@@ -126,6 +126,7 @@ public class FluidInit {
     public static final FluidObject BIO_ETHANOL = register("bio_ethanol", new Color(208, 111, 0), FLUID_RL);
     public static final FluidObject FISH_OIL = register("fish_oil", new Color(215, 135, 79, 223), FLUID_RL);
     public static final FluidObject GLUE = register("glue", new Color(255, 191, 0, 238), FLUID_RL);
+    public static final FluidObject ANODE_SLUDGE = register("anode_sludge", new Color(133, 133, 133), FLUID_RL);
 
     private static FluidObject register(@Nonnull String name, @Nonnull Color color, @Nonnull ResourceLocation[] resourcesLocations) {
         final ForgeFlowingFluid.Properties[] properties = {null};
