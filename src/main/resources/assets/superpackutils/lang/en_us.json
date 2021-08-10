@@ -792,6 +792,9 @@
   "item.superpackutils.purifying_bath_salt": "Purifying Bath Salt",
   "item.superpackutils.fused_quartz": "Fused Quartz",
   "item.superpackutils.resin_rubber": "Resin Rubber",
+  "item.superpackutils.graphene_ingot": "Graphene Ingot",
+  "item.superpackutils.graphene_dust": "Graphene Dust",
+  "item.superpackutils.tiny_graphene_dust": "Tiny Graphene Dust",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 
