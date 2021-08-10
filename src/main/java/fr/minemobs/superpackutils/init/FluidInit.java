@@ -72,6 +72,8 @@ public class FluidInit {
     public static final FluidObject POLYSTYRENE = register("polystyrene", new Color(199, 170, 114), FLUID_RL);
     public static final FluidObject VINYL_CHLORIDE = register("vinyl_chloride", new Color(70, 236, 153), FLUID_RL);
     public static final FluidObject POLYVINYL_CHLORIDE = register("polyvinyl_chloride", new Color(0, 128, 75), FLUID_RL);
+    public static final FluidObject ACETIC_ACID = register("acetic_acid", new Color(176, 176, 158), FLUID_RL);
+    public static final FluidObject METHANOL = register("methanol", new Color(92, 65, 18), FLUID_RL);
 
     public static final FluidObject PYROTHEUM = register("pyrotheum", new Color(255, 187, 0), MOLTEN_RL, 2300);
     public static final FluidObject CRYOTHEUM = register("cryotheum", new Color(0, 191, 255), MOLTEN_RL, -2300);
@@ -121,6 +123,9 @@ public class FluidInit {
     public static final FluidObject ELECTRICAL_GLASS = register("electrical_glass", new Color(92, 25, 25), MOLTEN_RL);
     public static final FluidObject PURIFYING_WATER = register("purifying_water", new Color(146, 209, 222), MOLTEN_RL);
     public static final FluidObject FERMENTED_BIOMASS = register("fermented_biomass", new Color(34, 165, 102), MOLTEN_RL);
+    public static final FluidObject BIO_ETHANOL = register("bio_ethanol", new Color(208, 111, 0), FLUID_RL);
+    public static final FluidObject FISH_OIL = register("fish_oil", new Color(215, 135, 79, 223), FLUID_RL);
+    public static final FluidObject GLUE = register("glue", new Color(255, 191, 0, 238), FLUID_RL);
 
     private static FluidObject register(@Nonnull String name, @Nonnull Color color, @Nonnull ResourceLocation[] resourcesLocations) {
         final ForgeFlowingFluid.Properties[] properties = {null};
