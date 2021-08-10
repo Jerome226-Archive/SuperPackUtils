@@ -143,6 +143,7 @@
   "block.superpackutils.electrical_glass": "Molten Heat-Strengthened Glass",
   "block.superpackutils.biocrude": "Biocrude",
   "block.superpackutils.purifying_water": "Purifying Water",
+  "block.superpackutils.fermented_biomass": "Fermented Biomass",
 
   "fluid.superpackutils.ethyl_chloride": "Liquid Ethyl Chloride",
   "fluid.superpackutils.acetylene": "Liquid Acetylene",
@@ -234,6 +235,7 @@
   "fluid.superpackutils.electrical_glass": "Heat-Strengthened Glass",
   "fluid.superpackutils.biocrude": "Biocrude",
   "fluid.superpackutils.purifying_water": "Purifying Water",
+  "fluid.superpackutils.fermented_biomass": "Fermented Biomass",
 
   "item.superpackutils.ethyl_chloride_bucket": "Liquid Ethyl Chloride Bucket",
   "item.superpackutils.acetylene_bucket": "Liquid Acetylene Bucket",
@@ -325,6 +327,7 @@
   "item.superpackutils.electrical_glass_bucket": "Molten Heat-Strengthened Glass Bucket",
   "item.superpackutils.biocrude_bucket": "Biocrude Bucket",
   "item.superpackutils.purifying_water_bucket": "Purifying Water Bucket",
+  "item.superpackutils.fermented_biomass_bucket": "Fermented Biomass Bucket",
 
   "gas.superpackutils.ethyl_chloride": "Ethyl Chloride",
   "gas.superpackutils.borax_solution": "Borax Solution",

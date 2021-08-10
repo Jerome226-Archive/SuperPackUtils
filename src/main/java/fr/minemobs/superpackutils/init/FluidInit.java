@@ -120,6 +120,7 @@ public class FluidInit {
     public static final FluidObject INSULATING_GLASS = register("insulating_glass", new Color(37, 92, 25), MOLTEN_RL);
     public static final FluidObject ELECTRICAL_GLASS = register("electrical_glass", new Color(92, 25, 25), MOLTEN_RL);
     public static final FluidObject PURIFYING_WATER = register("purifying_water", new Color(146, 209, 222), MOLTEN_RL);
+    public static final FluidObject FERMENTED_BIOMASS = register("fermented_biomass", new Color(34, 165, 102), MOLTEN_RL);
 
     private static FluidObject register(@Nonnull String name, @Nonnull Color color, @Nonnull ResourceLocation[] resourcesLocations) {
         final ForgeFlowingFluid.Properties[] properties = {null};
