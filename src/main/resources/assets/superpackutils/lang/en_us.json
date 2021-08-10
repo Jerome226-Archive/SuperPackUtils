@@ -150,6 +150,8 @@
   "block.superpackutils.fish_oil": "Fish Oil",
   "block.superpackutils.glue": "Glue",
   "block.superpackutils.anode_sludge": "Anode Sludge",
+  "block.superpackutils.fluorine": "Fluorine",
+  "block.superpackutils.sodium_hydroxide": "Sodium Hydroxide",
 
   "fluid.superpackutils.ethyl_chloride": "Liquid Ethyl Chloride",
   "fluid.superpackutils.acetylene": "Liquid Acetylene",
@@ -248,6 +250,8 @@
   "fluid.superpackutils.fish_oil": "Fish Oil",
   "fluid.superpackutils.glue": "Glue",
   "fluid.superpackutils.anode_sludge": "Anode Sludge",
+  "fluid.superpackutils.fluorine": "Fluorine",
+  "fluid.superpackutils.sodium_hydroxide": "Sodium Hydroxide",
 
   "item.superpackutils.ethyl_chloride_bucket": "Liquid Ethyl Chloride Bucket",
   "item.superpackutils.acetylene_bucket": "Liquid Acetylene Bucket",
@@ -346,12 +350,13 @@
   "item.superpackutils.fish_oil_bucket": "Fish Oil Bucket",
   "item.superpackutils.glue_bucket": "Glue Bucket",
   "item.superpackutils.anode_sludge_bucket": "Anode Sludge Bucket",
+  "item.superpackutils.fluorine_bucket": "Fluorine Bucket",
+  "item.superpackutils.sodium_hydroxide_bucket": "Sodium Hydroxide Bucket",
 
   "gas.superpackutils.ethyl_chloride": "Ethyl Chloride",
   "gas.superpackutils.borax_solution": "Borax Solution",
   "gas.superpackutils.bn_solution": "Boron Nitride Solution",
   "gas.superpackutils.sf_solution": "Sodium Fluoride Solution",
-  "gas.superpackutils.sh_solution": "Sodium Hydroxide Solution",
   "gas.superpackutils.pf_solution": "Potassium Fluoride Solution",
   "gas.superpackutils.ph_solution": "Potassium Hydroxide Solution",
   "gas.superpackutils.cs_solution": "Calcium Sulfate Solution",
@@ -411,6 +416,8 @@
   "gas.superpackutils.methanol": "Gaseous Methanol",
   "gas.superpackutils.selenium": "Selenium",
   "gas.superpackutils.tellurium": "Tellurium",
+  "gas.superpackutils.fluorine": "Fluorine",
+  "gas.superpackutils.sodium_hydroxide": "Sodium Hydroxide",
 
   "infuse_type.superpackutils.petroleum_coke": "Petroleum Coke",
   "infuse_type.superpackutils.slime_crystal": "Crystallized Slime",
