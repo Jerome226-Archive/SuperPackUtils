@@ -817,6 +817,9 @@
   "item.superpackutils.tanzanite_dust": "Tanzanite Dust",
   "item.superpackutils.sunstone": "Sunstone",
   "item.superpackutils.sunstone_dust": "Sunstone Dust",
+  "item.superpackutils.coated_circuit_board": "Coated Circuit Board",
+  "item.superpackutils.coated_circuit_board_backlane": "Coated Circuit Board Backlane",
+  "item.superpackutils.circuit_board_backlane": "Circuit Board Backlane",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 
