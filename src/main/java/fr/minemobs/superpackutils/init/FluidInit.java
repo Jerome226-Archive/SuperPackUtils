@@ -105,6 +105,8 @@ public class FluidInit {
     public static final FluidObject SULFURIZED_LIGHT_OIL = register("sulfurized_light_oil", new Color(252, 171, 66), FLUID_RL);
     public static final FluidObject SULFURIZED_GASOLINE = register("sulfurized_gasoline", new Color(112, 89, 66), FLUID_RL);
     public static final FluidObject SULFURIZED_HEAVY_OIL = register("sulfurized_heavy_oil", new Color(191, 95, 65), FLUID_RL);
+    public static final FluidObject SULFURIZED_NATURAL_GAS = register("sulfurized_natural_gas", new Color(111, 156, 146), FLUID_RL);
+    public static final FluidObject NATURAL_GAS = register("natural_gas", new Color(180, 231, 218), FLUID_RL);
     public static final FluidObject SC_NAPHTHA = register("sc_naphtha", new Color(201, 190, 123), FLUID_RL);
     public static final FluidObject SC_LIGHT_OIL = register("sc_light_oil", new Color(201, 169, 123), FLUID_RL);
     public static final FluidObject SC_HEAVY_OIL = register("sc_heavy_oil", new Color(201, 139, 123), FLUID_RL);
@@ -124,11 +126,12 @@ public class FluidInit {
     public static final FluidObject INSULATING_GLASS = register("insulating_glass", new Color(37, 92, 25), MOLTEN_RL);
     public static final FluidObject ELECTRICAL_GLASS = register("electrical_glass", new Color(92, 25, 25), MOLTEN_RL);
     public static final FluidObject PURIFYING_WATER = register("purifying_water", new Color(146, 209, 222), MOLTEN_RL);
-    public static final FluidObject FERMENTED_BIOMASS = register("fermented_biomass", new Color(34, 165, 102), MOLTEN_RL);
+    public static final FluidObject FERMENTED_BIOMASS = register("fermented_biomass", new Color(100, 189, 102), FLUID_RL);
     public static final FluidObject BIO_ETHANOL = register("bio_ethanol", new Color(208, 111, 0), FLUID_RL);
     public static final FluidObject FISH_OIL = register("fish_oil", new Color(215, 135, 79, 223), FLUID_RL);
     public static final FluidObject GLUE = register("glue", new Color(255, 191, 0, 238), FLUID_RL);
     public static final FluidObject ANODE_SLUDGE = register("anode_sludge", new Color(133, 133, 133), FLUID_RL);
+    public static final FluidObject DISSOLVENT = register("dissolvent", new Color(111, 205, 193, 255), FLUID_RL);
 
     private static FluidObject register(@Nonnull String name, @Nonnull Color color, @Nonnull ResourceLocation[] resourcesLocations) {
         final ForgeFlowingFluid.Properties[] properties = {null};
