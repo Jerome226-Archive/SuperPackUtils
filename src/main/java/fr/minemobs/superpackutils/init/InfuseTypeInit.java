@@ -27,6 +27,7 @@ public class InfuseTypeInit {
 
     //Other
     public static final RegistryObject<InfuseType> PETROLEUM_COKE = register("petroleum_coke", 0x3C3838);
+    public static final RegistryObject<InfuseType> NICKEL_SELENIDE = register("nickel_selenide", 0xA588D1);
 
     //Crystals
     public static final RegistryObject<InfuseType> SLIME_CRYSTAL = register("slime_crystal", 0x00FF37);

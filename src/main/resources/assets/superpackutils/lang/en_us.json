@@ -428,6 +428,7 @@
   "gas.superpackutils.tellurium": "Tellurium",
   "gas.superpackutils.fluorine": "Fluorine",
   "gas.superpackutils.sodium_hydroxide": "Sodium Hydroxide",
+  "gas.superpackutils.selenickel_mixture": "Selenickel Mixture",
 
   "infuse_type.superpackutils.petroleum_coke": "Petroleum Coke",
   "infuse_type.superpackutils.slime_crystal": "Crystallized Slime",
@@ -448,6 +449,7 @@
   "infuse_type.superpackutils.alchemical_aluminum": "Alchemical Aluminum",
   "infuse_type.superpackutils.alchemical_zinc": "Alchemical Zinc",
   "infuse_type.superpackutils.alchemical_cobalt": "Alchemical Cobalt",
+  "infuse_type.superpackutils.nickel_selenide": "Nickel Selenide",
 
   "item.superpackutils.blood_bottle": "Blood Bottle",
   "item.superpackutils.skyslime_bottle": "Skyslime Bottle",
@@ -822,6 +824,7 @@
   "item.superpackutils.coated_circuit_board_backlane": "Coated Circuit Board Backlane",
   "item.superpackutils.circuit_board_backlane": "Circuit Board Backlane",
   "item.superpackutils.leave": "Leaf",
+  "item.superpackutils.selenous_crystal": "Selenous Crystal",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 
