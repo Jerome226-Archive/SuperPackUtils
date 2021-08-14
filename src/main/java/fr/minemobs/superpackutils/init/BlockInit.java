@@ -89,8 +89,9 @@ public class BlockInit {
     public static final RegistryObject<Block> CHISELED_CERTUS_QUARTZ_BLOCK = registerBlock("chiseled_certus_quartz_block", AbstractBlock.Properties.copy(Blocks.CHISELED_QUARTZ_BLOCK));
     public static final RegistryObject<Block> SMOOTH_CERTUS_QUARTZ = registerBlock("smooth_certus_quartz", AbstractBlock.Properties.copy(Blocks.SMOOTH_QUARTZ));
 
-    //Obsidian
+    //Other
     public static final RegistryObject<Block> REINFORCED_OBSIDIAN = registerBlock("reinforced_obsidian", AbstractBlock.Properties.copy(Blocks.OBSIDIAN));
+    public static final RegistryObject<Block> SMELTERY_ASSEMBLY = registerBlock("smeltery_assembly", AbstractBlock.Properties.copy(Blocks.STONE_BRICKS));
 
     //Spawner
     public static final RegistryObject<Block> BLIZZ_SPAWNER = registerBlock("blizz_spawner", new BrokenSpawner(new ResourceLocation("thermal", "blizz")));

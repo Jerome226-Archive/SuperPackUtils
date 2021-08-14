@@ -68,18 +68,6 @@ public class GasesInit {
     public static final RegistryObject<Gas> SELENIUM = GASES.register("selenium", () -> new Gas(GasBuilder.builder().color(new Color(235, 204, 52).getRGB())));
     public static final RegistryObject<Gas> SELENICKEL_MIXTURE = GASES.register("selenickel_mixture", () -> new Gas(GasBuilder.builder().color(new Color(170, 156, 109).getRGB())));
 
-    //Corundum
-
-    public static final RegistryObject<Gas> RED_CORUNDUM = GASES.register("red_corundum", () -> new Gas(GasBuilder.builder().color(new Color(230, 126, 94).getRGB())));
-    public static final RegistryObject<Gas> ORANGE_CORUNDUM = GASES.register("orange_corundum", () -> new Gas(GasBuilder.builder().color(new Color(230, 160, 94).getRGB())));
-    public static final RegistryObject<Gas> YELLOW_CORUNDUM = GASES.register("yellow_corundum", () -> new Gas(GasBuilder.builder().color(new Color(230, 212, 94).getRGB())));
-    public static final RegistryObject<Gas> GREEN_CORUNDUM = GASES.register("green_corundum", () -> new Gas(GasBuilder.builder().color(new Color(105, 224, 90).getRGB())));
-    public static final RegistryObject<Gas> BLUE_CORUNDUM = GASES.register("blue_corundum", () -> new Gas(GasBuilder.builder().color(new Color(128, 197, 237).getRGB())));
-    public static final RegistryObject<Gas> INDIGO_CORUNDUM = GASES.register("indigo_corundum", () -> new Gas(GasBuilder.builder().color(new Color(157, 128, 237).getRGB())));
-    public static final RegistryObject<Gas> VIOLET_CORUNDUM = GASES.register("violet_corundum", () -> new Gas(GasBuilder.builder().color(new Color(235, 177, 250).getRGB())));
-    public static final RegistryObject<Gas> WHITE_CORUNDUM = GASES.register("white_corundum", () -> new Gas(GasBuilder.builder().color(new Color(255, 255, 255).getRGB())));
-    public static final RegistryObject<Gas> BLACK_CORUNDUM = GASES.register("black_corundum", () -> new Gas(GasBuilder.builder().color(new Color(0, 0, 0).getRGB())));
-
     private static RegistryObject<Gas> register(String name, Color color) {
         return GASES.register(name.toLowerCase().replaceAll("\\s+", "_"), () -> new Gas(GasBuilder.builder().color(color.getRGB())));
     }
