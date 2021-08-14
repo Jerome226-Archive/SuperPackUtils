@@ -383,6 +383,28 @@ public class ItemInit {
     public static final RegistryObject<Item> ENERGIZED_CLATHRATE = ITEMS.register("energized_clathrate", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> DESTABILIZED_CLATHRATE = ITEMS.register("destabilized_clathrate", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
+    //Crystals for Rune
+    public static final RegistryObject<Item> ENVY_CRYSTAL_SHARD = ITEMS.register("envy_crystal_shard", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> ENVY_CRYSTAL = ITEMS.register("envy_crystal", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
+    public static final RegistryObject<Item> PRIDE_CRYSTAL_SHARD = ITEMS.register("pride_crystal_shard", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PRIDE_CRYSTAL = ITEMS.register("pride_crystal", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
+    public static final RegistryObject<Item> GLUTTONY_CRYSTAL_SHARD = ITEMS.register("gluttony_crystal_shard", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> GLUTTONY_CRYSTAL = ITEMS.register("gluttony_crystal", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
+    public static final RegistryObject<Item> SLOTH_CRYSTAL_SHARD = ITEMS.register("sloth_crystal_shard", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> SLOTH_CRYSTAL = ITEMS.register("sloth_crystal", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
+    public static final RegistryObject<Item> GREED_CRYSTAL_SHARD = ITEMS.register("greed_crystal_shard", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> GREED_CRYSTAL = ITEMS.register("greed_crystal", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
+    public static final RegistryObject<Item> WRATH_CRYSTAL_SHARD = ITEMS.register("wrath_crystal_shard", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> WRATH_CRYSTAL = ITEMS.register("wrath_crystal", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
+    public static final RegistryObject<Item> LUST_CRYSTAL_SHARD = ITEMS.register("lust_crystal_shard", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> LUST_CRYSTAL = ITEMS.register("lust_crystal", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    
     //Mechanisms Base
     public static final RegistryObject<Item> IRON_MECHANISMS_BASE = ITEMS.register("iron_mechanisms_base", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> STEEL_MECHANISMS_BASE = ITEMS.register("steel_mechanisms_base", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
@@ -477,6 +499,8 @@ public class ItemInit {
     public static final RegistryObject<Item> RESIN_RUBBER = ITEMS.register("resin_rubber", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> LEAVE = ITEMS.register("leave", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> SELENOUS_CRYSTAL = ITEMS.register("selenous_crystal", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> SALIS_MUNDUS = ITEMS.register("salis_mundus", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> SALIS_SANGUIS = ITEMS.register("salis_sanguis", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
     public static final RegistryObject<Item> TINY_TORCH = ITEMS.register("item_tiny_torch", () -> new TinyTorchItem(BlockInit.TINY_TORCH.get(),
             BlockInit.WALL_TINY_TORCH.get(), new Item.Properties().tab(Main.ModItemGroup.instance)));
