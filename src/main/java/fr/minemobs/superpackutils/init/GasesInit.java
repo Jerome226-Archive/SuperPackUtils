@@ -62,10 +62,8 @@ public class GasesInit {
 
     public static final RegistryObject<Gas> BORAX_SOLUTION = GASES.register("borax_solution", () -> new Gas(GasBuilder.builder().color(new Color(88, 113, 133).getRGB())));
     public static final RegistryObject<Gas> BN_SOLUTION = GASES.register("bn_solution", () -> new Gas(GasBuilder.builder().color(new Color(87, 109, 125).getRGB())));
-    public static final RegistryObject<Gas> SF_SOLUTION = GASES.register("sf_solution", () -> new Gas(GasBuilder.builder().color(new Color(94, 123, 145).getRGB())));
-    public static final RegistryObject<Gas> PF_SOLUTION = GASES.register("pf_solution", () -> new Gas(GasBuilder.builder().color(new Color(95, 120, 140).getRGB())));
-    public static final RegistryObject<Gas> PH_SOLUTION = GASES.register("ph_solution", () -> new Gas(GasBuilder.builder().color(new Color(80, 105, 123).getRGB())));
-    public static final RegistryObject<Gas> CS_SOLUTION = GASES.register("cs_solution", () -> new Gas(GasBuilder.builder().color(new Color(95, 120, 146).getRGB())));
+    public static final RegistryObject<Gas> BA_SOLUTION = GASES.register("ba_solution", () -> new Gas(GasBuilder.builder().color(new Color(120, 146, 165).getRGB())));
+
     public static final RegistryObject<Gas> TELLURIUM = GASES.register("tellurium", () -> new Gas(GasBuilder.builder().color(new Color(0, 255, 177).getRGB())));
     public static final RegistryObject<Gas> SELENIUM = GASES.register("selenium", () -> new Gas(GasBuilder.builder().color(new Color(235, 204, 52).getRGB())));
     public static final RegistryObject<Gas> SELENICKEL_MIXTURE = GASES.register("selenickel_mixture", () -> new Gas(GasBuilder.builder().color(new Color(170, 156, 109).getRGB())));

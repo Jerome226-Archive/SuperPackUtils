@@ -123,6 +123,13 @@ public class ItemInit {
     public static final RegistryObject<Item> SUNSTONE = ITEMS.register("sunstone", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> SUNSTONE_DUST = ITEMS.register("sunstone_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
+    public static final RegistryObject<Item> HYDROXYAPATITE = ITEMS.register("hydroxyapatite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> HYDROXYAPATITE_DUST = ITEMS.register("hydroxyapatite_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> FLUROAPATITE = ITEMS.register("fluroapatite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> FLUROAPATITE_DUST = ITEMS.register("fluroapatite_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> CHLORAPATITE = ITEMS.register("chlorapatite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> CHLORAPATITE_DUST = ITEMS.register("chlorapatite_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     //Polished
     public static final RegistryObject<Item> POLISHED_QUARTZ = ITEMS.register("polished_quartz", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> POLISHED_CERTUS_QUARTZ = ITEMS.register("polished_certus_quartz", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
@@ -404,7 +411,7 @@ public class ItemInit {
 
     public static final RegistryObject<Item> LUST_CRYSTAL_SHARD = ITEMS.register("lust_crystal_shard", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> LUST_CRYSTAL = ITEMS.register("lust_crystal", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    
+
     //Mechanisms Base
     public static final RegistryObject<Item> IRON_MECHANISMS_BASE = ITEMS.register("iron_mechanisms_base", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> STEEL_MECHANISMS_BASE = ITEMS.register("steel_mechanisms_base", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));

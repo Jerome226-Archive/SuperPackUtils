@@ -364,12 +364,8 @@
   "item.superpackutils.natural_gas_bucket": "Natural Gas Bucket",
 
   "gas.superpackutils.ethyl_chloride": "Ethyl Chloride",
-  "gas.superpackutils.borax_solution": "Borax Solution",
+  "gas.superpackutils.borax_solution": "Borax",
   "gas.superpackutils.bn_solution": "Boron Nitride Solution",
-  "gas.superpackutils.sf_solution": "Sodium Fluoride Solution",
-  "gas.superpackutils.pf_solution": "Potassium Fluoride Solution",
-  "gas.superpackutils.ph_solution": "Potassium Hydroxide Solution",
-  "gas.superpackutils.cs_solution": "Calcium Sulfate Solution",
   "gas.superpackutils.acetylene": "Acetylene",
   "gas.superpackutils.polyethene": "Polyethylene",
   "gas.superpackutils.stabilizer": "Stabilizer",
@@ -841,6 +837,12 @@
   "item.superpackutils.wrath_crystal": "Wrath Crystal",
   "item.superpackutils.lust_crystal_shard": "Lust Crystal Shard",
   "item.superpackutils.lust_crystal": "Lust Crystal",
+  "item.superpackutils.hydroxyapatite": "Hydroxyapatite",
+  "item.superpackutils.hydroxyapatite_dust": "Hydroxyapatite Dust",
+  "item.superpackutils.fluoroapatite": "Fluoroapatite",
+  "item.superpackutils.fluoroapatite_dust": "Fluoroapatite Dust",
+  "item.superpackutils.chlorapatite": "Chlorapatite",
+  "item.superpackutils.chlorapatite_dust": "Chlorapatite Dust",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 
