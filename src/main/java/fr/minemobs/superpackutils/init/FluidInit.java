@@ -134,6 +134,10 @@ public class FluidInit {
     public static final FluidObject ANODE_SLUDGE = register("anode_sludge", new Color(133, 133, 133), FLUID_RL);
     public static final FluidObject DISSOLVENT = register("dissolvent", new Color(111, 205, 193, 255), FLUID_RL);
 
+    public static final FluidObject REFINED_REDSTONE = register("refined_redstone", new Color(196, 27, 14, 255), MOLTEN_RL);
+    public static final FluidObject REFINED_GLOWSTONE = register("refined_glowstone", new Color(255, 188, 94, 255), MOLTEN_RL);
+    public static final FluidObject REFINED_ENDER = register("refined_ender", new Color(29, 114, 140, 255), MOLTEN_RL);
+
     private static FluidObject register(@Nonnull String name, @Nonnull Color color, @Nonnull ResourceLocation[] resourcesLocations) {
         final ForgeFlowingFluid.Properties[] properties = {null};
         RegistryObject<FlowingFluid> FLUID = FLUIDS.register(name,

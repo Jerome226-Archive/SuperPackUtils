@@ -159,6 +159,9 @@
   "block.superpackutils.sulfurized_natural_gas": "Sulfurized Natural Gas",
   "block.superpackutils.natural_gas": "Natural Gas",
   "block.superpackutils.methyl_acetate": "Methyl Acetate",
+  "block.superpackutils.refined_redstone": "Refined Redstone",
+  "block.superpackutils.refined_ender": "Refined Ender",
+  "block.superpackutils.refined_glowstone": "Refined Glowstone",
 
   "fluid.superpackutils.ethyl_chloride": "Liquid Ethyl Chloride",
   "fluid.superpackutils.acetylene": "Liquid Acetylene",
@@ -263,6 +266,9 @@
   "fluid.superpackutils.sulfurized_natural_gas": "Sulfurized Natural Gas",
   "fluid.superpackutils.natural_gas": "Natural Gas",
   "fluid.superpackutils.methyl_acetate": "Methyl Acetate",
+  "fluid.superpackutils.refined_redstone": "Refined Redstone",
+  "fluid.superpackutils.refined_ender": "Refined Ender",
+  "fluid.superpackutils.refined_glowstone": "Refined Glowstone",
 
   "item.superpackutils.ethyl_chloride_bucket": "Liquid Ethyl Chloride Bucket",
   "item.superpackutils.acetylene_bucket": "Liquid Acetylene Bucket",
@@ -367,6 +373,9 @@
   "item.superpackutils.sulfurized_natural_gas_bucket": "Sulfurized Natural Gas Bucket",
   "item.superpackutils.natural_gas_bucket": "Natural Gas Bucket",
   "item.superpackutils.methyl_acetate_bucket": "Methyl Acetate Bucket",
+  "item.superpackutils.refined_redstone_bucket": "Refined Redstone Bucket",
+  "item.superpackutils.refined_ender_bucket": "Refined Ender Bucket",
+  "item.superpackutils.refined_glowstone_bucket": "Refined Glowstone Bucket",
 
   "gas.superpackutils.ethyl_chloride": "Ethyl Chloride",
   "gas.superpackutils.borax_solution": "Borax",
