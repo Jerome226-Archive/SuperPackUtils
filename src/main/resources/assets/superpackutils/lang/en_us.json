@@ -158,6 +158,7 @@
   "block.superpackutils.dissolvent": "Dissolvent",
   "block.superpackutils.sulfurized_natural_gas": "Sulfurized Natural Gas",
   "block.superpackutils.natural_gas": "Natural Gas",
+  "block.superpackutils.methyl_acetate": "Methyl Acetate",
 
   "fluid.superpackutils.ethyl_chloride": "Liquid Ethyl Chloride",
   "fluid.superpackutils.acetylene": "Liquid Acetylene",
@@ -261,6 +262,7 @@
   "fluid.superpackutils.dissolvent": "Dissolvent",
   "fluid.superpackutils.sulfurized_natural_gas": "Sulfurized Natural Gas",
   "fluid.superpackutils.natural_gas": "Natural Gas",
+  "fluid.superpackutils.methyl_acetate": "Methyl Acetate",
 
   "item.superpackutils.ethyl_chloride_bucket": "Liquid Ethyl Chloride Bucket",
   "item.superpackutils.acetylene_bucket": "Liquid Acetylene Bucket",
@@ -364,6 +366,7 @@
   "item.superpackutils.dissolvent_bucket": "Dissolvent Bucket",
   "item.superpackutils.sulfurized_natural_gas_bucket": "Sulfurized Natural Gas Bucket",
   "item.superpackutils.natural_gas_bucket": "Natural Gas Bucket",
+  "item.superpackutils.methyl_acetate_bucket": "Methyl Acetate Bucket",
 
   "gas.superpackutils.ethyl_chloride": "Ethyl Chloride",
   "gas.superpackutils.borax_solution": "Borax",
@@ -427,6 +430,7 @@
   "gas.superpackutils.fluorine": "Fluorine",
   "gas.superpackutils.sodium_hydroxide": "Sodium Hydroxide",
   "gas.superpackutils.selenickel_mixture": "Selenickel Mixture",
+  "gas.superpackutils.methyl_acetate": "Gaseous Methyl Acetate",
 
   "infuse_type.superpackutils.petroleum_coke": "Petroleum Coke",
   "infuse_type.superpackutils.slime_crystal": "Crystallized Slime",

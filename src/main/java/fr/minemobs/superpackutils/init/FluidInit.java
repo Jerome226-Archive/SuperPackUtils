@@ -75,7 +75,8 @@ public class FluidInit {
     public static final FluidObject ACETIC_ACID = register("acetic_acid", new Color(176, 176, 158), FLUID_RL);
     public static final FluidObject METHANOL = register("methanol", new Color(92, 65, 18), FLUID_RL);
     public static final FluidObject SODIUM_HYDROXIDE = register("sodium_hydroxide", new Color(29, 168, 141), FLUID_RL);
-    public static final FluidObject FLUORINE = register("fluorine", new Color(113, 240, 233), FLUID_RL);
+    public static final FluidObject FLUORINE = register("fluorine", new Color(130, 255, 248), FLUID_RL);
+    public static final FluidObject METHYL_ACETATE = register("methyl_acetate", new Color(137, 144, 151), FLUID_RL);
 
     public static final FluidObject PYROTHEUM = register("pyrotheum", new Color(255, 187, 0), MOLTEN_RL, 2300);
     public static final FluidObject CRYOTHEUM = register("cryotheum", new Color(0, 191, 255), MOLTEN_RL, -2300);
