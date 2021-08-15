@@ -328,6 +328,9 @@ public class ItemInit {
 
     //Circuit
     public static final RegistryObject<Item> ADVANCED_CIRCUIT_ASSEMBLY = ITEMS.register("advanced_circuit_assembly", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> ELITE_CIRCUIT_ASSEMBLY = ITEMS.register("elite_circuit_assembly", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> INDUCTIVE_CIRCUIT_ASSEMBLY = ITEMS.register("inductive_circuit_assembly", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> ULTIMATE_CIRCUIT_ASSEMBLY = ITEMS.register("ultimate_circuit_assembly", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
     //Cast
     public static final RegistryObject<Item> CHILLER_NUGGET_CAST = ITEMS.register("chiller_nugget_cast", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));

@@ -861,6 +861,9 @@
   "item.superpackutils.latex": "Crystalline Latex",
   "item.superpackutils.latex_drop": "Crystalline Latex Drop",
   "item.superpackutils.advanced_circuit_assembly": "Advanced Circuit Assembly",
+  "item.superpackutils.elite_circuit_assembly": "Elite Circuit Assembly",
+  "item.superpackutils.inductive_circuit_assembly": "Inductive Circuit Assembly",
+  "item.superpackutils.ultimate_circuit_assembly": "Ultimate Circuit Assembly",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 
