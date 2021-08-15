@@ -51,6 +51,7 @@
   "block.superpackutils.nethercotta_bricks": "Nethercotta Bricks",
   "block.superpackutils.electric_blast_furnace_casing": "Electric Blast Furnace Casing",
   "block.superpackutils.smeltery_assembly": "Smeltery Assembly",
+  "block.superpackutils.zirconium_block": "Zirconium Block",
 
   "slurry.superpackutils.dirty_nickel": "Dirty Nickel Slurry",
   "slurry.superpackutils.clean_nickel": "Clean Nickel Slurry",
@@ -844,6 +845,18 @@
   "item.superpackutils.fluoroapatite_dust": "Fluoroapatite Dust",
   "item.superpackutils.chlorapatite": "Chlorapatite",
   "item.superpackutils.chlorapatite_dust": "Chlorapatite Dust",
+  "item.superpackutils.zirconium_ingot": "Zirconium Ingot",
+  "item.superpackutils.zirconium_dust": "Zirconium Dust",
+  "item.superpackutils.tiny_zirconium_dust": "Tiny Zirconium Dust",
+  "item.superpackutils.crystal_binder": "Crystal Binder",
+  "item.superpackutils.lucabindiite": "Lucabindiite",
+  "item.superpackutils.chalcopyrite": "Chalcopyrite",
+  "item.superpackutils.cadmiondite": "Cadmiondite",
+  "item.superpackutils.wulfenite": "Wulfenite",
+  "item.superpackutils.magnesite": "Magnesite",
+  "item.superpackutils.siderite": "Siderite",
+  "item.superpackutils.raw_boron_dust": "Raw Boron Dust",
+  "item.superpackutils.dimensional_blend": "Dimensional Blend",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 

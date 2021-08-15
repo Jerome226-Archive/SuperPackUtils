@@ -82,6 +82,7 @@ public class BlockInit {
     public static final RegistryObject<Block> PLUTONIUM_BLOCK = registerBlock("plutonium_block", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
     public static final RegistryObject<Block> BERYLLIUM_BLOCK = registerBlock("beryllium_block", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
     public static final RegistryObject<Block> CERTUS_QUARTZ_BLOCK = registerBlock("certus_quartz_block", AbstractBlock.Properties.copy(Blocks.QUARTZ_BLOCK));
+    public static final RegistryObject<Block> ZIRCONIUM_BLOCK = registerBlock("zirconium_block", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
 
     //Decoration Block
     public static final RegistryObject<Block> CERTUS_QUARTZ_BRICKS = registerBlock("certus_quartz_bricks", AbstractBlock.Properties.copy(Blocks.QUARTZ_BRICKS));
