@@ -326,6 +326,9 @@ public class ItemInit {
     public static final RegistryObject<Item> INDUCTIVE_CONTROL_CIRCUIT = ITEMS.register("inductive_control_circuit", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> COMBUSTING_ALLOY = ITEMS.register("combusting_alloy", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
+    //Circuit
+    public static final RegistryObject<Item> ADVANCED_CIRCUIT_ASSEMBLY = ITEMS.register("advanced_circuit_assembly", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     //Cast
     public static final RegistryObject<Item> CHILLER_NUGGET_CAST = ITEMS.register("chiller_nugget_cast", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> CHILLER_GEAR_CAST = ITEMS.register("chiller_gear_cast", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
@@ -523,6 +526,9 @@ public class ItemInit {
     public static final RegistryObject<Item> RAW_BORON_DUST = ITEMS.register("raw_boron_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> CRYSTAL_BINDER = ITEMS.register("crystal_binder", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> DIMENSIONAL_BLEND = ITEMS.register("dimensional_blend", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> CONDENSER = ITEMS.register("condenser", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> LATEX = ITEMS.register("latex", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> LATEX_DROP = ITEMS.register("latex_drop", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
     public static final RegistryObject<Item> TINY_TORCH = ITEMS.register("item_tiny_torch", () -> new TinyTorchItem(BlockInit.TINY_TORCH.get(),
             BlockInit.WALL_TINY_TORCH.get(), new Item.Properties().tab(Main.ModItemGroup.instance)));

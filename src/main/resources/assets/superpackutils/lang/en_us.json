@@ -857,6 +857,10 @@
   "item.superpackutils.siderite": "Siderite",
   "item.superpackutils.raw_boron_dust": "Raw Boron Dust",
   "item.superpackutils.dimensional_blend": "Dimensional Blend",
+  "item.superpackutils.condenser": "Condenser",
+  "item.superpackutils.latex": "Crystalline Latex",
+  "item.superpackutils.latex_drop": "Crystalline Latex Drop",
+  "item.superpackutils.advanced_circuit_assembly": "Advanced Circuit Assembly",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 
