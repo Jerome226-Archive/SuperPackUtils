@@ -532,6 +532,7 @@ public class ItemInit {
     public static final RegistryObject<Item> CONDENSER = ITEMS.register("condenser", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> LATEX = ITEMS.register("latex", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> LATEX_DROP = ITEMS.register("latex_drop", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> LITHIUM_SOAP = ITEMS.register("lithium_soap", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
     public static final RegistryObject<Item> TINY_TORCH = ITEMS.register("item_tiny_torch", () -> new TinyTorchItem(BlockInit.TINY_TORCH.get(),
             BlockInit.WALL_TINY_TORCH.get(), new Item.Properties().tab(Main.ModItemGroup.instance)));

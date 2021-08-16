@@ -162,6 +162,7 @@
   "block.superpackutils.refined_redstone": "Refined Redstone",
   "block.superpackutils.refined_ender": "Refined Ender",
   "block.superpackutils.refined_glowstone": "Refined Glowstone",
+  "block.superpackutils.mercury": "Liquid Mercury",
 
   "fluid.superpackutils.ethyl_chloride": "Liquid Ethyl Chloride",
   "fluid.superpackutils.acetylene": "Liquid Acetylene",
@@ -269,6 +270,7 @@
   "fluid.superpackutils.refined_redstone": "Refined Redstone",
   "fluid.superpackutils.refined_ender": "Refined Ender",
   "fluid.superpackutils.refined_glowstone": "Refined Glowstone",
+  "fluid.superpackutils.mercury": "Liquid Mercury",
 
   "item.superpackutils.ethyl_chloride_bucket": "Liquid Ethyl Chloride Bucket",
   "item.superpackutils.acetylene_bucket": "Liquid Acetylene Bucket",
@@ -376,6 +378,7 @@
   "item.superpackutils.refined_redstone_bucket": "Refined Redstone Bucket",
   "item.superpackutils.refined_ender_bucket": "Refined Ender Bucket",
   "item.superpackutils.refined_glowstone_bucket": "Refined Glowstone Bucket",
+  "item.superpackutils.mercury_bucket": "Liquid Mercury Bucket",
 
   "gas.superpackutils.ethyl_chloride": "Ethyl Chloride",
   "gas.superpackutils.borax_solution": "Borax",
@@ -437,6 +440,7 @@
   "gas.superpackutils.selenium": "Selenium",
   "gas.superpackutils.tellurium": "Tellurium",
   "gas.superpackutils.fluorine": "Fluorine",
+  "gas.superpackutils.mercury": "Mercury",
   "gas.superpackutils.sodium_hydroxide": "Sodium Hydroxide",
   "gas.superpackutils.selenickel_mixture": "Selenickel Mixture",
   "gas.superpackutils.methyl_acetate": "Gaseous Methyl Acetate",
@@ -877,6 +881,7 @@
   "item.superpackutils.elite_circuit_assembly": "Elite Circuit Assembly",
   "item.superpackutils.inductive_circuit_assembly": "Inductive Circuit Assembly",
   "item.superpackutils.ultimate_circuit_assembly": "Ultimate Circuit Assembly",
+  "item.superpackutils.lithium_soap": "Lithium Soap",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 
