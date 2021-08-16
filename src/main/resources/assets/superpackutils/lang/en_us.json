@@ -163,6 +163,8 @@
   "block.superpackutils.refined_ender": "Refined Ender",
   "block.superpackutils.refined_glowstone": "Refined Glowstone",
   "block.superpackutils.mercury": "Liquid Mercury",
+  "block.superpackutils.boron": "Liquid Boron",
+  "block.superpackutils.borax": "Borax",
 
   "fluid.superpackutils.ethyl_chloride": "Liquid Ethyl Chloride",
   "fluid.superpackutils.acetylene": "Liquid Acetylene",
@@ -271,6 +273,8 @@
   "fluid.superpackutils.refined_ender": "Refined Ender",
   "fluid.superpackutils.refined_glowstone": "Refined Glowstone",
   "fluid.superpackutils.mercury": "Liquid Mercury",
+  "fluid.superpackutils.boron": "Liquid Boron",
+  "fluid.superpackutils.borax": "Borax",
 
   "item.superpackutils.ethyl_chloride_bucket": "Liquid Ethyl Chloride Bucket",
   "item.superpackutils.acetylene_bucket": "Liquid Acetylene Bucket",
@@ -379,9 +383,12 @@
   "item.superpackutils.refined_ender_bucket": "Refined Ender Bucket",
   "item.superpackutils.refined_glowstone_bucket": "Refined Glowstone Bucket",
   "item.superpackutils.mercury_bucket": "Liquid Mercury Bucket",
+  "item.superpackutils.boron_bucket": "Liquid Boron Bucket",
+  "item.superpackutils.borax_bucket": "Borax Bucket",
 
   "gas.superpackutils.ethyl_chloride": "Ethyl Chloride",
-  "gas.superpackutils.borax_solution": "Borax",
+  "gas.superpackutils.borax_solution": "Gaseous Borax",
+  "gas.superpackutils.boron": "Boron",
   "gas.superpackutils.bn_solution": "Boron Nitride Solution",
   "gas.superpackutils.acetylene": "Acetylene",
   "gas.superpackutils.polyethene": "Polyethylene",
