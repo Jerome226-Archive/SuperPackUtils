@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "superpackutils:block/infused_stone"
+    "all": "superpackutils:block/magmatic_block"
   }
 }

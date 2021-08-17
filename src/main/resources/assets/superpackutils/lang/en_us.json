@@ -7,9 +7,7 @@
   "block.superpackutils.dyingrock": "Dyingrock",
   "block.superpackutils.washer_casing": "Ore Washing Plant Casing",
   "block.superpackutils.mythril_block": "Mythril Block",
-  "block.superpackutils.infused_osmium_ore": "Infused Osmium Ore",
   "block.superpackutils.cupronickel_block": "Cupronickel Block",
-  "block.superpackutils.infused_uranium_ore": "Infused Uranium Ore",
   "block.superpackutils.platinum_block": "Platinum Block",
   "block.superpackutils.manganese_block": "Manganese Block",
   "block.superpackutils.redstone_clock": "Redstone Clock",
@@ -22,7 +20,6 @@
   "block.superpackutils.chemical_reactor_casing": "Chemical Reactor Casing",
   "block.superpackutils.platinum_ore": "Platinum Ore",
   "block.superpackutils.infuser_casing": "Infuser Casing",
-  "block.superpackutils.infused_stone": "Infused Stone",
   "block.superpackutils.mixer_casing": "Mixer Casing",
   "block.superpackutils.tiny_torch": "Tiny Torch",
   "block.superpackutils.wall_tiny_torch": "Wall Tiny Torch",
@@ -52,6 +49,7 @@
   "block.superpackutils.electric_blast_furnace_casing": "Electric Blast Furnace Casing",
   "block.superpackutils.smeltery_assembly": "Smeltery Assembly",
   "block.superpackutils.zirconium_block": "Zirconium Block",
+  "block.superpackutils.magmatic_rock": "Magmatic Rock",
 
   "slurry.superpackutils.dirty_nickel": "Dirty Nickel Slurry",
   "slurry.superpackutils.clean_nickel": "Clean Nickel Slurry",
@@ -165,6 +163,7 @@
   "block.superpackutils.mercury": "Liquid Mercury",
   "block.superpackutils.boron": "Liquid Boron",
   "block.superpackutils.borax": "Borax",
+  "block.superpackutils.noble_mixture": "Noble Mixture",
 
   "fluid.superpackutils.ethyl_chloride": "Liquid Ethyl Chloride",
   "fluid.superpackutils.acetylene": "Liquid Acetylene",
@@ -275,6 +274,7 @@
   "fluid.superpackutils.mercury": "Liquid Mercury",
   "fluid.superpackutils.boron": "Liquid Boron",
   "fluid.superpackutils.borax": "Borax",
+  "fluid.superpackutils.noble_mixture": "Noble Mixture",
 
   "item.superpackutils.ethyl_chloride_bucket": "Liquid Ethyl Chloride Bucket",
   "item.superpackutils.acetylene_bucket": "Liquid Acetylene Bucket",
@@ -385,9 +385,10 @@
   "item.superpackutils.mercury_bucket": "Liquid Mercury Bucket",
   "item.superpackutils.boron_bucket": "Liquid Boron Bucket",
   "item.superpackutils.borax_bucket": "Borax Bucket",
+  "item.superpackutils.noble_mixture_bucket": "Noble Mixture Bucket",
 
   "gas.superpackutils.ethyl_chloride": "Ethyl Chloride",
-  "gas.superpackutils.borax_solution": "Gaseous Borax",
+  "gas.superpackutils.borax": "Gaseous Borax",
   "gas.superpackutils.boron": "Boron",
   "gas.superpackutils.bn_solution": "Boron Nitride Solution",
   "gas.superpackutils.acetylene": "Acetylene",
@@ -449,8 +450,11 @@
   "gas.superpackutils.fluorine": "Fluorine",
   "gas.superpackutils.mercury": "Mercury",
   "gas.superpackutils.sodium_hydroxide": "Sodium Hydroxide",
-  "gas.superpackutils.selenickel_mixture": "Selenickel Mixture",
+  "gas.superpackutils.st_fuel": "S-T Fuel",
   "gas.superpackutils.methyl_acetate": "Gaseous Methyl Acetate",
+  "gas.superpackutils.chemical_refined_redstone": "Chemical Refined Redstone",
+  "gas.superpackutils.chemical_refined_glowstone": "Chemical Refined Glowstone",
+  "gas.superpackutils.chemical_refined_ender": "Chemical Refined Ender",
 
   "infuse_type.superpackutils.petroleum_coke": "Petroleum Coke",
   "infuse_type.superpackutils.slime_crystal": "Crystallized Slime",
@@ -471,7 +475,6 @@
   "infuse_type.superpackutils.alchemical_aluminum": "Alchemical Aluminum",
   "infuse_type.superpackutils.alchemical_zinc": "Alchemical Zinc",
   "infuse_type.superpackutils.alchemical_cobalt": "Alchemical Cobalt",
-  "infuse_type.superpackutils.nickel_selenide": "Nickel Selenide",
 
   "item.superpackutils.blood_bottle": "Blood Bottle",
   "item.superpackutils.skyslime_bottle": "Skyslime Bottle",
@@ -890,6 +893,10 @@
   "item.superpackutils.ultimate_circuit_assembly": "Ultimate Circuit Assembly",
   "item.superpackutils.lithium_soap": "Lithium Soap",
   "item.superpackutils.carnallite": "Carnallite",
+  "item.superpackutils.kaolitic_clay": "Kaolitic Clay",
+  "item.superpackutils.kaolitic_glowstone": "Kaolitic-Coated Glowstone",
+  "item.superpackutils.glowstone_particles": "Glowstone Particles",
+  "item.superpackutils.atomic_carbon": "Atomic Carbon",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 

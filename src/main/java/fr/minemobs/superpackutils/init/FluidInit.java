@@ -136,6 +136,7 @@ public class FluidInit {
     public static final FluidObject GLUE = register("glue", new Color(255, 191, 0, 238), FLUID_RL);
     public static final FluidObject ANODE_SLUDGE = register("anode_sludge", new Color(133, 133, 133), FLUID_RL);
     public static final FluidObject DISSOLVENT = register("dissolvent", new Color(111, 205, 193, 255), FLUID_RL);
+    public static final FluidObject NOBLE_MIXTURE = register("noble_mixture", new Color(134, 105, 1, 255), FLUID_RL);
 
     public static final FluidObject REFINED_REDSTONE = register("refined_redstone", new Color(196, 27, 14, 255), MOLTEN_RL);
     public static final FluidObject REFINED_GLOWSTONE = register("refined_glowstone", new Color(255, 188, 94, 255), MOLTEN_RL);

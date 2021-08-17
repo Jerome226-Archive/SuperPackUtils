@@ -60,11 +60,6 @@ public class BlockInit {
     //Platinum Ore
     public static final RegistryObject<Block> PLATINUM_ORE = registerBlock("platinum_ore");
 
-    //Infused Ores
-    public static final RegistryObject<Block> INFUSED_STONE = registerBlock("infused_stone", AbstractBlock.Properties.copy(Blocks.DIAMOND_BLOCK));
-    public static final RegistryObject<Block> INFUSED_URANIUM_ORE = registerBlock("infused_uranium_ore", AbstractBlock.Properties.copy(Blocks.DIAMOND_BLOCK));
-    public static final RegistryObject<Block> INFUSED_OSMIUM_ORE = registerBlock("infused_osmium_ore", AbstractBlock.Properties.copy(Blocks.DIAMOND_BLOCK));
-
     //Ore Blocks
     public static final RegistryObject<Block> PLATINUM_BLOCK = registerBlock("platinum_block", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
     public static final RegistryObject<Block> CUPRONICKEL_BLOCK = registerBlock("cupronickel_block", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
@@ -93,6 +88,7 @@ public class BlockInit {
     //Other
     public static final RegistryObject<Block> REINFORCED_OBSIDIAN = registerBlock("reinforced_obsidian", AbstractBlock.Properties.copy(Blocks.OBSIDIAN));
     public static final RegistryObject<Block> SMELTERY_ASSEMBLY = registerBlock("smeltery_assembly", AbstractBlock.Properties.copy(Blocks.STONE_BRICKS));
+    public static final RegistryObject<Block> MAGMATIC_ROCK = registerBlock("magmatic_rock", AbstractBlock.Properties.copy(Blocks.MAGMA_BLOCK));
 
     //Spawner
     public static final RegistryObject<Block> BLIZZ_SPAWNER = registerBlock("blizz_spawner", new BrokenSpawner(new ResourceLocation("thermal", "blizz")));
