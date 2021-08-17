@@ -166,6 +166,7 @@
   "block.superpackutils.boron": "Liquid Boron",
   "block.superpackutils.borax": "Borax",
   "block.superpackutils.noble_mixture": "Noble Mixture",
+  "block.superpackutils.sodium_bisulfate": "Liquid Sodium Bisulfate",
 
   "fluid.superpackutils.ethyl_chloride": "Liquid Ethyl Chloride",
   "fluid.superpackutils.acetylene": "Liquid Acetylene",
@@ -277,6 +278,7 @@
   "fluid.superpackutils.boron": "Liquid Boron",
   "fluid.superpackutils.borax": "Borax",
   "fluid.superpackutils.noble_mixture": "Noble Mixture",
+  "fluid.superpackutils.sodium_bisulfate": "Liquid Sodium Bisulfate",
 
   "item.superpackutils.ethyl_chloride_bucket": "Liquid Ethyl Chloride Bucket",
   "item.superpackutils.acetylene_bucket": "Liquid Acetylene Bucket",
@@ -388,9 +390,11 @@
   "item.superpackutils.boron_bucket": "Liquid Boron Bucket",
   "item.superpackutils.borax_bucket": "Borax Bucket",
   "item.superpackutils.noble_mixture_bucket": "Noble Mixture Bucket",
+  "item.superpackutils.sodium_bisulfate_bucket": "Liquid Sodium Bisulfate Bucket",
 
   "gas.superpackutils.ethyl_chloride": "Ethyl Chloride",
   "gas.superpackutils.borax": "Gaseous Borax",
+  "gas.superpackutils.sodium_bisulfate": "Sodium Bisulfate",
   "gas.superpackutils.boron": "Boron",
   "gas.superpackutils.bn_solution": "Boron Nitride Solution",
   "gas.superpackutils.acetylene": "Acetylene",
