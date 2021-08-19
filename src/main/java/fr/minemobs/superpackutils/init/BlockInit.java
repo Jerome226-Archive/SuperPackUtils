@@ -79,6 +79,20 @@ public class BlockInit {
     public static final RegistryObject<Block> BERYLLIUM_BLOCK = registerBlock("beryllium_block", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
     public static final RegistryObject<Block> CERTUS_QUARTZ_BLOCK = registerBlock("certus_quartz_block", AbstractBlock.Properties.copy(Blocks.QUARTZ_BLOCK));
     public static final RegistryObject<Block> ZIRCONIUM_BLOCK = registerBlock("zirconium_block", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
+    public static final RegistryObject<Block> REFINED_REDSTONE_BLOCK = registerBlock("refined_redstone_block", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
+    public static final RegistryObject<Block> INDIUM_BLOCK = registerBlock("indium_block", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
+
+    //Raw Ore Block
+    public static final RegistryObject<Block> RAW_IRON_BLOCK = registerBlock("raw_iron_block", AbstractBlock.Properties.copy(Blocks.STONE));
+    public static final RegistryObject<Block> RAW_GOLD_BLOCK = registerBlock("raw_gold_block", AbstractBlock.Properties.copy(Blocks.STONE));
+    public static final RegistryObject<Block> RAW_COPPER_BLOCK = registerBlock("raw_copper_block", AbstractBlock.Properties.copy(Blocks.STONE));
+    public static final RegistryObject<Block> RAW_ALUMINUM_BLOCK = registerBlock("raw_aluminum_block", AbstractBlock.Properties.copy(Blocks.STONE));
+    public static final RegistryObject<Block> RAW_LEAD_BLOCK = registerBlock("raw_lead_block", AbstractBlock.Properties.copy(Blocks.STONE));
+    public static final RegistryObject<Block> RAW_NICKEL_BLOCK = registerBlock("raw_nickel_block", AbstractBlock.Properties.copy(Blocks.STONE));
+    public static final RegistryObject<Block> RAW_SILVER_BLOCK = registerBlock("raw_silver_block", AbstractBlock.Properties.copy(Blocks.STONE));
+    public static final RegistryObject<Block> RAW_TIN_BLOCK = registerBlock("raw_tin_block", AbstractBlock.Properties.copy(Blocks.STONE));
+    public static final RegistryObject<Block> RAW_ZINC_BLOCK = registerBlock("raw_zinc_block", AbstractBlock.Properties.copy(Blocks.STONE));
+    public static final RegistryObject<Block> RAW_COBALT_BLOCK = registerBlock("raw_cobalt_block", AbstractBlock.Properties.copy(Blocks.STONE));
 
     //Decoration Block
     public static final RegistryObject<Block> CERTUS_QUARTZ_BRICKS = registerBlock("certus_quartz_bricks", AbstractBlock.Properties.copy(Blocks.QUARTZ_BRICKS));

@@ -81,6 +81,8 @@ public class FluidInit {
     public static final FluidObject BORAX = register("borax", new Color(142, 182, 215, 196), FLUID_RL);
     public static final FluidObject BORON = register("boron", new Color(50, 189, 0, 196), FLUID_RL);
     public static final FluidObject SODIUM_BISULFATE = register("sodium_bisulfate", new Color(93, 217, 167), FLUID_RL);
+    public static final FluidObject SODIUM_CYANIDE = register("sodium_cyanide", new Color(126, 183, 210), FLUID_RL);
+    public static final FluidObject BENZYL_CHLORIDE = register("benzyl_chloride", new Color(189, 163, 93), FLUID_RL);
 
     public static final FluidObject PYROTHEUM = register("pyrotheum", new Color(255, 187, 0), MOLTEN_RL, 2300);
     public static final FluidObject CRYOTHEUM = register("cryotheum", new Color(0, 191, 255), MOLTEN_RL, -2300);
@@ -135,6 +137,7 @@ public class FluidInit {
     public static final FluidObject BIO_ETHANOL = register("bio_ethanol", new Color(208, 111, 0), FLUID_RL);
     public static final FluidObject FISH_OIL = register("fish_oil", new Color(215, 135, 79, 223), FLUID_RL);
     public static final FluidObject GLUE = register("glue", new Color(255, 191, 0, 238), FLUID_RL);
+    public static final FluidObject HIDE_GLUE = register("hide_glue", new Color(255, 111, 0, 238), FLUID_RL);
     public static final FluidObject ANODE_SLUDGE = register("anode_sludge", new Color(133, 133, 133), FLUID_RL);
     public static final FluidObject DISSOLVENT = register("dissolvent", new Color(111, 205, 193, 255), FLUID_RL);
     public static final FluidObject NOBLE_MIXTURE = register("noble_mixture", new Color(134, 105, 1, 255), FLUID_RL);
