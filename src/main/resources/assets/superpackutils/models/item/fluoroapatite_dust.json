@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "superpackutils:item/fluorapatite_dust"
+    "layer0": "superpackutils:item/fluoroapatite_dust"
   }
 }

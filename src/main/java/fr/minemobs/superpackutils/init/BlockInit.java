@@ -81,6 +81,9 @@ public class BlockInit {
     public static final RegistryObject<Block> ZIRCONIUM_BLOCK = registerBlock("zirconium_block", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
     public static final RegistryObject<Block> REFINED_REDSTONE_BLOCK = registerBlock("refined_redstone_block", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
     public static final RegistryObject<Block> INDIUM_BLOCK = registerBlock("indium_block", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
+    public static final RegistryObject<Block> ENRICHED_URANIUM_BLOCK = registerBlock("enriched_uranium_block", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
+    public static final RegistryObject<Block> GALLIUM_BLOCK = registerBlock("gallium_block", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
+    public static final RegistryObject<Block> SOULARIUM_BLOCK = registerBlock("soularium_block", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
 
     //Raw Ore Block
     public static final RegistryObject<Block> RAW_IRON_BLOCK = registerBlock("raw_iron_block", AbstractBlock.Properties.copy(Blocks.STONE));
@@ -93,6 +96,8 @@ public class BlockInit {
     public static final RegistryObject<Block> RAW_TIN_BLOCK = registerBlock("raw_tin_block", AbstractBlock.Properties.copy(Blocks.STONE));
     public static final RegistryObject<Block> RAW_ZINC_BLOCK = registerBlock("raw_zinc_block", AbstractBlock.Properties.copy(Blocks.STONE));
     public static final RegistryObject<Block> RAW_COBALT_BLOCK = registerBlock("raw_cobalt_block", AbstractBlock.Properties.copy(Blocks.STONE));
+    public static final RegistryObject<Block> RAW_URANIUM_BLOCK = registerBlock("raw_uranium_block", AbstractBlock.Properties.copy(Blocks.STONE));
+    public static final RegistryObject<Block> RAW_OSMIUM_BLOCK = registerBlock("raw_osmium_block", AbstractBlock.Properties.copy(Blocks.STONE));
 
     //Decoration Block
     public static final RegistryObject<Block> CERTUS_QUARTZ_BRICKS = registerBlock("certus_quartz_bricks", AbstractBlock.Properties.copy(Blocks.QUARTZ_BRICKS));

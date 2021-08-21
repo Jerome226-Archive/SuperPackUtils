@@ -82,7 +82,9 @@ public class FluidInit {
     public static final FluidObject BORON = register("boron", new Color(50, 189, 0, 196), FLUID_RL);
     public static final FluidObject SODIUM_BISULFATE = register("sodium_bisulfate", new Color(93, 217, 167), FLUID_RL);
     public static final FluidObject SODIUM_CYANIDE = register("sodium_cyanide", new Color(126, 183, 210), FLUID_RL);
-    public static final FluidObject BENZYL_CHLORIDE = register("benzyl_chloride", new Color(189, 163, 93), FLUID_RL);
+    public static final FluidObject BENZYL_CHLORIDE = register("benzyl_chloride", new Color(102, 89, 53), FLUID_RL);
+    public static final FluidObject NITRIC_ACID = register("nitric_acid", new Color(179, 178, 86), FLUID_RL);
+    public static final FluidObject HYDROGEN_SULFIDE = register("hydrogen_sulfide", new Color(227, 220, 86), FLUID_RL);
 
     public static final FluidObject PYROTHEUM = register("pyrotheum", new Color(255, 187, 0), MOLTEN_RL, 2300);
     public static final FluidObject CRYOTHEUM = register("cryotheum", new Color(0, 191, 255), MOLTEN_RL, -2300);
@@ -133,7 +135,6 @@ public class FluidInit {
     public static final FluidObject INSULATING_GLASS = register("insulating_glass", new Color(37, 92, 25), MOLTEN_RL);
     public static final FluidObject ELECTRICAL_GLASS = register("electrical_glass", new Color(92, 25, 25), MOLTEN_RL);
     public static final FluidObject PURIFYING_WATER = register("purifying_water", new Color(146, 209, 222), MOLTEN_RL);
-    public static final FluidObject FERMENTED_BIOMASS = register("fermented_biomass", new Color(100, 189, 102), FLUID_RL);
     public static final FluidObject BIO_ETHANOL = register("bio_ethanol", new Color(208, 111, 0), FLUID_RL);
     public static final FluidObject FISH_OIL = register("fish_oil", new Color(215, 135, 79, 223), FLUID_RL);
     public static final FluidObject GLUE = register("glue", new Color(255, 191, 0, 238), FLUID_RL);
@@ -141,6 +142,9 @@ public class FluidInit {
     public static final FluidObject ANODE_SLUDGE = register("anode_sludge", new Color(133, 133, 133), FLUID_RL);
     public static final FluidObject DISSOLVENT = register("dissolvent", new Color(111, 205, 193, 255), FLUID_RL);
     public static final FluidObject NOBLE_MIXTURE = register("noble_mixture", new Color(134, 105, 1, 255), FLUID_RL);
+    public static final FluidObject CHARCOAL_BYPRODUCTS = register("charcoal_byproducts", new Color(78, 64, 18, 255), FLUID_RL);
+    public static final FluidObject WOOD_GAS = register("wood_gas", new Color(199, 159, 99, 255), FLUID_RL);
+    public static final FluidObject WOOD_VINEGAR = register("wood_vinegar", new Color(120, 56, 14, 255), FLUID_RL);
 
     public static final FluidObject REFINED_REDSTONE = register("refined_redstone", new Color(196, 27, 14, 255), MOLTEN_RL);
     public static final FluidObject REFINED_GLOWSTONE = register("refined_glowstone", new Color(255, 188, 94, 255), MOLTEN_RL);
