@@ -5,7 +5,6 @@ import elucent.eidolon.network.RitualConsumePacket;
 import elucent.eidolon.ritual.IRequirement;
 import elucent.eidolon.ritual.RequirementInfo;
 import elucent.eidolon.ritual.Ritual;
-import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.util.math.AxisAlignedBB;
@@ -28,10 +27,9 @@ public class EntityRequirement implements IRequirement {
     public RequirementInfo isMet(Ritual ritual, World world, BlockPos blockPos) {
         List<LivingEntity> entities = world.getEntitiesOfClass(LivingEntity.class, ritual.getSearchBounds(blockPos), LivingEntity::isInvertedHealAndHarm)
                 .stream().filter(le -> le.getType() == entityType).collect(Collectors.toList());
-        if (!entities.isEmpty()) {
-            for (LivingEntity e : entities) {
-                return new RequirementInfo(true, e.blockPosition());
-            }
+        if (entities.isEmpty()) return RequirementInfo.FALSE;
+        for (LivingEntity e : entities) {
+            return new RequirementInfo(true, e.blockPosition());
         }
         return RequirementInfo.FALSE;
     }

@@ -8,7 +8,6 @@ import fr.minemobs.superpackutils.objects.items.TinyTorchItem;
 import fr.minemobs.superpackutils.objects.items.foods.Bread;
 import fr.minemobs.superpackutils.utils.helper.KeyboardHelper;
 import net.minecraft.client.util.ITooltipFlag;
-import net.minecraft.item.BucketItem;
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -21,10 +20,8 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
-
 import javax.annotation.Nullable;
 import java.util.List;
-import java.util.function.Supplier;
 
 public class ItemInit {
 
@@ -616,7 +613,6 @@ public class ItemInit {
     public static final DeferredRegister<Item> VANILLA_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, "minecraft");
 
     public static final RegistryObject<Item> BREAD = VANILLA_ITEMS.register("bread", Bread::new);
-
 
     //Register functions
 
