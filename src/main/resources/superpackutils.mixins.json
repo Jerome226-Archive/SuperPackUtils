@@ -5,6 +5,7 @@
   "refmap": "superpackutils.refmap.json",
   "mixins": [
     "item.MixinItemTier",
+    "recipes.MixinBlueprintCraftingRecipe",
     "recipes.MixinCrucibleRegistry",
     "recipes.MixinWorktableRegistry"
   ],

@@ -122,6 +122,7 @@ repositories {
     maven { url = 'https://libraries.minecraft.net/' }
     mavenCentral()
     maven { url = 'https://maven.minecraftforge.net/' }
+    maven { url = 'https://maven.blamejared.com/'}
 
     flatDir name: 'lib', dirs: 'libs'
 }
@@ -142,6 +143,7 @@ dependencies {
     runtimeOnly fg.deobf("mekanism:Mekanism:${mekanism_version}")
 
     implementation fg.deobf("JeromeIsAWeeb:eidolon:${eidelon_version}")
+    implementation fg.deobf("blusunrize.immersiveengineering:ImmersiveEngineering:${immersive_version}")
 
     compile fg.deobf("team.chisel.ctm:CTM:MC1.16.1-1.1.2.6")
 }
