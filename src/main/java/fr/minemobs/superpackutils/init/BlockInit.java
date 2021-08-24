@@ -57,6 +57,7 @@ public class BlockInit {
     public static final RegistryObject<Block> ELECTRIC_BLAST_FURNACE_CASING = registerBlock("electric_blast_furnace_casing", AbstractBlock.Properties.copy(Blocks.DIAMOND_BLOCK));
     public static final RegistryObject<Block> PRIMITIVE_ASSEMBLER_FRAME = registerBlock("primitive_assembler_frame", AbstractBlock.Properties.copy(Blocks.DIAMOND_BLOCK));
     public static final RegistryObject<Block> INDUCTION_FABRICATOR_CASING = registerBlock("induction_fabricator_casing", AbstractBlock.Properties.copy(Blocks.DIAMOND_BLOCK));
+    public static final RegistryObject<Block> SUPERCOOLER_CASING = registerBlock("supercooler_casing", AbstractBlock.Properties.copy(Blocks.DIAMOND_BLOCK));
 
     //Platinum Ore
     public static final RegistryObject<Block> PLATINUM_ORE = registerBlock("platinum_ore");
@@ -84,6 +85,14 @@ public class BlockInit {
     public static final RegistryObject<Block> ENRICHED_URANIUM_BLOCK = registerBlock("enriched_uranium_block", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
     public static final RegistryObject<Block> GALLIUM_BLOCK = registerBlock("gallium_block", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
     public static final RegistryObject<Block> SOULARIUM_BLOCK = registerBlock("soularium_block", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
+    public static final RegistryObject<Block> PALLADIUM_BLOCK = registerBlock("palladium_block", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
+    public static final RegistryObject<Block> CHROME_BLOCK = registerBlock("chrome_block", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
+
+    //Ore Sand
+    public static final RegistryObject<Block> SEDIMENTARY_EXHALATIVE_SAND = registerBlock("sedimentary_exhalative_sand", AbstractBlock.Properties.copy(Blocks.SAND));
+    public static final RegistryObject<Block> GREISEN_SAND = registerBlock("greisen_sand", AbstractBlock.Properties.copy(Blocks.SAND));
+    public static final RegistryObject<Block> ULTRAMAFIC_SAND = registerBlock("ultramafic_sand", AbstractBlock.Properties.copy(Blocks.SAND));
+    public static final RegistryObject<Block> PORPHYRY_SAND = registerBlock("porphyry_sand", AbstractBlock.Properties.copy(Blocks.SAND));
 
     //Raw Ore Block
     public static final RegistryObject<Block> RAW_IRON_BLOCK = registerBlock("raw_iron_block", AbstractBlock.Properties.copy(Blocks.STONE));

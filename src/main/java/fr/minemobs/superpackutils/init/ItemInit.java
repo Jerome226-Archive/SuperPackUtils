@@ -31,7 +31,6 @@ public class ItemInit {
 
     public static final RegistryObject<Item> MYTHRIL_INGOT = ITEMS.register("mythril_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> PLATINUM_INGOT = ITEMS.register("platinum_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> CHROMIUM_SHARD = ITEMS.register("chromium_shard", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> STAINLESS_STEEL_INGOT = ITEMS.register("stainless_steel_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> ELECTRICAL_PLATINUM_INGOT = ITEMS.register("electrical_platinum_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> ELECTRICAL_STEEL_INGOT = ITEMS.register("electrical_steel_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
@@ -68,6 +67,11 @@ public class ItemInit {
     public static final RegistryObject<Item> ENRICHED_URANIUM_INGOT = ITEMS.register("enriched_uranium_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> GALLIUM_INGOT = ITEMS.register("gallium_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> SOULARIUM_INGOT = ITEMS.register("soularium_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> REFINED_IRON_INGOT = ITEMS.register("refined_iron_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PALLADIUM_INGOT = ITEMS.register("palladium_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> CHROME_INGOT = ITEMS.register("chrome_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> VANADIUM_INGOT = ITEMS.register("vanadium_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> FERROCHROME_INGOT = ITEMS.register("ferrochrome_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
     //Tiny Dust
     public static final RegistryObject<Item> TINY_ALUMINUM_DUST = ITEMS.register("tiny_aluminum_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
@@ -94,7 +98,10 @@ public class ItemInit {
     public static final RegistryObject<Item> TINY_ZIRCONIUM_DUST = ITEMS.register("tiny_zirconium_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> TINY_INDIUM_DUST = ITEMS.register("tiny_indium_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> TINY_GALLIUM_DUST = ITEMS.register("tiny_gallium_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-
+    public static final RegistryObject<Item> TINY_REFINED_IRON_DUST = ITEMS.register("tiny_refined_iron_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> TINY_PALLADIUM_DUST = ITEMS.register("tiny_palladium_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> TINY_CHROME_DUST = ITEMS.register("tiny_chrome_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> TINY_VANADIUM_DUST = ITEMS.register("tiny_vanadium_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     //Refined Dust
     public static final RegistryObject<Item> REFINED_GLOWSTONE_DUST = ITEMS.register("refined_glowstone_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> REFINED_REDSTONE_DUST = ITEMS.register("refined_redstone_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
@@ -170,7 +177,11 @@ public class ItemInit {
     public static final RegistryObject<Item> INDIUM_NUGGET = ITEMS.register("indium_nugget", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> GALLIUM_NUGGET = ITEMS.register("gallium_nugget", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> SOULARIUM_NUGGET = ITEMS.register("soularium_nugget", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-
+    public static final RegistryObject<Item> REFINED_IRON_NUGGET = ITEMS.register("refined_iron_nugget", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> STAINLESS_STEEL_NUGGET = ITEMS.register("stainless_steel_nugget", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PALLADIUM_NUGGET = ITEMS.register("palladium_nugget", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> CHROME_NUGGET = ITEMS.register("chrome_nugget", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> VANADIUM_NUGGET = ITEMS.register("vanadium_nugget", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     //Rod
     public static final RegistryObject<Item> NEODYMIUM_ROD = ITEMS.register("neodymium_rod", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> MAGNETIZED_NEODYMIUM_ROD = ITEMS.register("magnetized_neodymium_rod", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
@@ -216,7 +227,11 @@ public class ItemInit {
     public static final RegistryObject<Item> ENRICHED_URANIUM_DUST = ITEMS.register("enriched_uranium_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> GALLIUM_DUST = ITEMS.register("gallium_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> SOULARIUM_DUST = ITEMS.register("soularium_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-
+    public static final RegistryObject<Item> REFINED_IRON_DUST = ITEMS.register("refined_iron_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> STAINLESS_STEEL_DUST = ITEMS.register("stainless_steel_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PALLADIUM_DUST = ITEMS.register("palladium_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> CHROME_DUST = ITEMS.register("chrome_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> VANADIUM_DUST = ITEMS.register("vanadium_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     //Crushed Ore
     public static final RegistryObject<Item> CRUSHED_COBALT_ORE = ITEMS.register("crushed_cobalt_ore", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
@@ -393,17 +408,40 @@ public class ItemInit {
 
     //Raw Ores
     public static final RegistryObject<Item> RAW_IRON = ITEMS.register("raw_iron", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_RAW_IRON = ITEMS.register("purified_raw_iron", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> RAW_GOLD = ITEMS.register("raw_gold", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_RAW_GOLD = ITEMS.register("purified_raw_gold", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> RAW_COPPER = ITEMS.register("raw_copper", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_RAW_COPPER = ITEMS.register("purified_raw_copper", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> RAW_ALUMINUM = ITEMS.register("raw_aluminum", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_RAW_ALUMINUM = ITEMS.register("purified_raw_aluminum", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> RAW_SILVER = ITEMS.register("raw_silver", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_RAW_SILVER = ITEMS.register("purified_raw_silver", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> RAW_LEAD = ITEMS.register("raw_lead", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_RAW_LEAD = ITEMS.register("purified_raw_lead", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> RAW_TIN = ITEMS.register("raw_tin", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_RAW_TIN = ITEMS.register("purified_raw_tin", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> RAW_NICKEL = ITEMS.register("raw_nickel", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_RAW_NICKEL = ITEMS.register("purified_raw_nickel", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> RAW_COBALT = ITEMS.register("raw_cobalt", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_RAW_COBALT = ITEMS.register("purified_raw_cobalt", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> RAW_ZINC = ITEMS.register("raw_zinc", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_RAW_ZINC = ITEMS.register("purified_raw_zinc", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> RAW_URANIUM = ITEMS.register("raw_uranium", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_RAW_URANIUM = ITEMS.register("purified_raw_uranium", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> RAW_OSMIUM = ITEMS.register("raw_osmium", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_RAW_OSMIUM = ITEMS.register("purified_raw_osmium", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
     //ae2 ripoff
     public static final RegistryObject<Item> QUARTZ_SEED_1 = ITEMS.register("quartz_seed_1", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
@@ -458,27 +496,67 @@ public class ItemInit {
 
     //Ore
     public static final RegistryObject<Item> LUCABINDIITE = ITEMS.register("lucabindiite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_LUCABINDIITE = ITEMS.register("purified_lucabindiite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> CHALCOPYRITE = ITEMS.register("chalcopyrite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_CHALCOPYRITE = ITEMS.register("purified_chalcopyrite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> PYRITE = ITEMS.register("pyrite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_PYRITE = ITEMS.register("purified_pyrite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> CADMIONDITE = ITEMS.register("cadmiondite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURFIIED_CADMIONDITE = ITEMS.register("purified_cadmiondite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> WULFENITE = ITEMS.register("wulfenite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_WULFENITE = ITEMS.register("purified_wulfenite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> MAGNESITE = ITEMS.register("magnesite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_MAGNESITE = ITEMS.register("purified_magnesite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> SIDERITE = ITEMS.register("siderite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_SIDERITE = ITEMS.register("purified_siderite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> PITCHBLENDE = ITEMS.register("pitchblende", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_PITCHBLENDE = ITEMS.register("purified_pitchblende", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> POWELLITE = ITEMS.register("powellite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_POWELLITE = ITEMS.register("purified_powellite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> SHELDONITE = ITEMS.register("sheldonite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_SHELDONITE = ITEMS.register("purified_sheldonite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> URANINITE = ITEMS.register("uraninite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_URANINITE = ITEMS.register("purified_uraninite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> STIBNITE = ITEMS.register("stibnite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_STIBNITE = ITEMS.register("purified_stibnite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> PENTLADITE = ITEMS.register("pentladite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_PENTLADITE = ITEMS.register("purified_pentladite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> SCHEELITE = ITEMS.register("scheelite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_SCHEELITE = ITEMS.register("purified_scheelite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> TUNGSTATE = ITEMS.register("tungstate", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_TUNGSTATE = ITEMS.register("purified_tungstate", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> CHROMITE = ITEMS.register("chromite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_CHROMITE = ITEMS.register("purified_chromite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> BERYL = ITEMS.register("beryl", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_BERYL = ITEMS.register("purified_beryl", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> LAZURITE = ITEMS.register("lazurite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_LAZURITE = ITEMS.register("purified_lazurite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> COBALTITE = ITEMS.register("cobaltite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_COBALTITE = ITEMS.register("purified_cobaltite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> SODALITE = ITEMS.register("sodalite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> HYDROGEN_SULFIDE_DUST = ITEMS.register("hydrogen_sulfide_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_SODALITE = ITEMS.register("purified_sodalite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> VANADITE = ITEMS.register("vanadite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PURIFIED_VANADITE = ITEMS.register("purified_vanadite", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
     //Food
     public static final RegistryObject<Item> TATER_TOT = ITEMS.register("tater_tot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)
@@ -605,6 +683,8 @@ public class ItemInit {
     public static final RegistryObject<Item> STAR_HIDE_STOCK = ITEMS.register("star_hide_stock", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> PLYWOOD = ITEMS.register("plywood", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> DIODE = ITEMS.register("diode", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> HYDROGEN_SULFIDE_DUST = ITEMS.register("hydrogen_sulfide_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> TRANSISTOR = ITEMS.register("transistor", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
     public static final RegistryObject<Item> TINY_TORCH = ITEMS.register("item_tiny_torch", () -> new TinyTorchItem(BlockInit.TINY_TORCH.get(),
             BlockInit.WALL_TINY_TORCH.get(), new Item.Properties().tab(Main.ModItemGroup.instance)));
