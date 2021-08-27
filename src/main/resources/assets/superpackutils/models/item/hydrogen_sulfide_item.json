@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "superpackutils:item/circuit_board"
+    "layer0": "superpackutils:item/hydrogen_sulfide_item"
   }
 }

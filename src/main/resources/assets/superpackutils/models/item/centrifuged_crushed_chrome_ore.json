@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "superpackutils:item/centrifuged_crushed_chrome_ore"
+  }
+}
