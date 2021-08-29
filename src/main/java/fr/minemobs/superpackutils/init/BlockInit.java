@@ -88,6 +88,9 @@ public class BlockInit {
     public static final RegistryObject<Block> SOULARIUM_BLOCK = registerBlock("soularium_block", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
     public static final RegistryObject<Block> PALLADIUM_BLOCK = registerBlock("palladium_block", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
     public static final RegistryObject<Block> CHROME_BLOCK = registerBlock("chrome_block", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
+    public static final RegistryObject<Block> VANADIUM_BLOCK = registerBlock("vanadium_block", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
+    public static final RegistryObject<Block> ALUMINUM_BLOCK = registerBlock("aluminum_block", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
+    public static final RegistryObject<Block> MOLYBDENUM_BLOCK = registerBlock("molybdenum_block", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
 
     //Ore Sand
     public static final RegistryObject<Block> SEDIMENTARY_EXHALATIVE_SAND = registerBlock("sedimentary_exhalative_sand", AbstractBlock.Properties.copy(Blocks.SAND));
@@ -119,6 +122,7 @@ public class BlockInit {
     public static final RegistryObject<Block> RAW_TUNGSTEN_BLOCK = registerBlock("raw_tungsten_block", AbstractBlock.Properties.copy(Blocks.STONE));
     public static final RegistryObject<Block> RAW_PALLADIUM_BLOCK = registerBlock("raw_palladium_block", AbstractBlock.Properties.copy(Blocks.STONE));
     public static final RegistryObject<Block> RAW_BERYLLIUM_BLOCK = registerBlock("raw_beryllium_block", AbstractBlock.Properties.copy(Blocks.STONE));
+    public static final RegistryObject<Block> RAW_MOLYBDENUM_BLOCK = registerBlock("raw_molybdenum_block", AbstractBlock.Properties.copy(Blocks.STONE));
 
     //Decoration Block
     public static final RegistryObject<Block> CERTUS_QUARTZ_BRICKS = registerBlock("certus_quartz_bricks", AbstractBlock.Properties.copy(Blocks.QUARTZ_BRICKS));
