@@ -85,6 +85,12 @@ public class FluidInit {
     public static final FluidObject BENZYL_CHLORIDE = register("benzyl_chloride", new Color(102, 89, 53), FLUID_RL);
     public static final FluidObject NITRIC_ACID = register("nitric_acid", new Color(179, 178, 86), FLUID_RL);
     public static final FluidObject HYDROGEN_SULFIDE = register("hydrogen_sulfide", new Color(227, 220, 86), FLUID_RL);
+    public static final FluidObject NEON = register("neon", new Color(109, 129, 161), FLUID_RL);
+    public static final FluidObject ARGON = register("argon", new Color(111, 176, 123), FLUID_RL);
+    public static final FluidObject KRYPTON = register("krypton", new Color(58, 76, 134), FLUID_RL);
+    public static final FluidObject XENON = register("xenon", new Color(99, 70, 145), FLUID_RL);
+    public static final FluidObject RADON = register("radon", new Color(145, 70, 130), FLUID_RL);
+
 
     public static final FluidObject PYROTHEUM = register("pyrotheum", new Color(255, 187, 0), MOLTEN_RL, 2300);
     public static final FluidObject CRYOTHEUM = register("cryotheum", new Color(0, 191, 255), MOLTEN_RL, -2300);
