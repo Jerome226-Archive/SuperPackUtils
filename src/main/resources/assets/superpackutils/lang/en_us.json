@@ -1236,6 +1236,11 @@
   "item.superpackutils.molybdenum_nugget": "Molybdenum Nugget",
   "item.superpackutils.tiny_molybdenum_dust": "Tiny Molybdenum Dust",
   "item.superpackutils.bio_charcoal": "Bio Charcoal",
+  "item.superpackutils.combusting_alloy": "\u00A7eCombusting Alloy",
+  "item.superpackutils.basic_alloy": "\u00A7aBasic Alloy",
+  "item.superpackutils.core_alloy": "\u00A77Core Alloy",
+  "item.superpackutils.primitive_circuit_assembly": "\u00A78Primitive Circuit",
+  "item.superpackutils.primitive_control_circuit": "\u00A78Primitive Control Circuit",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 
