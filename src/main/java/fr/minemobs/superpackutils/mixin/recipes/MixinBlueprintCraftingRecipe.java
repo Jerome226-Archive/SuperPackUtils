@@ -13,7 +13,7 @@ import java.util.Set;
 @Mixin(BlueprintCraftingRecipe.class)
 public abstract class MixinBlueprintCraftingRecipe {
 
-    @Shadow @Nonnull public static Set<String> recipeCategories;
+    @Shadow(remap = false) @Nonnull public static Set<String> recipeCategories;
 
     @Inject(remap = false, at = @At("TAIL"), method = "registerDefaultCategories")
     private static void registerDefaultCategories(CallbackInfo ci) {

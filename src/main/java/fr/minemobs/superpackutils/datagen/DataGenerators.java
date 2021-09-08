@@ -1,6 +1,8 @@
 package fr.minemobs.superpackutils.datagen;
 
 import fr.minemobs.superpackutils.Main;
+import fr.minemobs.superpackutils.datagen.client.ModItemModelProvider;
+import fr.minemobs.superpackutils.datagen.client.ModTextureProvider;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -17,5 +19,6 @@ public final class DataGenerators {
         DataGenerator gen = event.getGenerator();
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
         gen.addProvider(new ModItemModelProvider(gen, existingFileHelper));
+        gen.addProvider(new ModTextureProvider(gen, existingFileHelper));
     }
 }

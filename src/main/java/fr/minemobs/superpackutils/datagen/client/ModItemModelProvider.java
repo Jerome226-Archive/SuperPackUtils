@@ -1,4 +1,4 @@
-package fr.minemobs.superpackutils.datagen;
+package fr.minemobs.superpackutils.datagen.client;
 
 import fr.minemobs.superpackutils.Main;
 import fr.minemobs.superpackutils.init.FluidInit;

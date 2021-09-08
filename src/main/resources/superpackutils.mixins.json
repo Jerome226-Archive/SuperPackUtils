@@ -9,7 +9,9 @@
     "recipes.MixinCrucibleRegistry",
     "recipes.MixinWorktableRegistry"
   ],
-  "client": [],
+  "client": [
+    "gui.MixinMainMenu"
+  ],
   "injectors": {
     "defaultRequire": 1
   },
