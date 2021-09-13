@@ -363,9 +363,17 @@ public class ItemInit {
     public static final RegistryObject<Item> DARK_SLAG_ALLOY = ITEMS.register("dark_slag_alloy", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
     //Control Circuits Componement
+    public static final RegistryObject<Item> PRIMITIVE_DIODE = ITEMS.register("primitive_diode", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PRIMITIVE_TRANSISTOR = ITEMS.register("primitive_transistor", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PRIMITIVE_RESISTOR = ITEMS.register("primitive_resistor", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     public static final RegistryObject<Item> DIODE = ITEMS.register("diode", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> TRANSISTOR = ITEMS.register("transistor", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> RESISTOR = ITEMS.register("resistor", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
+    public static final RegistryObject<Item> ADVANCED_DIODE = ITEMS.register("advanced_diode", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> ADVANCED_TRANSISTOR = ITEMS.register("advanced_transistor", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> ADVANCED_RESISTOR = ITEMS.register("advanced_resistor", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
     //Plastic
     public static final RegistryObject<Item> ABS_SHEET = ITEMS.register("abs_sheet", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
