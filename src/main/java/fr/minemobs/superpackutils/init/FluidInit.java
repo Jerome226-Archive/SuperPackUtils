@@ -151,6 +151,8 @@ public class FluidInit {
     public static final FluidObject CHARCOAL_BYPRODUCTS = register("charcoal_byproducts", new Color(78, 64, 18, 255), FLUID_RL);
     public static final FluidObject WOOD_GAS = register("wood_gas", new Color(199, 159, 99, 255), FLUID_RL);
     public static final FluidObject WOOD_VINEGAR = register("wood_vinegar", new Color(120, 56, 14, 255), FLUID_RL);
+    public static final FluidObject SYNFUEL = register("synfuel", new Color(0, 54, 19), FLUID_RL);
+    public static final FluidObject REFINERY_GAS = register("refinery_gas", new Color(223, 243, 245), FLUID_RL);
 
     public static final FluidObject REFINED_REDSTONE = register("refined_redstone", new Color(196, 27, 14, 255), MOLTEN_RL);
     public static final FluidObject REFINED_GLOWSTONE = register("refined_glowstone", new Color(255, 188, 94, 255), MOLTEN_RL);
