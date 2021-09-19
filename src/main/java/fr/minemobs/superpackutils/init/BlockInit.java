@@ -143,7 +143,7 @@ public class BlockInit {
 
     //Register functions
 
-    private static RegistryObject<Block> registerBlock(String name) {
+    public static RegistryObject<Block> registerBlock(String name) {
         return BLOCKS.register(name.toLowerCase(Locale.ROOT).replaceAll(" ","_"), () -> new Block(AbstractBlock.Properties.copy(Blocks.STONE)));
     }
 

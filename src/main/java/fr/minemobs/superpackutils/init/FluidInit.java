@@ -156,7 +156,7 @@ public class FluidInit {
     public static final FluidObject REFINED_GLOWSTONE = register("refined_glowstone", new Color(255, 188, 94, 255), MOLTEN_RL);
     public static final FluidObject REFINED_ENDER = register("refined_ender", new Color(29, 114, 140, 255), MOLTEN_RL);
 
-    private static FluidObject register(@Nonnull String name, @Nonnull Color color, @Nonnull ResourceLocation[] resourcesLocations) {
+    public static FluidObject register(@Nonnull String name, @Nonnull Color color, @Nonnull ResourceLocation[] resourcesLocations) {
         final ForgeFlowingFluid.Properties[] properties = {null};
         RegistryObject<FlowingFluid> FLUID = FLUIDS.register(name,
                 () -> new ForgeFlowingFluid.Source(properties[0]));
@@ -177,7 +177,7 @@ public class FluidInit {
         return fluid;
     }
 
-    private static FluidObject register(@Nonnull String name, @Nonnull Color color, @Nonnull ResourceLocation[] resourcesLocations, int temperature) {
+    public static FluidObject register(@Nonnull String name, @Nonnull Color color, @Nonnull ResourceLocation[] resourcesLocations, int temperature) {
         final ForgeFlowingFluid.Properties[] properties = {null};
         RegistryObject<FlowingFluid> FLUID = FLUIDS.register(name,
                 () -> new ForgeFlowingFluid.Source(properties[0]));

@@ -37,9 +37,9 @@ public class InfuseTypeInit {
 
     /**
      * @param name Registry name of the infused type ?
-     * @param tint hexadecimal color
+     * @param tint rgb color
      */
-    private static RegistryObject<InfuseType> register(String name, int tint) {
+    public static RegistryObject<InfuseType> register(String name, int tint) {
         return INFUSE_TYPES.register(name.toLowerCase(), () -> new InfuseType(InfuseTypeBuilder.builder().color(tint)));
     }
 }
