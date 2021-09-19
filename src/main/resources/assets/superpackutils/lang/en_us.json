@@ -349,6 +349,8 @@
   "fluid.superpackutils.radon": "Radon",
   "fluid.superpackutils.xenon": "Xenon",
   "fluid.superpackutils.noble_gases": "Noble Gases",
+  "fluid.superpackutils.synfuel": "Synfuel",
+  "fluid.superpackutils.refinery_gas": "Refinery Gas",
 
   "item.superpackutils.ethyl_chloride_bucket": "Liquid Ethyl Chloride Bucket",
   "item.superpackutils.acetylene_bucket": "Liquid Acetylene Bucket",
