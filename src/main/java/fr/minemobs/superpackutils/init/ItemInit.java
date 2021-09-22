@@ -896,8 +896,7 @@ public class ItemInit {
 
     public static final RegistryObject<Item> BREAD = VANILLA_ITEMS.register("bread", Bread::new);
 
-    //Register functions
-
+    //Register functions for tooltips
     private static RegistryObject<Item> registerItem(String registryName, boolean tooltip) {
         String name = registryName.toLowerCase().replaceAll("\\s+", "_");
         return ITEMS.register(name, () -> new AbstractItem() {
@@ -914,14 +913,22 @@ public class ItemInit {
         });
     }
 
+    //Registry for simple items
     private static RegistryObject<Item> registerSimpleItem(String registryName) {
         return ITEMS.register(registryName.toLowerCase().replaceAll("\\s+", "_"), () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     }
 
     private static Ore registerItem(Ore ore) {
+
+        //Configure all parameters with what they register
         Main.LOGGER.info("Has ore ? " + ore.ore);
         if(ore.ore) {
             ore.oreItem = registerSimpleItem("raw_" + ore.registryName);
+            ore.rawOreBlock = BlockInit.registerBlock("raw_" + ore.registryName + "_block");
+        }
+        if(ore.specialOre) {
+            ore.infusedOreItem = registerSimpleItem("infused_raw_" + ore.registryName);
+            ore.purifiedOreItem = registerSimpleItem("purified_raw_" + ore.registryName);
         }
         if(ore.ingot) {
             ore.ingotItem = registerSimpleItem(ore.registryName + "_ingot");
@@ -929,18 +936,25 @@ public class ItemInit {
             ore.block = BlockInit.registerBlock(ore.registryName + "_block");
         }
         if(ore.dust) ore.dustItem = registerSimpleItem(ore.registryName + "_dust");
+        if(ore.specialDust) ore.tinyDustItem = registerSimpleItem("tiny_" + ore.registryName + "_dust");
         if(ore.coin) ore.coinItem = registerSimpleItem(ore.registryName + "_coin");
         if(ore.gear) ore.gearItem = registerSimpleItem(ore.registryName + "_gear");
         if(ore.plate) ore.plateItem = registerSimpleItem(ore.registryName + "_plate");
         if(ore.crushed) ore.crushedItem = registerSimpleItem("crushed" + ore.registryName + "_ore");
+        if(ore.specialCrushed) {
+            ore.infusedCrushedItem = registerSimpleItem("infused_crushed_" + ore.registryName+ "_ore");
+            ore.purifiedCrushedItem = registerSimpleItem("purified_crushed_" + ore.registryName+ "_ore");
+            ore.centrifugedCrushedItem = registerSimpleItem("centrifuged_crushed_" + ore.registryName+ "_ore");
+
+        }
         if(ore.rod) ore.rodItem = registerSimpleItem(ore.registryName + "_rod");
         if(ore.wire) ore.wireItem = registerSimpleItem(ore.registryName + "_wire");
-        if(ore.moltenFluid) ore.moltenFluidObject = FluidInit.register(ore.registryName + "_material", new Color(ore.color), FluidInit.MOLTEN_RL);
+        if(ore.moltenFluid) ore.moltenFluidObject = FluidInit.register("molten_" + ore.registryName, new Color(ore.color), FluidInit.MOLTEN_RL);
         if(ore.mekanismOreProcessing) {
             ore.slurry = SlurriesInit.createSlurry(ore.registryName + "_slurry", new Color(ore.color), Tag.empty());
-            ore.clump = registerSimpleItem("clump_" + ore.registryName);
-            ore.shard = registerSimpleItem("crystal_" + ore.registryName);
-            ore.crystal = registerSimpleItem("crystal_" + ore.registryName);
+            ore.clumpItem = registerSimpleItem("clump_" + ore.registryName);
+            ore.shardItem = registerSimpleItem("shard_" + ore.registryName);
+            ore.crystalItem = registerSimpleItem("crystal_" + ore.registryName);
         }
         if(ore.alchemical) {
             ore.alchemicalDust = registerSimpleItem("alchemical_" + ore.registryName + "_dust");
@@ -953,7 +967,9 @@ public class ItemInit {
     public static class OreBuilder {
         public final String registryName;
         private final int color;
-        private Boolean oreItem, ingot, dust, coin, gear, plate, crushed, rod, wire, moltenFluid, mekanismOreProcessing, alchemical;
+
+        //Build all the parameters
+        private Boolean oreItem, specialOreItem, ingot, dust, specialDust, coin, gear, plate, crushed, specialCrushed, rod, wire, moltenFluid, mekanismOreProcessing, alchemical;
 
         public OreBuilder(String registryName, int rgbColor) {
             this.registryName = registryName.replaceAll("\\s+", "_").toLowerCase();
@@ -969,6 +985,11 @@ public class ItemInit {
            return this;
         }
 
+        public OreBuilder specialOre() {
+            this.specialOreItem = inverseBool(specialOreItem);
+            return this;
+        }
+
         public OreBuilder ingot() {
             this.ingot = inverseBool(ingot);
             return this;
@@ -976,6 +997,11 @@ public class ItemInit {
 
         public OreBuilder dust() {
             this.dust = inverseBool(dust);
+            return this;
+        }
+
+        public OreBuilder specialDust() {
+            this.specialDust = inverseBool(specialDust);
             return this;
         }
 
@@ -996,6 +1022,11 @@ public class ItemInit {
 
         public OreBuilder crushed() {
             this.crushed = inverseBool(crushed);
+            return this;
+        }
+
+        public OreBuilder specialCrushed() {
+            this.specialCrushed = inverseBool(specialCrushed);
             return this;
         }
 
@@ -1033,31 +1064,39 @@ public class ItemInit {
         }
 
         public Ore build() {
-            return new Ore(registryName, color, getBool(oreItem), getBool(ingot), getBool(dust), getBool(coin), getBool(gear), getBool(plate), getBool(crushed), getBool(rod), getBool(wire), getBool(moltenFluid), getBool(mekanismOreProcessing), getBool(alchemical));
+            return new Ore(registryName, color, getBool(oreItem), getBool(specialOreItem), getBool(ingot), getBool(dust), getBool(specialDust), getBool(coin), getBool(gear), getBool(plate), getBool(crushed), getBool(specialCrushed), getBool(rod), getBool(wire), getBool(moltenFluid), getBool(mekanismOreProcessing), getBool(alchemical));
         }
     }
 
     public static class Ore {
         public final String registryName;
         private final int color;
-        private final boolean ore, ingot, dust, coin, gear, plate, crushed, rod, wire, moltenFluid, mekanismOreProcessing, alchemical;
-        private RegistryObject<Item> oreItem, ingotItem, nuggetItem, dustItem, coinItem, gearItem, plateItem, crushedItem, rodItem, wireItem, clump, shard, crystal, alchemicalDust;
+
+        //Add new registry parameters here
+        private final boolean ore, specialOre, ingot, dust, specialDust, coin, gear, plate, crushed, specialCrushed, rod, wire, moltenFluid, mekanismOreProcessing, alchemical;
+
+        //Note the list of all the items/slurry/fluid that can be registered with the functions above
+        private RegistryObject<Item> oreItem, infusedOreItem, purifiedOreItem, ingotItem, nuggetItem, dustItem, tinyDustItem, coinItem, gearItem, plateItem, crushedItem, infusedCrushedItem, purifiedCrushedItem, centrifugedCrushedItem, rodItem, wireItem, clumpItem, shardItem, crystalItem, alchemicalDust;
         private RegistryObject<Slurry>[] slurry;
         private RegistryObject<InfuseType> alchemicalInfuse;
-        private RegistryObject<Block> block;
+        private RegistryObject<Block> block, rawOreBlock;
         private FluidInit.FluidObject moltenFluidObject;
 
-        public Ore(String registryName, int color, boolean oreItem, boolean ingot, boolean dust, boolean coin, boolean gear, boolean plate, boolean crushed, boolean rod,
+        //Reference all the parameters here
+        public Ore(String registryName, int color, boolean oreItem, boolean specialOreItem, boolean ingot, boolean dust, boolean specialDust, boolean coin, boolean gear, boolean plate, boolean crushed, boolean specialCrushed, boolean rod,
                    boolean wire, boolean moltenFluid, boolean mekanismOreProcessing, boolean alchemical) {
             this.registryName = registryName;
             this.color = color;
             this.ore = oreItem;
+            this.specialOre = specialOreItem;
             this.ingot = ingot;
             this.dust = dust;
+            this.specialDust = specialDust;
             this.coin = coin;
             this.gear = gear;
             this.plate = plate;
             this.crushed = crushed;
+            this.specialCrushed = specialCrushed;
             this.rod = rod;
             this.wire = wire;
             this.moltenFluid = moltenFluid;
@@ -1073,12 +1112,20 @@ public class ItemInit {
             return ore;
         }
 
+        public boolean getSpecialOre() {
+            return specialOre;
+        }
+
         public boolean getIngot() {
             return ingot;
         }
 
         public boolean getDust() {
             return dust;
+        }
+
+        public boolean getSpecialDust() {
+            return specialDust;
         }
 
         public boolean getCoin() {
@@ -1095,6 +1142,10 @@ public class ItemInit {
 
         public boolean getCrushed() {
             return crushed;
+        }
+
+        public boolean getSpecialCrushed() {
+            return specialCrushed;
         }
 
         public boolean getRod() {
@@ -1117,9 +1168,15 @@ public class ItemInit {
             return alchemical;
         }
 
+        //To add individual Item Registry
+
         public RegistryObject<Item> getOreItem() {
             return oreItem;
         }
+
+        public RegistryObject<Item> getInfusedOreItem() { return infusedOreItem; }
+
+        public RegistryObject<Item> getPurifiedOreItem() { return purifiedOreItem; }
 
         public RegistryObject<Item> getIngotItem() {
             return ingotItem;
@@ -1131,6 +1188,10 @@ public class ItemInit {
 
         public RegistryObject<Item> getDustItem() {
             return dustItem;
+        }
+
+        public RegistryObject<Item> getTinyDustItem() {
+            return tinyDustItem;
         }
 
         public RegistryObject<Item> getCoinItem() {
@@ -1147,6 +1208,30 @@ public class ItemInit {
 
         public RegistryObject<Item> getCrushedItem() {
             return crushedItem;
+        }
+
+        public RegistryObject<Item> getInfusedCrushedItem() {
+            return infusedCrushedItem;
+        }
+
+        public RegistryObject<Item> getPurifiedCrushedItem() {
+            return purifiedCrushedItem;
+        }
+
+        public RegistryObject<Item> getCentrifugedCrushedItem() {
+            return centrifugedCrushedItem;
+        }
+
+        public RegistryObject<Item> getClumpItem() {
+            return clumpItem;
+        }
+
+        public RegistryObject<Item> getShardItem() {
+            return shardItem;
+        }
+
+        public RegistryObject<Item> getCrystalItem() {
+            return crystalItem;
         }
 
         public RegistryObject<Item> getRodItem() {
@@ -1171,6 +1256,10 @@ public class ItemInit {
 
         public RegistryObject<Block> getBlock() {
             return block;
+        }
+
+        public RegistryObject<Block> getRawOreBlock() {
+            return rawOreBlock;
         }
 
         public FluidInit.FluidObject getMoltenFluidObject() {
