@@ -32,45 +32,6 @@ public class ItemInit {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Main.MOD_ID);
 
-    //Ingot
-
-    public static final RegistryObject<Item> STAINLESS_STEEL_INGOT = ITEMS.register("stainless_steel_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> COMPRESSED_STEEL_INGOT = ITEMS.register("compressed_steel_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> SUPERHEATED_BRONZE_INGOT = ITEMS.register("superheated_bronze_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> ALUMINUM_BRASS_INGOT = ITEMS.register("aluminum_brass_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> VIBRANT_ALLOY_INGOT = ITEMS.register("vibrant_alloy_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> ENERGETIC_ALLOY_INGOT = ITEMS.register("energetic_alloy_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> STELLAR_ALLOY_INGOT = ITEMS.register("stellar_alloy_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> PULSATING_ALLOY_INGOT = ITEMS.register("pulsating_alloy_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> HSLA_STEEL_INGOT = ITEMS.register("hsla_steel_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> MIXED_ALLOY_INGOT = ITEMS.register("mixed_alloy_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> BORON_INGOT = ITEMS.register("boron_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> LITHIUM_INGOT = ITEMS.register("lithium_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> CUPRONICKEL_INGOT = ITEMS.register("cupronickel_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> DARK_STEEL_INGOT = ITEMS.register("dark_steel_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> PROSPERITY_INGOT = ITEMS.register("prosperity_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> PLATINUM_MANGANESE_ALLOY_INGOT = ITEMS.register("platinum_manganese_alloy_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> ANTIMONY_INGOT = ITEMS.register("antimony_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> OSMIRIDIUM_INGOT = ITEMS.register("osmiridium_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> NEODYMIUM_INGOT = ITEMS.register("neodymium_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> BIOSLAG_INGOT = ITEMS.register("bioslag_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> TATER_ALLOY_INGOT = ITEMS.register("tater_alloy_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> PLUTONIUM_INGOT = ITEMS.register("plutonium_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> BERYLLIUM_INGOT = ITEMS.register("beryllium_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> MAGNESIUM_INGOT = ITEMS.register("magnesium_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> GRAPHENE_INGOT = ITEMS.register("graphene_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> ZIRCONIUM_INGOT = ITEMS.register("zirconium_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> INDIUM_INGOT = ITEMS.register("indium_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> ENRICHED_URANIUM_INGOT = ITEMS.register("enriched_uranium_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> GALLIUM_INGOT = ITEMS.register("gallium_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> SOULARIUM_INGOT = ITEMS.register("soularium_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> REFINED_IRON_INGOT = ITEMS.register("refined_iron_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> PALLADIUM_INGOT = ITEMS.register("palladium_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> CHROME_INGOT = ITEMS.register("chrome_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> VANADIUM_INGOT = ITEMS.register("vanadium_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> FERROCHROME_INGOT = ITEMS.register("ferrochrome_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> MOLYBDENUM_INGOT = ITEMS.register("molybdenum_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-
     //Tiny Dust
     public static final RegistryObject<Item> TINY_PLATINUM_DUST = ITEMS.register("tiny_platinum_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> TINY_MANGANESE_DUST = ITEMS.register("tiny_manganese_dust", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
@@ -790,8 +751,12 @@ public class ItemInit {
             BlockInit.WALL_TINY_TORCH.get(), new Item.Properties().tab(Main.ModItemGroup.instance)));
 
     //Examples
+
+    //Vanilla Materials
     public static final Ore IRON = registerItem(new OreBuilder("iron", new Color(216,175,147)).ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore GOLD = registerItem(new OreBuilder("gold", new Color(247,196,49)).ore().specialOre().specialDust().specialCrushed().build());
+
+    //Modded Material
     public static final Ore COPPER = registerItem(new OreBuilder("copper", new Color(231,141,65)).ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore ALUMINUM = registerItem(new OreBuilder("aluminum", new Color(163,175,176)).mekanismOreProcessing().ore().block().specialOre().specialDust().specialCrushed().build());
     public static final Ore NICKEL = registerItem(new OreBuilder("nickel", new Color(230,220,157)).mekanismOreProcessing().ore().specialOre().specialDust().specialCrushed().build());
@@ -802,6 +767,11 @@ public class ItemInit {
     public static final Ore COBALT = registerItem(new OreBuilder("cobalt", new Color(48,127,226)).mekanismOreProcessing().ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore URANIUM = registerItem(new OreBuilder("uranium", new Color(146,222,89)).gear().ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore OSMIUM = registerItem(new OreBuilder("osmium", new Color(174,182,201)).gear().ore().specialOre().specialDust().specialCrushed().build());
+    public static final Ore TUNGSTEN = registerItem(new OreBuilder("tungsten", new Color(81, 81, 81)).nugget().gear().ore().specialOre().specialDust().specialCrushed().build());
+
+    //Custom Materials
+    public static final Ore VIBRANT_ALLOY = registerItem(new OreBuilder("vibrant_alloy", new Color(150, 232, 26)).ingot().nugget().block().dust().specialDust().build());
+    public static final Ore ENERGETIC_ALLOY = registerItem(new OreBuilder("energetic_alloy", new Color(255, 103, 11)).ingot().nugget().block().dust().specialDust().build());
 
     public static final Ore PLATINUM = registerItem(new OreBuilder("platinum", new Color(149,219,255)).ingot().nugget().block().dust().specialDust().gear().ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore CHROME = registerItem(new OreBuilder("chrome", new Color(187,117,169)).moltenFluid().ingot().nugget().block().dust().specialDust().gear().ore().specialOre().specialDust().specialCrushed().build());
@@ -809,19 +779,31 @@ public class ItemInit {
     public static final Ore BERYLLIUM = registerItem(new OreBuilder("beryllium", new Color(39, 173, 157)).moltenFluid().ingot().nugget().block().dust().specialDust().gear().ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore MOLYBDENUM = registerItem(new OreBuilder("molybdenum", new Color(111,93,161)).moltenFluid().ingot().nugget().block().dust().specialDust().gear().ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore GALLIUM = registerItem(new OreBuilder("gallium", new Color(140, 178, 212)).moltenFluid().ingot().nugget().block().dust().specialDust().gear().ore().specialOre().specialDust().specialCrushed().build());
-    public static final Ore VANADIUM = registerItem(new OreBuilder("vanadium", new Color(102, 135, 192)).moltenFluid().ingot().nugget().block().dust().specialDust().gear().ore().specialOre().specialDust().specialCrushed().build());
+    public static final Ore VANADIUM = registerItem(new OreBuilder("vanadium", new Color(102, 135, 192)).mekanismOreProcessing().moltenFluid().ingot().nugget().block().dust().specialDust().gear().ore().specialOre().specialDust().specialCrushed().build());
+    public static final Ore ANTIMONY = registerItem(new OreBuilder("antimony", new Color(236, 236, 236)).moltenFluid().ingot().nugget().block().dust().specialDust().gear().ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore INDIUM = registerItem(new OreBuilder("indium", new Color(47, 151, 210)).moltenFluid().ingot().nugget().block().dust().specialDust().build());
     public static final Ore ZIRCONIUM = registerItem(new OreBuilder("zirconium", new Color(223, 237, 144)).moltenFluid().ingot().nugget().block().dust().specialDust().build());
     public static final Ore MAGNESIUM = registerItem(new OreBuilder("magnesium", new Color(192, 138, 138)).moltenFluid().ore().specialOre().crushed().specialCrushed().plate().ingot().nugget().block().dust().specialDust().build());
     public static final Ore BIO_SLAG = registerItem(new OreBuilder("bio_slag", new Color(138, 117, 110)).ingot().build());
+    public static final Ore COMPRESSED_STEEL = registerItem(new OreBuilder("compressed_steel", new Color(150, 149, 148)).ingot().build());
     public static final Ore DEPLETED_MYTHRIL = registerItem(new OreBuilder("depleted_mythril", new Color(142, 143, 169)).dust().specialDust().build());
-    public static final Ore MYTHRIL = registerItem(new OreBuilder("mythril", new Color(118, 114, 255)).dust().specialDust().ingot().nugget().block().plate().gear().build());
+    public static final Ore MYTHRIL = registerItem(new OreBuilder("mythril", new Color(118, 114, 255)).moltenFluid().dust().specialDust().ingot().nugget().block().plate().gear().build());
     public static final Ore ELECTRICAL_PLATINUM = registerItem(new OreBuilder("electrical_platinum", new Color(145, 205, 172)).ingot().build());
     public static final Ore ELECTRICAL_STEEL = registerItem(new OreBuilder("electrical_steel", new Color(176, 173, 173)).ingot().build());
     public static final Ore ELECTRICAL_HSLA_STEEL = registerItem(new OreBuilder("electrical_hsla_steel", new Color(183, 197, 222)).ingot().build());
-    public static final Ore TETRAETHYL_LEAD = registerItem(new OreBuilder("tetraethyl_lead", new Color(103, 105, 181)).ingot().nugget().dust().specialDust().build());
-    public static final Ore MANGANESE = registerItem(new OreBuilder("manganese", new Color(182, 196, 222)).ingot().nugget().specialDust().dust().block().build());
+    public static final Ore TETRAETHYL_LEAD = registerItem(new OreBuilder("tetraethyl_lead", new Color(103, 105, 181)).moltenFluid().ingot().nugget().dust().specialDust().build());
+    public static final Ore MANGANESE = registerItem(new OreBuilder("manganese", new Color(182, 196, 222)).moltenFluid().ingot().nugget().specialDust().dust().block().build());
     public static final Ore REFINED_REDSTONE = registerItem(new OreBuilder("refined_redstone", new Color(184, 40, 40)).ingot().nugget().block().dust().build());
+    public static final Ore STAINLESS_STEEL = registerItem(new OreBuilder("stainless_steel", new Color(126, 134, 139)).moltenFluid().ingot().nugget().block().dust().specialDust().build());
+    public static final Ore GRAPHENE = registerItem(new OreBuilder("graphene", new Color(59, 59, 59)).moltenFluid().ingot().nugget().block().dust().specialDust().build());
+    public static final Ore CUPRONICKEL = registerItem(new OreBuilder("cupronickel", new Color(115, 115, 74)).moltenFluid().ingot().nugget().block().build());
+    public static final Ore DARK_STEEL = registerItem(new OreBuilder("dark_steel", new Color(48, 48, 48)).moltenFluid().ingot().nugget().block().dust().specialDust().build());
+    public static final Ore SOULARIUM = registerItem(new OreBuilder("soularium", new Color(115, 79, 65)).moltenFluid().ingot().nugget().block().dust().specialDust().build());
+    public static final Ore OSMIRIDIUM = registerItem(new OreBuilder("osmiridium", new Color(147, 168, 206)).moltenFluid().ingot().nugget().block().dust().specialDust().build());
+
+    //Ore Vein
+    public static final Ore LUCABINDIITE = registerItem(new OreBuilder("lucabindiite", new Color(242, 219, 18)).dust().specialDust().ore().specialOre().crushed().specialCrushed().build());
+    public static final Ore CHALCOPYRITE = registerItem(new OreBuilder("lucabindiite", new Color(242, 219, 18)).dust().specialDust().ore().specialOre().crushed().specialCrushed().build());
 
     //VANILLA OVERRIDE
     public static final DeferredRegister<Item> VANILLA_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, "minecraft");
