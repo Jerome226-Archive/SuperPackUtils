@@ -803,7 +803,7 @@ public class ItemInit {
 
     //Ore Vein
     public static final Ore LUCABINDIITE = registerItem(new OreBuilder("lucabindiite", new Color(242, 219, 18)).dust().specialDust().ore().specialOre().crushed().specialCrushed().build());
-    public static final Ore CHALCOPYRITE = registerItem(new OreBuilder("lucabindiite", new Color(242, 219, 18)).dust().specialDust().ore().specialOre().crushed().specialCrushed().build());
+    //public static final Ore CHALCOPYRITE = registerItem(new OreBuilder("lucabindiite", new Color(242, 219, 18)).dust().specialDust().ore().specialOre().crushed().specialCrushed().build());
 
     //VANILLA OVERRIDE
     public static final DeferredRegister<Item> VANILLA_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, "minecraft");
