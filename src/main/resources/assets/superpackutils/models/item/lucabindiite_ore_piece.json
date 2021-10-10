@@ -1,6 +1,1 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "superpackutils:item/lucabindiite_ore_piece"
-  }
-}
+{"parent": "minecraft:item/generated","textures": {"layer0": "superpackutils:item/lucabindiite_ore_piece"}} 
