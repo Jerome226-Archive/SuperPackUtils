@@ -1449,7 +1449,16 @@
   "item.superpackutils.garnierite_dust": "Garnierite Dust",
   "item.superpackutils.tiny_garnierite_dust": "Tiny Garnierite Dust",
   "item.superpackutils.garnierite_ore_piece": "Garnierite Ore Piece",
-
+  "item.superpackutils.raw_pentladite": "Raw Pentladite",
+  "item.superpackutils.crushed_pentladite_ore": "Crushed Pentladite Ore",
+  "item.superpackutils.purified_crushed_pentladite_ore": "Purified Crushed Pentladite Ore",
+  "item.superpackutils.infused_crushed_pentladite_ore": "Infused Crushed Pentladite Ore",
+  "item.superpackutils.centrifuged_crushed_pentladite_ore": "Centrifuged Crushed Pentladite Ore",
+  "item.superpackutils.purified_raw_pentladite": "Purified Raw Pentladite",
+  "item.superpackutils.infused_raw_pentladite": "Infused Raw Pentladite",
+  "item.superpackutils.pentladite_dust": "Pentladite Dust",
+  "item.superpackutils.tiny_pentladite_dust": "Tiny Pentladite Dust",
+  "item.superpackutils.pentladite_ore_piece": "Pentladite Ore Piece",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 
