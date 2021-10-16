@@ -14,7 +14,6 @@ public class SlurriesInit {
 
     public static final DeferredRegister<Slurry> SLURRIES = DeferredRegister.create(Slurry.class, Main.MOD_ID);
 
-    public static final RegistryObject<Slurry>[] NICKEL_SLURRY = createSlurry("nickel", new Color(217, 201, 137), Tag.empty());
     public static final RegistryObject<Slurry>[] URANIUM_TETRAFLUORIDE = createSlurry("uranium_tetrafluoride", new Color(0, 255, 45), Tag.empty());
 
     @SuppressWarnings("unchecked")

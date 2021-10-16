@@ -94,8 +94,14 @@
   "block.superpackutils.vanadium_block": "Vanadium Block",
   "block.superpackutils.molybdenum_block": "Molybdenum Block",
 
-  "slurry.superpackutils.dirty_nickel": "Dirty Nickel Slurry",
-  "slurry.superpackutils.clean_nickel": "Clean Nickel Slurry",
+  "slurry.superpackutils.dirty_nickel_slurry": "Dirty Nickel Slurry",
+  "slurry.superpackutils.clean_nickel_slurry": "Clean Nickel Slurry",
+  "slurry.superpackutils.dirty_cobalt_slurry": "Dirty Cobalt Slurry",
+  "slurry.superpackutils.clean_cobalt_slurry": "Clean Cobalt Slurry",
+  "slurry.superpackutils.dirty_vanadium_slurry": "Dirty Vanadium Slurry",
+  "slurry.superpackutils.clean_vanadium_slurry": "Clean Vanadium Slurry",
+  "slurry.superpackutils.dirty_aluminum_slurry": "Dirty Aluminum Slurry",
+  "slurry.superpackutils.clean_aluminum_slurry": "Clean Aluminum Slurry",
   "slurry.superpackutils.clean_uranium_tetrafluoride": "Uranium Tetrafluoride",
   "slurry.superpackutils.dirty_uranium_tetrafluoride": "Untreated Uranium Tetrafluoride",
 
