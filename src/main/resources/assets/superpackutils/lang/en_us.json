@@ -1459,6 +1459,14 @@
   "item.superpackutils.pentladite_dust": "Pentladite Dust",
   "item.superpackutils.tiny_pentladite_dust": "Tiny Pentladite Dust",
   "item.superpackutils.pentladite_ore_piece": "Pentladite Ore Piece",
+  "item.superpackutils.tiny_dark_steel_dust": "Tiny Dark Steel Dust",
+  "item.superpackutils.tiny_enderium_dust": "Tiny Enderium Dust",
+  "item.superpackutils.tiny_signalum_dust": "Tiny Signalum Dust",
+  "item.superpackutils.tiny_lumium_dust": "Tiny Lumium Dust",
+  "item.superpackutils.tiny_mythril_dust": "Tiny Mythril Dust",
+  "item.superpackutils.tiny_soularium_dust": "Tiny Soularium Dust",
+  "item.superpackutils.tiny_stainless_steel_dust": "Tiny Stainless Steel Dust",
+  "item.superpackutils.tiny_tetraethyl_lead_dust": "Tiny Tetraethyl Lead Dust",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 

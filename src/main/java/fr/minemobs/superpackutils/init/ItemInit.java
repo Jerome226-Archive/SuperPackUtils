@@ -444,7 +444,7 @@ public class ItemInit {
     public static final Ore LEAD = registerItem(new OreBuilder("lead", new Color(69,73,103)).ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore TIN = registerItem(new OreBuilder("tin", new Color(108,137,152)).ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore SILVER = registerItem(new OreBuilder("silver", new Color(210,230,241)).ore().specialOre().specialDust().specialCrushed().build());
-    public static final Ore ZINC = registerItem(new OreBuilder("zinc", new Color(168,170,147)).ore().specialOre().specialDust().specialCrushed().build());
+    public static final Ore ZINC = registerItem(new OreBuilder("zinc", new Color(168,170,147)).ore().specialOre().dust().specialDust().specialCrushed().build());
     public static final Ore COBALT = registerItem(new OreBuilder("cobalt", new Color(48,127,226)).mekanismOreProcessing().ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore URANIUM = registerItem(new OreBuilder("uranium", new Color(146,222,89)).gear().ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore OSMIUM = registerItem(new OreBuilder("osmium", new Color(174,182,201)).gear().ore().specialOre().specialDust().specialCrushed().build());
@@ -465,7 +465,7 @@ public class ItemInit {
     public static final Ore INDIUM = registerItem(new OreBuilder("indium", new Color(47, 151, 210)).moltenFluid().ingot().nugget().block().dust().specialDust().build());
     public static final Ore ZIRCONIUM = registerItem(new OreBuilder("zirconium", new Color(223, 237, 144)).moltenFluid().ingot().nugget().block().dust().specialDust().build());
     public static final Ore MAGNESIUM = registerItem(new OreBuilder("magnesium", new Color(192, 138, 138)).moltenFluid().ore().specialOre().crushed().specialCrushed().plate().ingot().nugget().block().dust().specialDust().build());
-    public static final Ore BIO_SLAG = registerItem(new OreBuilder("bio_slag", new Color(138, 117, 110)).ingot().build());
+    public static final Ore BIOSLAG = registerItem(new OreBuilder("bioslag", new Color(138, 117, 110)).ingot().build());
     public static final Ore COMPRESSED_STEEL = registerItem(new OreBuilder("compressed_steel", new Color(150, 149, 148)).ingot().build());
     public static final Ore DEPLETED_MYTHRIL = registerItem(new OreBuilder("depleted_mythril", new Color(142, 143, 169)).dust().specialDust().build());
     public static final Ore MYTHRIL = registerItem(new OreBuilder("mythril", new Color(118, 114, 255)).moltenFluid().dust().specialDust().ingot().nugget().block().plate().gear().build());
