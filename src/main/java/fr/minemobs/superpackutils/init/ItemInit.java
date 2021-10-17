@@ -445,10 +445,9 @@ public class ItemInit {
     public static final Ore TIN = registerItem(new OreBuilder("tin", new Color(108,137,152)).ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore SILVER = registerItem(new OreBuilder("silver", new Color(210,230,241)).ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore ZINC = registerItem(new OreBuilder("zinc", new Color(168,170,147)).ore().specialOre().dust().specialDust().specialCrushed().build());
-    public static final Ore COBALT = registerItem(new OreBuilder("cobalt", new Color(48,127,226)).mekanismOreProcessing().ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore URANIUM = registerItem(new OreBuilder("uranium", new Color(146,222,89)).gear().ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore OSMIUM = registerItem(new OreBuilder("osmium", new Color(174,182,201)).gear().ore().specialOre().specialDust().specialCrushed().build());
-    public static final Ore TUNGSTEN = registerItem(new OreBuilder("tungsten", new Color(81, 81, 81)).nugget().gear().ore().specialOre().specialDust().specialCrushed().build());
+    public static final Ore TUNGSTEN = registerItem(new OreBuilder("tungsten", new Color(81, 81, 81)).nugget().gear().crushed().ore().specialOre().specialDust().specialCrushed().build());
 
     //Custom Materials
     public static final Ore VIBRANT_ALLOY = registerItem(new OreBuilder("vibrant_alloy", new Color(150, 232, 26)).ingot().nugget().block().dust().specialDust().build());
@@ -458,10 +457,10 @@ public class ItemInit {
     public static final Ore CHROME = registerItem(new OreBuilder("chrome", new Color(187,117,169)).moltenFluid().ingot().nugget().block().dust().plate().specialDust().gear().ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore PALLADIUM = registerItem(new OreBuilder("palladium", new Color(177, 74, 87)).moltenFluid().ingot().nugget().plate().block().dust().specialDust().gear().ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore BERYLLIUM = registerItem(new OreBuilder("beryllium", new Color(39, 173, 157)).moltenFluid().ingot().plate().nugget().block().dust().specialDust().gear().ore().specialOre().specialDust().specialCrushed().build());
-    public static final Ore MOLYBDENUM = registerItem(new OreBuilder("molybdenum", new Color(111,93,161)).moltenFluid().ingot().nugget().block().dust().specialDust().gear().ore().specialOre().plate().specialDust().specialCrushed().build());
+    public static final Ore MOLYBDENUM = registerItem(new OreBuilder("molybdenum", new Color(111,93,161)).moltenFluid().mekanismOreProcessing().ingot().nugget().block().dust().specialDust().gear().ore().specialOre().plate().specialDust().specialCrushed().build());
     public static final Ore GALLIUM = registerItem(new OreBuilder("gallium", new Color(140, 178, 212)).moltenFluid().ingot().nugget().block().dust().specialDust().gear().ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore VANADIUM = registerItem(new OreBuilder("vanadium", new Color(102, 135, 192)).mekanismOreProcessing().moltenFluid().ingot().nugget().block().dust().specialDust().gear().ore().specialOre().specialDust().specialCrushed().build());
-    public static final Ore ANTIMONY = registerItem(new OreBuilder("antimony", new Color(236, 236, 236)).moltenFluid().ingot().nugget().block().dust().specialDust().gear().ore().specialOre().specialDust().specialCrushed().build());
+    public static final Ore ANTIMONY = registerItem(new OreBuilder("antimony", new Color(236, 236, 236)).moltenFluid().crushed().ingot().nugget().block().dust().specialDust().gear().ore().specialOre().specialCrushed().build());
     public static final Ore INDIUM = registerItem(new OreBuilder("indium", new Color(47, 151, 210)).moltenFluid().ingot().nugget().block().dust().specialDust().build());
     public static final Ore ZIRCONIUM = registerItem(new OreBuilder("zirconium", new Color(223, 237, 144)).moltenFluid().ingot().nugget().block().dust().specialDust().build());
     public static final Ore MAGNESIUM = registerItem(new OreBuilder("magnesium", new Color(192, 138, 138)).moltenFluid().ore().specialOre().crushed().specialCrushed().plate().ingot().nugget().block().dust().specialDust().build());
@@ -472,6 +471,7 @@ public class ItemInit {
     public static final Ore ELECTRICAL_PLATINUM = registerItem(new OreBuilder("electrical_platinum", new Color(145, 205, 172)).ingot().build());
     public static final Ore ELECTRICAL_STEEL = registerItem(new OreBuilder("electrical_steel", new Color(176, 173, 173)).ingot().build());
     public static final Ore ELECTRICAL_HSLA_STEEL = registerItem(new OreBuilder("electrical_hsla_steel", new Color(183, 197, 222)).ingot().build());
+    public static final Ore HSLA_STEEL = registerItem(new OreBuilder("hsla_steel", new Color(183, 197, 222)).ingot().build());
     public static final Ore TETRAETHYL_LEAD = registerItem(new OreBuilder("tetraethyl_lead", new Color(103, 105, 181)).moltenFluid().ingot().nugget().dust().specialDust().build());
     public static final Ore MANGANESE = registerItem(new OreBuilder("manganese", new Color(182, 196, 222)).moltenFluid().ingot().nugget().specialDust().dust().block().build());
     public static final Ore REFINED_REDSTONE = registerItem(new OreBuilder("refined_redstone", new Color(184, 40, 40)).moltenFluid().ingot().nugget().block().dust().build());
@@ -511,7 +511,6 @@ public class ItemInit {
     public static final Ore TETRAHEDRITE = registerItem(new OreBuilder("tetrahedrite", new Color(255, 110, 124)).dust().specialDust().ore().specialOre().crushed().specialCrushed().build());
     public static final Ore SPODUMENE = registerItem(new OreBuilder("spodumene", new Color(166, 126, 124)).dust().specialDust().ore().specialOre().crushed().specialCrushed().build());
     public static final Ore GARNIERITE = registerItem(new OreBuilder("garnierite", new Color(126, 179, 75)).dust().specialDust().ore().specialOre().crushed().specialCrushed().build());
-
 
     //VANILLA OVERRIDE
     public static final DeferredRegister<Item> VANILLA_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, "minecraft");
