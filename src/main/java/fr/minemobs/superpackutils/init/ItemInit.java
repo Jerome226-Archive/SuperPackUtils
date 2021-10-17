@@ -445,6 +445,7 @@ public class ItemInit {
     public static final Ore TIN = registerItem(new OreBuilder("tin", new Color(108,137,152)).ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore SILVER = registerItem(new OreBuilder("silver", new Color(210,230,241)).ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore ZINC = registerItem(new OreBuilder("zinc", new Color(168,170,147)).ore().specialOre().dust().specialDust().specialCrushed().build());
+    public static final Ore COBALT = registerItem(new OreBuilder("cobalt", new Color(48,127,226)).mekanismOreProcessing().ore().crushed().specialOre().specialDust().specialCrushed().build());
     public static final Ore URANIUM = registerItem(new OreBuilder("uranium", new Color(146,222,89)).gear().ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore OSMIUM = registerItem(new OreBuilder("osmium", new Color(174,182,201)).gear().ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore TUNGSTEN = registerItem(new OreBuilder("tungsten", new Color(81, 81, 81)).nugget().gear().crushed().ore().specialOre().specialDust().specialCrushed().build());
