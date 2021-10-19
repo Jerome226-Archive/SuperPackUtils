@@ -328,8 +328,6 @@ public class ItemInit {
     public static final RegistryObject<Item> ROCK = ITEMS.register("rock", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> BORAX_PULP = ITEMS.register("borax_pulp", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> ARSENIC_PULP = ITEMS.register("arsenic_pulp", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> SODIUM_PULP = ITEMS.register("sodium_pulp", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> POTASSIUM_PULP = ITEMS.register("potassium_pulp", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> BLOOD_CRYSTAL = ITEMS.register("blood_crystal", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> BLANK_TIER_INSTALLER = ITEMS.register("blank_tier_installer", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> NAND_CHIP = ITEMS.register("nand_chip", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
@@ -364,7 +362,6 @@ public class ItemInit {
     public static final RegistryObject<Item> NEODYMIUM_MOTOR = ITEMS.register("neodymium_motor", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> CRYSTAL_CHIP = ITEMS.register("crystal_chip", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> ENGRAVED_CRYSTAL_CHIP = ITEMS.register("engraved_crystal_chip", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> CALCIUM_PULP = ITEMS.register("calcium_pulp", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> ENERGIUM_PULP = ITEMS.register("energium_pulp", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> VIBRIUM_PULP = ITEMS.register("vibrium_pulp", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> ELECTRICAL_PULP = ITEMS.register("electrical_pulp", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
@@ -510,6 +507,8 @@ public class ItemInit {
     public static final Ore SPODUMENE = registerItem(new OreBuilder("spodumene", new Color(166, 126, 124)).dust().specialDust().ore().specialOre().crushed().specialCrushed().build());
     public static final Ore GARNIERITE = registerItem(new OreBuilder("garnierite", new Color(126, 179, 75)).dust().specialDust().ore().specialOre().crushed().specialCrushed().build());
     public static final Ore TALC = registerItem(new OreBuilder("talc", new Color(119, 141, 110)).dust().specialDust().ore().specialOre().crushed().specialCrushed().build());
+    public static final Ore POTASSIUM = registerItem(new OreBuilder("potassium", new Color(88, 167, 167)).dust().specialDust().ore().specialOre().crushed().specialCrushed().build());
+    public static final Ore SODIUM = registerItem(new OreBuilder("sodium", new Color(92, 117, 175)).dust().specialDust().ore().specialOre().crushed().specialCrushed().build());
 
     //VANILLA OVERRIDE
     public static final DeferredRegister<Item> VANILLA_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, "minecraft");
