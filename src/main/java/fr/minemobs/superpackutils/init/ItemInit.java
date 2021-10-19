@@ -513,6 +513,7 @@ public class ItemInit {
     public static final Ore TETRAHEDRITE = registerItem(new OreBuilder("tetrahedrite", new Color(255, 110, 124)).dust().specialDust().ore().specialOre().crushed().specialCrushed().build());
     public static final Ore SPODUMENE = registerItem(new OreBuilder("spodumene", new Color(166, 126, 124)).dust().specialDust().ore().specialOre().crushed().specialCrushed().build());
     public static final Ore GARNIERITE = registerItem(new OreBuilder("garnierite", new Color(126, 179, 75)).dust().specialDust().ore().specialOre().crushed().specialCrushed().build());
+    public static final Ore TALC = registerItem(new OreBuilder("talc", new Color(119, 141, 110)).dust().specialDust().ore().specialOre().crushed().specialCrushed().build());
 
     //VANILLA OVERRIDE
     public static final DeferredRegister<Item> VANILLA_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, "minecraft");

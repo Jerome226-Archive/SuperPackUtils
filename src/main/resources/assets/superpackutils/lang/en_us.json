@@ -121,6 +121,7 @@
   "block.superpackutils.raw_spodumene_block": "Raw Spodumene Block",
   "block.superpackutils.raw_garnierite_block": "Raw Garnierite Block",
   "block.superpackutils.raw_antimony_block": "Raw Antimony Block",
+  "block.superpackutils.raw_talc_block": "Raw Talc Block",
 
   "slurry.superpackutils.dirty_nickel_slurry": "Dirty Nickel Slurry",
   "slurry.superpackutils.clean_nickel_slurry": "Clean Nickel Slurry",
@@ -713,7 +714,6 @@
   "item.superpackutils.centrifuged_crushed_zinc_ore": "Centrifuged Crushed Zinc Ore",
   "item.superpackutils.centrifuged_crushed_cobalt_ore": "Centrifuged Crushed Cobalt Ore",
   "item.superpackutils.aluminium_gear": "Aluminium Gear",
-  "item.superpackutils.talc_pulp": "Talc Pulp",
   "item.superpackutils.arsenic_pulp": "Arsenic Pulp",
   "item.superpackutils.sodium_hydroxide_pulp": "Sodium Hydroxide Pulp",
   "item.superpackutils.sodium_fluoride_pulp": "Sodium Fluoride Pulp",
@@ -1614,6 +1614,16 @@
   "item.superpackutils.antimony_ore_piece": "Antimony Ore Piece",
   "item.superpackutils.infused_raw_cobalt": "Infused Raw Cobalt",
   "item.superpackutils.infused_crushed_cobalt_ore": "Infused Crushed Cobalt Ore",
+  "item.superpackutils.raw_talc": "Raw Talc",
+  "item.superpackutils.crushed_talc_ore": "Crushed Talc Ore",
+  "item.superpackutils.purified_crushed_talc_ore": "Purified Crushed Talc Ore",
+  "item.superpackutils.infused_crushed_talc_ore": "Infused Crushed Talc Ore",
+  "item.superpackutils.centrifuged_crushed_talc_ore": "Centrifuged Crushed Talc Ore",
+  "item.superpackutils.purified_raw_talc": "Purified Raw Talc",
+  "item.superpackutils.infused_raw_talc": "Infused Raw Talc",
+  "item.superpackutils.talc_dust": "Talc Dust",
+  "item.superpackutils.tiny_talc_dust": "Tiny Talc Dust",
+  "item.superpackutils.talc_ore_piece": "Talc Ore Piece",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 
