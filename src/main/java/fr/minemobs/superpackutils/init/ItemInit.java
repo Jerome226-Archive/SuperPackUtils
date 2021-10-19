@@ -455,12 +455,12 @@ public class ItemInit {
     public static final Ore ENERGETIC_ALLOY = registerItem(new OreBuilder("energetic_alloy", new Color(255, 103, 11)).ingot().nugget().block().dust().specialDust().build());
 
     public static final Ore PLATINUM = registerItem(new OreBuilder("platinum", new Color(149,219,255)).ingot().nugget().block().dust().specialDust().plate().gear().ore().specialOre().specialDust().specialCrushed().build());
-    public static final Ore CHROME = registerItem(new OreBuilder("chrome", new Color(187,117,169)).moltenFluid().ingot().nugget().block().dust().plate().specialDust().gear().ore().specialOre().specialDust().specialCrushed().build());
-    public static final Ore PALLADIUM = registerItem(new OreBuilder("palladium", new Color(177, 74, 87)).moltenFluid().ingot().nugget().plate().block().dust().specialDust().gear().ore().specialOre().specialDust().specialCrushed().build());
-    public static final Ore BERYLLIUM = registerItem(new OreBuilder("beryllium", new Color(39, 173, 157)).moltenFluid().ingot().plate().nugget().block().dust().specialDust().gear().ore().specialOre().specialDust().specialCrushed().build());
-    public static final Ore MOLYBDENUM = registerItem(new OreBuilder("molybdenum", new Color(111,93,161)).moltenFluid().mekanismOreProcessing().ingot().nugget().block().dust().specialDust().gear().ore().specialOre().plate().specialDust().specialCrushed().build());
-    public static final Ore GALLIUM = registerItem(new OreBuilder("gallium", new Color(140, 178, 212)).moltenFluid().ingot().nugget().block().dust().specialDust().gear().ore().specialOre().specialDust().specialCrushed().build());
-    public static final Ore VANADIUM = registerItem(new OreBuilder("vanadium", new Color(102, 135, 192)).mekanismOreProcessing().moltenFluid().ingot().nugget().block().dust().specialDust().gear().ore().specialOre().specialDust().specialCrushed().build());
+    public static final Ore CHROME = registerItem(new OreBuilder("chrome", new Color(187,117,169)).moltenFluid().ingot().nugget().block().dust().plate().specialDust().gear().ore().specialOre().crushed().specialDust().specialCrushed().build());
+    public static final Ore PALLADIUM = registerItem(new OreBuilder("palladium", new Color(177, 74, 87)).moltenFluid().ingot().nugget().plate().block().dust().specialDust().gear().ore().crushed().specialOre().specialDust().specialCrushed().build());
+    public static final Ore BERYLLIUM = registerItem(new OreBuilder("beryllium", new Color(39, 173, 157)).moltenFluid().ingot().plate().nugget().block().dust().specialDust().gear().crushed().ore().specialOre().specialDust().specialCrushed().build());
+    public static final Ore MOLYBDENUM = registerItem(new OreBuilder("molybdenum", new Color(111,93,161)).moltenFluid().mekanismOreProcessing().ingot().nugget().block().dust().crushed().specialDust().gear().ore().specialOre().plate().specialDust().specialCrushed().build());
+    public static final Ore GALLIUM = registerItem(new OreBuilder("gallium", new Color(140, 178, 212)).moltenFluid().ingot().nugget().crushed().block().dust().specialDust().gear().ore().specialOre().specialDust().specialCrushed().build());
+    public static final Ore VANADIUM = registerItem(new OreBuilder("vanadium", new Color(102, 135, 192)).mekanismOreProcessing().crushed().moltenFluid().ingot().nugget().block().dust().specialDust().gear().ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore ANTIMONY = registerItem(new OreBuilder("antimony", new Color(236, 236, 236)).moltenFluid().crushed().ingot().nugget().block().dust().specialDust().gear().ore().specialOre().specialCrushed().build());
     public static final Ore INDIUM = registerItem(new OreBuilder("indium", new Color(47, 151, 210)).moltenFluid().ingot().nugget().block().dust().specialDust().build());
     public static final Ore ZIRCONIUM = registerItem(new OreBuilder("zirconium", new Color(223, 237, 144)).moltenFluid().ingot().nugget().block().dust().specialDust().build());
@@ -485,6 +485,7 @@ public class ItemInit {
     public static final Ore DARK_STEEL = registerItem(new OreBuilder("dark_steel", new Color(48, 48, 48)).moltenFluid().ingot().nugget().block().dust().specialDust().build());
     public static final Ore SOULARIUM = registerItem(new OreBuilder("soularium", new Color(115, 79, 65)).moltenFluid().ingot().nugget().block().dust().specialDust().build());
     public static final Ore OSMIRIDIUM = registerItem(new OreBuilder("osmiridium", new Color(147, 168, 206)).moltenFluid().ingot().nugget().block().dust().specialDust().build());
+    public static final Ore ENRICHED_URANIUM = registerItem(new OreBuilder("enriched_uranium", new Color(0, 180, 3)).moltenFluid().ingot().nugget().block().dust().mekanismOreProcessing().specialDust().build());
 
     //Ore Vein
     public static final Ore LUCABINDIITE = registerItem(new OreBuilder("lucabindiite", new Color(242, 219, 18)).dust().specialDust().ore().specialOre().crushed().specialCrushed().build());

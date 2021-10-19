@@ -152,10 +152,6 @@ public class FluidInit {
     public static final FluidObject SYNFUEL = register("synfuel", new Color(0, 54, 19), FLUID_RL);
     public static final FluidObject REFINERY_GAS = register("refinery_gas", new Color(223, 243, 245), FLUID_RL);
 
-    public static final FluidObject REFINED_REDSTONE = register("refined_redstone", new Color(196, 27, 14, 255), MOLTEN_RL);
-    public static final FluidObject REFINED_GLOWSTONE = register("refined_glowstone", new Color(255, 188, 94, 255), MOLTEN_RL);
-    public static final FluidObject REFINED_ENDER = register("refined_ender", new Color(29, 114, 140, 255), MOLTEN_RL);
-
     public static FluidObject register(@Nonnull String name, @Nonnull Color color, @Nonnull ResourceLocation[] resourcesLocations) {
         final ForgeFlowingFluid.Properties[] properties = {null};
         RegistryObject<FlowingFluid> FLUID = FLUIDS.register(name,

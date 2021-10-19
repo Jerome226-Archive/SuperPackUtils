@@ -1,5 +1,1 @@
-{
-  "parent": "forge:item/bucket",
-  "loader": "forge:bucket",
-  "fluid": "superpackutils:molten_osmiridium"
-}
+{"parent": "forge:item/bucket","loader": "forge:bucket","fluid": "superpackutils:molten_osmiridium"} 

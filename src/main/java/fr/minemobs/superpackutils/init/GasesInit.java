@@ -77,10 +77,6 @@ public class GasesInit {
     public static final RegistryObject<Gas> BN_SOLUTION = GASES.register("bn_solution", () -> new Gas(GasBuilder.builder().color(new Color(87, 109, 125).getRGB())));
     public static final RegistryObject<Gas> BA_SOLUTION = GASES.register("ba_solution", () -> new Gas(GasBuilder.builder().color(new Color(120, 146, 165).getRGB())));
 
-    public static final RegistryObject<Gas> CHEMICAL_REFINED_REDSTONE = GASES.register("chemical_refined_redstone", () -> new Gas(GasBuilder.builder().color(new Color(187, 55, 43).getRGB())));
-    public static final RegistryObject<Gas> CHEMICAL_REFINED_GLOWSTONE = GASES.register("chemical_refined_glowstone", () -> new Gas(GasBuilder.builder().color(new Color(255, 197, 123).getRGB())));
-    public static final RegistryObject<Gas> CHEMICAL_REFINED_ENDER = GASES.register("chemical_refined_ender", () -> new Gas(GasBuilder.builder().color(new Color(55, 121, 139).getRGB())));
-
     public static final RegistryObject<Gas> ST_FUEL = GASES.register("st_fuel", () -> new Gas(GasBuilder.builder().color(new Color(153, 112, 230).getRGB())));
 
     public static final RegistryObject<Gas> TELLURIUM = GASES.register("tellurium", () -> new Gas(GasBuilder.builder().color(new Color(0, 255, 177).getRGB())));
