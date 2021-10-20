@@ -1643,9 +1643,9 @@
   "item.superpackutils.potassium_dust": "Potassium Dust",
   "item.superpackutils.tiny_potassium_dust": "Tiny Potassium Dust",
   "item.superpackutils.potassium_ore_piece": "Potassium Ore Piece",
-  "item.superpackutils.alcali_fibers": "Alcali Fibers",
-  "item.superpackutils.combined_alcali_fibers": "Combined Alcali Fibers",
-  "item.superpackutils.alcali_plate": "Alcali Plate",
+  "item.superpackutils.polyester_fibers": "Polyester Fibers",
+  "item.superpackutils.combined_polyester_fibers": "Combined Polyester Fibers",
+  "item.superpackutils.polyester_plate": "Polyester Plate",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 

@@ -420,9 +420,9 @@ public class ItemInit {
     public static final RegistryObject<Item> PLYWOOD = ITEMS.register("plywood", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> WOOD_ASH = ITEMS.register("wood_ash", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> BIO_CHARCOAL = ITEMS.register("bio_charcoal", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> ALCALI_FIBERS = ITEMS.register("alcali_fibers", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> COMBINED_ALCALI_FIBERS = ITEMS.register("combined_alcali_fibers", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> ALCALI_PLATE = ITEMS.register("alcali_plate", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> POLYESTER_FIBERS = ITEMS.register("polyester_fibers", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> COMBINED_POLYESTER_FIBERS = ITEMS.register("combined_polyester_fibers", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> POLYESTER_PLATE = ITEMS.register("polyester_plate", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
     public static final RegistryObject<Item> TINY_TORCH = ITEMS.register("item_tiny_torch", () -> new TinyTorchItem(BlockInit.TINY_TORCH.get(),
             BlockInit.WALL_TINY_TORCH.get(), new Item.Properties().tab(Main.ModItemGroup.instance)));
