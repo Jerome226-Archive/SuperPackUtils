@@ -39,6 +39,7 @@ public class BlockInit {
     public static final RegistryObject<Block> DYINGROCK = registerBlock("dyingrock");
     public static final RegistryObject<Block> INDUSTRIAL_SAND = registerBlock("industrial_sand", AbstractBlock.Properties.copy(Blocks.SAND));
     public static final RegistryObject<Block> ELECTRICAL_GLASS_BLOCK = registerBlock("electrical_glass_block", new GlassBlock(AbstractBlock.Properties.copy(Blocks.GLASS)));
+    public static final RegistryObject<Block> FIBER_GLASS_BLOCK = registerBlock("fiber_glass_block", new GlassBlock(AbstractBlock.Properties.copy(Blocks.GLASS)));
     public static final RegistryObject<Block> NETHERCOTTA_BRICKS = registerBlock("nethercotta_bricks", AbstractBlock.Properties.copy(Blocks.BRICKS));
 
     //Casing

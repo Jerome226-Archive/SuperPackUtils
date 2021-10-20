@@ -151,6 +151,7 @@ public class FluidInit {
     public static final FluidObject WOOD_VINEGAR = register("wood_vinegar", new Color(120, 56, 14, 255), FLUID_RL);
     public static final FluidObject SYNFUEL = register("synfuel", new Color(0, 54, 19), FLUID_RL);
     public static final FluidObject REFINERY_GAS = register("refinery_gas", new Color(223, 243, 245), FLUID_RL);
+    public static final FluidObject FIBER_GLASS = register("fiber_glass", new Color(8, 183, 13), MOLTEN_RL);
 
     public static FluidObject register(@Nonnull String name, @Nonnull Color color, @Nonnull ResourceLocation[] resourcesLocations) {
         final ForgeFlowingFluid.Properties[] properties = {null};

@@ -124,6 +124,7 @@
   "block.superpackutils.raw_talc_block": "Raw Talc Block",
   "block.superpackutils.raw_sodium_block": "Raw Sodium Block",
   "block.superpackutils.raw_potassium_block": "Raw Potassium Block",
+  "block.superpackutils.fiber_glass_block": "Fiber-Reinforced Glass",
 
   "slurry.superpackutils.dirty_nickel_slurry": "Dirty Nickel Slurry",
   "slurry.superpackutils.clean_nickel_slurry": "Clean Nickel Slurry",
@@ -283,6 +284,7 @@
   "block.superpackutils.molten_dark_steel": "Molten Dark Steel",
   "block.superpackutils.molten_soularium": "Molten Soularium",
   "block.superpackutils.molten_enriched_uranium": "Molten Enriched Uranium",
+  "block.superpackutils.fiber_glass": "Molten Fiber Glass",
 
   "fluid.superpackutils.ethyl_chloride": "Liquid Ethyl Chloride",
   "fluid.superpackutils.acetylene": "Liquid Acetylene",
@@ -428,6 +430,7 @@
   "fluid.superpackutils.molten_dark_steel": "Molten Dark Steel",
   "fluid.superpackutils.molten_soularium": "Molten Soularium",
   "fluid.superpackutils.molten_enriched_uranium": "Molten Enriched Uranium",
+  "fluid.superpackutils.fiber_glass": "Molten Fiber Glass",
 
   "item.superpackutils.ethyl_chloride_bucket": "Liquid Ethyl Chloride Bucket",
   "item.superpackutils.acetylene_bucket": "Liquid Acetylene Bucket",
@@ -576,6 +579,7 @@
   "item.superpackutils.molten_dark_steel_bucket": "Molten Dark Steel Bucket",
   "item.superpackutils.molten_soularium_bucket": "Molten Soularium Bucket",
   "item.superpackutils.molten_enriched_uranium_bucket": "Molten Enriched Uranium Bucket",
+  "item.superpackutils.fiber_glass_bucket": "Molten Fiber Glass Bucket",
 
   "gas.superpackutils.ethyl_chloride": "Ethyl Chloride",
   "gas.superpackutils.borax": "Gaseous Borax",
@@ -1639,6 +1643,9 @@
   "item.superpackutils.potassium_dust": "Potassium Dust",
   "item.superpackutils.tiny_potassium_dust": "Tiny Potassium Dust",
   "item.superpackutils.potassium_ore_piece": "Potassium Ore Piece",
+  "item.superpackutils.alcali_fibers": "Alcali Fibers",
+  "item.superpackutils.combined_alcali_fibers": "Combined Alcali Fibers",
+  "item.superpackutils.alcali_plate": "Alcali Plate",
 
   "itemGroup.superpackutils": "SuperPack: Utils",
 
