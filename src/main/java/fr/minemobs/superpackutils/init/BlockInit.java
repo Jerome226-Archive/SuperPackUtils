@@ -43,8 +43,6 @@ public class BlockInit {
     public static final RegistryObject<Block> NETHERCOTTA_BRICKS = registerBlock("nethercotta_bricks", AbstractBlock.Properties.copy(Blocks.BRICKS));
 
     //Casing
-    public static final RegistryObject<Block> REINFORCED_MACHINE_FRAME = registerBlock("reinforced_machine_frame", AbstractBlock.Properties.copy(Blocks.DIAMOND_BLOCK));
-    public static final RegistryObject<Block> BIG_STEEL_CASING = registerBlock("big_steel_casing", AbstractBlock.Properties.copy(Blocks.DIAMOND_BLOCK));
     public static final RegistryObject<Block> INSCRIBER_CASING = registerBlock("inscriber_casing", AbstractBlock.Properties.copy(Blocks.DIAMOND_BLOCK));
     public static final RegistryObject<Block> INFUSER_CASING = registerBlock("infuser_casing", AbstractBlock.Properties.copy(Blocks.DIAMOND_BLOCK));
     public static final RegistryObject<Block> METALLURGIC_CASING = registerBlock("metallurgic_casing", AbstractBlock.Properties.copy(Blocks.DIAMOND_BLOCK));
@@ -85,6 +83,27 @@ public class BlockInit {
     public static final RegistryObject<Block> REINFORCED_OBSIDIAN = registerBlock("reinforced_obsidian", AbstractBlock.Properties.copy(Blocks.OBSIDIAN));
     public static final RegistryObject<Block> SMELTERY_ASSEMBLY = registerBlock("smeltery_assembly", AbstractBlock.Properties.copy(Blocks.STONE_BRICKS));
     public static final RegistryObject<Block> MAGMATIC_ROCK = registerBlock("magmatic_rock", AbstractBlock.Properties.copy(Blocks.MAGMA_BLOCK));
+
+    //HULL
+    public static final RegistryObject<Block> LIGHT_ENGINEERING_HULL = registerBlock("light_engineering_hull", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
+
+    public static final RegistryObject<Block> HEAVY_ENGINEERING_HULL = registerBlock("heavy_engineering_hull", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
+
+    public static final RegistryObject<Block> SOLDERING_THERMIONIC_HULL = registerBlock("soldering_thermionic_hull", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
+
+    public static final RegistryObject<Block> STAINLESS_STEEL_HULL = registerBlock("stainless_steel_hull", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
+
+    public static final RegistryObject<Block> THERMAL_HULL = registerBlock("thermal_hull", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
+
+    public static final RegistryObject<Block> HSLA_STEEL_FRAME = registerBlock("hsla_steel_frame", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
+    public static final RegistryObject<Block> HSLA_STEEL_HULL = registerBlock("hsla_steel_hull", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
+
+    public static final RegistryObject<Block> REINFORCED_THERMAL_FRAME = registerBlock("reinforced_thermal_frame", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
+    public static final RegistryObject<Block> REINFORCED_THERMAL_HULL = registerBlock("reinforced_thermal_hull", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
+
+    public static final RegistryObject<Block> THERMOPNEUMATIC_FRAME = registerBlock("thermopneumatic_frame", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
+    public static final RegistryObject<Block> THERMOPNEUMATIC_HULL = registerBlock("thermopneumatic_hull", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
+
 
     //Spawner
     public static final RegistryObject<Block> BLIZZ_SPAWNER = registerBlock("blizz_spawner", new BrokenSpawner(new ResourceLocation("thermal", "blizz")));

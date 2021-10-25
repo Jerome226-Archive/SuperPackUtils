@@ -1,6 +1,1 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "superpackutils:item/ferrochrome_ore_piece"
-  }
-}
+{"parent": "minecraft:item/generated","textures": {"layer0": "superpackutils:item/ferrochrome_ore_piece"}} 

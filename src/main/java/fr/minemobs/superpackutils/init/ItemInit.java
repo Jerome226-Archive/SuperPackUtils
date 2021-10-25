@@ -335,7 +335,6 @@ public class ItemInit {
     public static final RegistryObject<Item> POLYDIMETHYLSILOXANE_PULP = ITEMS.register("polydimethylsiloxane_pulp", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> POLYTETRAFLUROETHYLENE_PULP = ITEMS.register("polytetrafluoroethylene_pulp", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> CALCIUM_SULFATE_PULP = ITEMS.register("calcium_sulfate_pulp", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> TALC_PULP = ITEMS.register("talc_pulp", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> ALCHEMICAL_POWDER = ITEMS.register("alchemical_powder", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> HEATING_ELEMENT = ITEMS.register("heating_element", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> ULTIMATE_RUNE = ITEMS.register("ultimate_rune", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
@@ -512,6 +511,7 @@ public class ItemInit {
     public static final Ore TALC = registerItem(new OreBuilder("talc", new Color(119, 141, 110)).dust().specialDust().ore().specialOre().crushed().specialCrushed().build());
     public static final Ore POTASSIUM = registerItem(new OreBuilder("potassium", new Color(88, 167, 167)).dust().specialDust().ore().specialOre().crushed().specialCrushed().build());
     public static final Ore SODIUM = registerItem(new OreBuilder("sodium", new Color(92, 117, 175)).dust().specialDust().ore().specialOre().crushed().specialCrushed().build());
+    public static final Ore FERROCHROME = registerItem(new OreBuilder("ferrochrome", new Color(199, 158, 135)).dust().specialDust().ore().specialOre().crushed().specialCrushed().build());
 
     //VANILLA OVERRIDE
     public static final DeferredRegister<Item> VANILLA_ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, "minecraft");

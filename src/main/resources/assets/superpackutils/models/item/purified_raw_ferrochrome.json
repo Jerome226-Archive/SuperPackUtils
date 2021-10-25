@@ -1,6 +1,1 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "superpackutils:item/purified_raw_ferrochrome"
-  }
-}
+{"parent": "minecraft:item/generated","textures": {"layer0": "superpackutils:item/purified_raw_ferrochrome"}} 
