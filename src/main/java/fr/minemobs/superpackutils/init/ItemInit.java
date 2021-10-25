@@ -196,6 +196,14 @@ public class ItemInit {
     public static final RegistryObject<Item> WITHERING_LOGIC_CIRCUIT = ITEMS.register("withering_logic_circuit", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> INCOMPLETE_WITHERING_LOGIC_CIRCUIT = ITEMS.register("incomplete_withering_logic_circuit", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
+    //Integrated Circuit
+    public static final RegistryObject<Item> INTEGRATED_CIRCUIT = ITEMS.register("integrated_circuit", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> CONDUCTIVE_INTEGRATED_CIRCUIT = ITEMS.register("conductive_integrated_circuit", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> PRIMITIVE_INTEGRATED_CIRCUIT = ITEMS.register("primitive_integrated_circuit", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> BASIC_INTEGRATED_CIRCUIT = ITEMS.register("basic_integrated_circuit", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> ADVANCED_INTEGRATED_CIRCUIT = ITEMS.register("advanced_integrated_circuit", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> ELITE_INTEGRATED_CIRCUIT = ITEMS.register("elite_integrated_circuit", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+
     //Soulstone
     public static final RegistryObject<Item> SMALL_SOULSTONE = ITEMS.register("small_soulstone", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> MEDIUM_SOULSTONE = ITEMS.register("medium_soulstone", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
@@ -348,7 +356,6 @@ public class ItemInit {
     public static final RegistryObject<Item> STARLIGHT_SHARD = ITEMS.register("starlight_shard", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> STARLIGHT_INFUSED_MANA_PEARL = ITEMS.register("starlight_infused_mana_pearl", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> STARLIGHT_INFUSED_MANA_DIAMOND = ITEMS.register("starlight_infused_mana_diamond", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
-    public static final RegistryObject<Item> INTEGRATED_CIRCUIT = ITEMS.register("integrated_circuit", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> PLOUGH = ITEMS.register("plough", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> HARVESTING_WHEEL = ITEMS.register("harvesting_wheel", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> DESTROYER_OF_THE_NATURE = ITEMS.register("destroyer_of_the_nature", DestroyerOfTheNature::new);
@@ -422,6 +429,7 @@ public class ItemInit {
     public static final RegistryObject<Item> POLYESTER_FIBERS = ITEMS.register("polyester_fibers", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> COMBINED_POLYESTER_FIBERS = ITEMS.register("combined_polyester_fibers", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
     public static final RegistryObject<Item> POLYESTER_PLATE = ITEMS.register("polyester_plate", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
+    public static final RegistryObject<Item> MIXED_ALLOY_INGOT = ITEMS.register("mixed_alloy_ingot", () -> new Item(new Item.Properties().tab(Main.ModItemGroup.instance)));
 
     public static final RegistryObject<Item> TINY_TORCH = ITEMS.register("item_tiny_torch", () -> new TinyTorchItem(BlockInit.TINY_TORCH.get(),
             BlockInit.WALL_TINY_TORCH.get(), new Item.Properties().tab(Main.ModItemGroup.instance)));
@@ -440,7 +448,7 @@ public class ItemInit {
     public static final Ore TIN = registerItem(new OreBuilder("tin", new Color(108,137,152)).ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore SILVER = registerItem(new OreBuilder("silver", new Color(210,230,241)).ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore ZINC = registerItem(new OreBuilder("zinc", new Color(168,170,147)).ore().specialOre().dust().specialDust().specialCrushed().build());
-    public static final Ore COBALT = registerItem(new OreBuilder("cobalt", new Color(48,127,226)).mekanismOreProcessing().ore().crushed().specialOre().specialDust().specialCrushed().build());
+    public static final Ore COBALT = registerItem(new OreBuilder("cobalt", new Color(48,127,226)).mekanismOreProcessing().ore().dust().crushed().specialOre().specialDust().specialCrushed().build());
     public static final Ore URANIUM = registerItem(new OreBuilder("uranium", new Color(146,222,89)).gear().ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore OSMIUM = registerItem(new OreBuilder("osmium", new Color(174,182,201)).gear().ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore TUNGSTEN = registerItem(new OreBuilder("tungsten", new Color(81, 81, 81)).nugget().gear().crushed().ore().specialOre().specialDust().specialCrushed().build());
@@ -449,7 +457,7 @@ public class ItemInit {
     public static final Ore VIBRANT_ALLOY = registerItem(new OreBuilder("vibrant_alloy", new Color(150, 232, 26)).ingot().nugget().block().dust().specialDust().build());
     public static final Ore ENERGETIC_ALLOY = registerItem(new OreBuilder("energetic_alloy", new Color(255, 103, 11)).ingot().nugget().block().dust().specialDust().build());
 
-    public static final Ore PLATINUM = registerItem(new OreBuilder("platinum", new Color(149,219,255)).ingot().nugget().block().dust().specialDust().plate().gear().ore().specialOre().specialDust().specialCrushed().build());
+    public static final Ore PLATINUM = registerItem(new OreBuilder("platinum", new Color(149,219,255)).ingot().nugget().block().dust().plate().gear().ore().specialOre().specialDust().specialCrushed().build());
     public static final Ore CHROME = registerItem(new OreBuilder("chrome", new Color(187,117,169)).moltenFluid().ingot().nugget().block().dust().plate().specialDust().gear().ore().specialOre().crushed().specialDust().specialCrushed().build());
     public static final Ore PALLADIUM = registerItem(new OreBuilder("palladium", new Color(177, 74, 87)).moltenFluid().ingot().nugget().plate().block().dust().specialDust().gear().ore().crushed().specialOre().specialDust().specialCrushed().build());
     public static final Ore BERYLLIUM = registerItem(new OreBuilder("beryllium", new Color(39, 173, 157)).moltenFluid().ingot().plate().nugget().block().dust().specialDust().gear().crushed().ore().specialOre().specialDust().specialCrushed().build());

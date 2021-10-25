@@ -91,7 +91,7 @@ public class BlockInit {
 
     public static final RegistryObject<Block> SOLDERING_THERMIONIC_HULL = registerBlock("soldering_thermionic_hull", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
 
-    public static final RegistryObject<Block> STAINLESS_STEEL_HULL = registerBlock("stainless_steel_hull", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
+    public static final RegistryObject<Block> DARK_STEEL_HULL = registerBlock("dark_steel_hull", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
 
     public static final RegistryObject<Block> THERMAL_HULL = registerBlock("thermal_hull", AbstractBlock.Properties.copy(Blocks.IRON_BLOCK));
 
