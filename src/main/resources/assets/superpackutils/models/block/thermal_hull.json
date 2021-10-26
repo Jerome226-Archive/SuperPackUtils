@@ -1,1 +1,12 @@
-{"parent": "minecraft:block/cube_all","textures": {"all": "superpackutils:block/thermal_hull"}} 
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "minecraft:block/thermal_hull_side",
+    "north": "minecraft:block/thermal_hull_side",
+    "south": "minecraft:block/thermal_hull_side",
+    "east": "minecraft:block/thermal_hull_side",
+    "west": "minecraft:block/thermal_hull_side",
+    "up": "minecraft:block/thermal_hull_top",
+    "down": "minecraft:block/thermal_hull_bottom"
+  }
+}
