@@ -73,6 +73,10 @@ public class GasesInit {
     public static final RegistryObject<Gas> KRYPTON = GASES.register("krypton", () -> new Gas(GasBuilder.builder().color(new Color(58, 76, 134).getRGB())));
     public static final RegistryObject<Gas> XENON = GASES.register("xenon", () -> new Gas(GasBuilder.builder().color(new Color(99, 70, 145).getRGB())));
     public static final RegistryObject<Gas> RADON = GASES.register("radon", () -> new Gas(GasBuilder.builder().color(new Color(145, 70, 130).getRGB())));
+    public static final RegistryObject<Gas> VYNIL_CHLORIDE = GASES.register("vynil_chloride", () -> new Gas(GasBuilder.builder().color(new Color(23, 191, 152).getRGB())));
+    public static final RegistryObject<Gas> POLYVYNIL_CHLORIDE = GASES.register("polyvynil_chloride", () -> new Gas(GasBuilder.builder().color(new Color(0, 138, 106).getRGB())));
+    public static final RegistryObject<Gas> CHLOROMETHANE = GASES.register("chloromethane", () -> new Gas(GasBuilder.builder().color(new Color(234, 168, 173).getRGB())));
+    public static final RegistryObject<Gas> BROMIDE = GASES.register("bromide", () -> new Gas(GasBuilder.builder().color(new Color(234, 168, 173).getRGB())));
 
     public static final RegistryObject<Gas> BN_SOLUTION = GASES.register("bn_solution", () -> new Gas(GasBuilder.builder().color(new Color(87, 109, 125).getRGB())));
     public static final RegistryObject<Gas> BA_SOLUTION = GASES.register("ba_solution", () -> new Gas(GasBuilder.builder().color(new Color(120, 146, 165).getRGB())));

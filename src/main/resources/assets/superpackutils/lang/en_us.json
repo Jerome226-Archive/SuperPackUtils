@@ -294,6 +294,10 @@
   "block.superpackutils.molten_soularium": "Molten Soularium",
   "block.superpackutils.molten_enriched_uranium": "Molten Enriched Uranium",
   "block.superpackutils.fiber_glass": "Molten Fiber Glass",
+  "block.superpackutils.vynil_chloride": "Liquid Vynil Chloride",
+  "block.superpackutils.polyvynil_chloride": "Liquid Polyvynil Chloride",
+  "block.superpackutils.chloromethane": "Liquid Chloromethane",
+  "block.superpackutils.bromide": "Bromide",
 
   "fluid.superpackutils.ethyl_chloride": "Liquid Ethyl Chloride",
   "fluid.superpackutils.acetylene": "Liquid Acetylene",
@@ -440,6 +444,10 @@
   "fluid.superpackutils.molten_soularium": "Molten Soularium",
   "fluid.superpackutils.molten_enriched_uranium": "Molten Enriched Uranium",
   "fluid.superpackutils.fiber_glass": "Molten Fiber Glass",
+  "fluid.superpackutils.vynil_chloride": "Liquid Vynil Chloride",
+  "fluid.superpackutils.polyvynil_chloride": "Liquid Polyvynil Chloride",
+  "fluid.superpackutils.chloromethane": "Liquid Chloromethane",
+  "fluid.superpackutils.bromide": "Bromide",
 
   "item.superpackutils.ethyl_chloride_bucket": "Liquid Ethyl Chloride Bucket",
   "item.superpackutils.acetylene_bucket": "Liquid Acetylene Bucket",
@@ -589,6 +597,10 @@
   "item.superpackutils.molten_soularium_bucket": "Molten Soularium Bucket",
   "item.superpackutils.molten_enriched_uranium_bucket": "Molten Enriched Uranium Bucket",
   "item.superpackutils.fiber_glass_bucket": "Molten Fiber Glass Bucket",
+  "item.superpackutils.vynil_chloride_bucket": "Liquid Vynil Chloride Bucket",
+  "item.superpackutils.polyvynil_chloride_bucket": "Liquid Polyvynil Chloride Bucket",
+  "item.superpackutils.chloromethane_bucket": "Liquid Chloromethane Bucket",
+  "item.superpackutils.bromide_bucket": "Bromide Bucket",
 
   "gas.superpackutils.ethyl_chloride": "Ethyl Chloride",
   "gas.superpackutils.borax": "Gaseous Borax",
@@ -665,6 +677,10 @@
   "gas.superpackutils.krypton": "Gaseous Krypton",
   "gas.superpackutils.radon": "Gaseous Radon",
   "gas.superpackutils.xenon": "Gaseous Xenon",
+  "gas.superpackutils.vynil_chloride": "Vynil Chloride",
+  "gas.superpackutils.polyvynil_chloride": "Polyvynil Chloride",
+  "gas.superpackutils.chloromethane": "Chloromethane",
+  "gas.superpackutils.bromide": "Gaseous Bromide",
 
   "infuse_type.superpackutils.petroleum_coke": "Petroleum Coke",
   "infuse_type.superpackutils.slime_crystal": "Crystallized Slime",

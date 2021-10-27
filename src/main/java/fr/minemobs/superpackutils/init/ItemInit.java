@@ -476,7 +476,7 @@ public class ItemInit {
     public static final Ore ELECTRICAL_STEEL = registerItem(new OreBuilder("electrical_steel", new Color(176, 173, 173)).ingot().build());
     public static final Ore ELECTRICAL_HSLA_STEEL = registerItem(new OreBuilder("electrical_hsla_steel", new Color(183, 197, 222)).ingot().build());
     public static final Ore HSLA_STEEL = registerItem(new OreBuilder("hsla_steel", new Color(183, 197, 222)).ingot().build());
-    public static final Ore TETRAETHYL_LEAD = registerItem(new OreBuilder("tetraethyl_lead", new Color(103, 105, 181)).moltenFluid().ingot().nugget().dust().specialDust().build());
+    public static final Ore TETRAETHYL_LEAD = registerItem(new OreBuilder("tetraethyl_lead", new Color(103, 105, 181)).moltenFluid().block().ingot().nugget().dust().specialDust().build());
     public static final Ore MANGANESE = registerItem(new OreBuilder("manganese", new Color(182, 196, 222)).moltenFluid().ingot().nugget().specialDust().dust().block().build());
     public static final Ore REFINED_REDSTONE = registerItem(new OreBuilder("refined_redstone", new Color(184, 40, 40)).moltenFluid().ingot().nugget().block().dust().build());
     public static final Ore REFINED_OBSIDIAN = registerItem(new OreBuilder("refined_obsidian", new Color(128, 102, 173)).moltenFluid().build());

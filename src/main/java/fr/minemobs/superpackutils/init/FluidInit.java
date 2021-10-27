@@ -90,6 +90,10 @@ public class FluidInit {
     public static final FluidObject KRYPTON = register("krypton", new Color(58, 76, 134), FLUID_RL);
     public static final FluidObject XENON = register("xenon", new Color(99, 70, 145), FLUID_RL);
     public static final FluidObject RADON = register("radon", new Color(145, 70, 130), FLUID_RL);
+    public static final FluidObject VYNIL_CHLORIDE = register("vynil_chloride", new Color(23, 191, 152), FLUID_RL);
+    public static final FluidObject POLYVYNIL_CHLORIDE = register("polyvynil_chloride", new Color(0, 138, 106), FLUID_RL);
+    public static final FluidObject CHLOROMETHANE = register("chloromethane", new Color(234, 168, 173), FLUID_RL);
+    public static final FluidObject BROMIDE = register("bromide", new Color(234, 168, 173), FLUID_RL);
 
 
     public static final FluidObject PYROTHEUM = register("pyrotheum", new Color(255, 187, 0), MOLTEN_RL, 2300);
